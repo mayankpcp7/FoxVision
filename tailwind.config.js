@@ -3,6 +3,11 @@ module.exports = {
   content: [],
   theme: {
     extend: {
+      container: { center: true, padding: "12px" },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
       colors: {
         darkblue: "#071838",
         sky: "#05D5FB",
