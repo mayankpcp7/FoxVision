@@ -11,7 +11,7 @@ const HowWeWorkCards = (props) => {
         {props.svg}
       </div>
       <h3 className="text-darkblue font-semibold font-poppins sm:text-2xl text-xl leading-normal mb-2 pr-1">
-        {props.tittle}
+        {props.title}
       </h3>
       <p className="text-darkblue opacity-70 sm:text-base text-sm font-poppins font-normal leading-normal">
         {props.description}

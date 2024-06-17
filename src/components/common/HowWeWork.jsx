@@ -8,7 +8,7 @@ import { BlueHeading } from "./Heading";
 
 const HowWeWork = () => {
   return (
-    <div className="xl:pt-[144.76px] xl:pb-[126.85ox] md:pb-[90px] sm:pb-[65px] pb-[50px] md:pt-[90px] sm:pt-[65px] pt-[50px]">
+    <div className="xl:pt-[144.76px] xl:pb-[126.85ox] md:py-[90px] sm:py-[65px] py-[50px]">
       <div className="container xl:max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-row flex-wrap justify-between items-end">
           <div className="lg:w-6/12 w-full relative">
@@ -41,7 +41,7 @@ const HowWeWork = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row xl:gap-[17px] lg:gap-[15px] md:gap-5 gap-3 justify-center flex-wrap xl:pt-[126px] md:pt-[70px] sm:pt-[55px] pt-10">
+        <div className="flex flex-row xl:gap-[17px] lg:gap-[15px] md:gap-5 sm:gap-3 gap-4 justify-center flex-wrap xl:pt-[126px] md:pt-[70px] sm:pt-[55px] pt-10">
           {howWeWorkCardlist.map((obj, index) => (
             <div
               className="lg:w-[32.3%] md:w-[45%] sm:w-[49%] w-full"
@@ -50,7 +50,7 @@ const HowWeWork = () => {
               <HowWeWorkCards
                 className={index === 1 ? "bg-lightsky" : "bg-lightpurple"}
                 svg={obj.svg}
-                tittle={obj.tittle}
+                title={obj.title}
                 description={obj.description}
                 cardBox={index === 1}
               />
