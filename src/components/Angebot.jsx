@@ -40,7 +40,7 @@ const Angebot = () => {
           ))}
         </div>
         <div className="flex justify-center">
-          <WhiteLogo className="lg:w-[141px] lg:h-[132px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
+          <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[132px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </div>
       </div>
     </div>

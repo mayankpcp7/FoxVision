@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AngebotCardsList = (props) => {
   return (
     <div
-      className={`${props.className} sm:pt-[26.83px] sm:px-[26.81px] sm:pb-[35.24px] p-6 bg-white rounded-[6px] lg:max-w-[366px] w-full h-full xl:min-h-[383px] flex justify-between flex-col relative hover:shadow-[0_0_11px_rgba(255,255,255,1)] transition-all ease-linear duration-300 group`}
+      className={`${props.className} md:pt-[26.83px] md:px-[26.81px] md:pb-[35.24px] p-6 bg-white rounded-[6px] lg:max-w-[366px] w-full h-full xl:min-h-[383px] flex justify-between flex-col relative hover:shadow-[0_0_11px_rgba(255,255,255,1)] transition-all ease-linear duration-300 group`}
     >
       <div>
         <div
@@ -19,7 +19,7 @@ const AngebotCardsList = (props) => {
         <h3 className="text-black capitalize font-poppins sm:text-2xl text-xl leading-normal font-semibold mb-2">
           {props.title}
         </h3>
-        <p className="text-black opacity-70 font-poppins sm:text-base text-sm font-normal leading-normal xl:mb-[44.67px] lg:mb-[38px] sm:mb-8 mb-6">
+        <p className="text-black opacity-70 font-poppins sm:!text-base text-sm font-normal leading-normal xl:mb-[44.67px] lg:mb-[38px] sm:mb-8 mb-6">
           {props.description}
         </p>
       </div>
