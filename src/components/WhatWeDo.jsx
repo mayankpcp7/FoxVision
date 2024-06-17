@@ -29,11 +29,11 @@ import mobile from "../assets/images/webp/what-we-do/mobile.webp";
 import menstar from "../assets/images/webp/what-we-do/menstar.webp";
 const WhatWeDo = () => {
   return (
-    <div className=" pt-[238px] overflow-x-clip">
+    <div className="pt-20 md:pt-28 lg:pt-40 xl:pt-[238px] overflow-x-clip">
       <div className="container max-w-[1164px] ">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="w-full lg:w-1/2 px-3 relative ">
-            <span className="absolute -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]  pointer-events-none">
+            <span className="absolute max-[500px]:-top-[30%] -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]  pointer-events-none">
               <VectoArrow />
             </span>
             <SubHeading
@@ -76,7 +76,7 @@ const WhatWeDo = () => {
                 reposition you profitably
               </p>
               <Button
-                className="mt-8 lg:mt-10 max-lg:mx-auto block"
+                className="mt-6 sm:mt-8 lg:mt-10 max-lg:mx-auto block"
                 btnName="Contact"
               />
             </div>
@@ -85,7 +85,7 @@ const WhatWeDo = () => {
         <div className="flex lg:flex-row flex-wrap -mx-3 pt-16 md:pt-28 lg:pt-40 xl:pt-[206px] flex-col-reverse items-center ">
           <div className="w-full lg:w-5/12 px-3 max-lg:pt-16">
             <div className="max-lg:max-w-[511px] max-lg:mx-auto">
-              <div className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-lightpurple rounded-lg shadow-creativeiconshadow max-lg:mx-auto">
+              <div className="flex justify-center items-center max-lg:w-[70px] max-lg:h-[70px] w-[93px] h-[93px] bg-lightpurple rounded-lg shadow-creativeiconshadow max-lg:mx-auto">
                 <CreativeDesignIcon />
               </div>
               <p className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-darkblue leading-normal mt-6 sm:mt-8 md:mt-[39px] max-lg:text-center">
@@ -258,7 +258,7 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <span className="block mt-[142px] mb-[30px]">
+        <span className="block mt-12 sm:mt-28 md:mt-[142px] mb-[30px]">
           <CommonLogo />
         </span>
       </div>
