@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      container: { center: true, padding: "12px" },
+      container: {
+        center: true,
+        padding: "12px",
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
@@ -16,6 +19,9 @@ module.exports = {
         lightsky: "#E9FCFF",
         darkpurple: "#4B17E6",
         offpurple: " #4B17E60A",
+        gray: "#E5E5E5",
+        comet: "#515D74",
+        mediumPurple: "#8B66F6",
       },
       fontSize: {
         xxsm: "8px",
