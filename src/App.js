@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Hero from "./components/common/Hero";
+import HowWeWork from "./components/common/HowWeWork";
 
 function App() {
   return (
     <>
       <div>
-        
-        
-    </div>
+        <Hero/>
+        <HowWeWork />
+      </div>
     </>
   );
 }
