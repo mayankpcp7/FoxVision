@@ -6,7 +6,7 @@ import { WhiteLogo } from "./common/Icon";
 
 const Angebot = () => {
   return (
-    <div className="bg-darkpurple xl:pt-[122.94px] xl:pb-[97.65px] md:py-[90px] sm:py-[65px] py-[50px]">
+    <div className="bg-darkpurple xl:pt-[122.94px] xl:pb-[248.65px] md:py-[90px] sm:py-[65px] pt-12 pb-36">
       <div className="container xl:max-w-[1164px] px-3">
         <p className="uppercase text-white text-center font-poppins font-bold sm:text-xl text-sm leading-normal mb-[13.27px]">
           A RESULTS-DRIVEN AGENCY
