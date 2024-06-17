@@ -1,5 +1,6 @@
 import { Platform, SoftwareTools, WebsiteSolution } from "./Icon";
 
+// ================================ HOW WE WORK ================================
 export const howWeWorkCardlist = [
   {
     svg: <Platform />,
