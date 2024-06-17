@@ -485,6 +485,72 @@ export const StrategySettingIcon = () => {
     </svg>
   );
 };
+export const Corporate = () => {
+  return (
+    <svg
+      width="127"
+      height="126"
+      viewBox="0 0 127 126"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_1_238)">
+        <rect
+          x="20.8447"
+          y="10.4536"
+          width="85.2651"
+          height="85.2651"
+          rx="6.94427"
+          fill="#E9FCFF"
+        />
+        <rect
+          x="20.8447"
+          y="10.4536"
+          width="85.2651"
+          height="85.2651"
+          rx="6.94427"
+          fill="#E6DEFF"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_1_238"
+          x="0.844727"
+          y="0.453613"
+          width="125.265"
+          height="125.265"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="10" />
+          <feGaussianBlur stdDeviation="10" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0.294118 0 0 0 0 0.0901961 0 0 0 0 0.901961 0 0 0 0.17 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_1_238"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_1_238"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+}
 export const Redesign = () => {
   return (
     <svg
