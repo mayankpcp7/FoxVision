@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div className="bg-darkpurple ">
+    <div className="bg-darkpurple pt-5">
       <Navbar />
     </div>
   );

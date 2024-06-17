@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "./common/Heading";
+import { Heading } from "./common/Heading";
 import whatWeDoImg from "../assets/images/webp/what-we-do/what-we-do.webp";
 import {
   CommonLogo,
