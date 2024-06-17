@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -12,8 +12,18 @@ module.exports = {
         darkpurple: "#4B17E6",
         offpurple: " #4B17E60A",
       },
+      fontSize: {
+        xxsm: "8px",
+        "4xxl": "40px",
+        "6xxl": "64px",
+        "8xxl": "88.41px",
+      },
+      lineHeight: {
+        sm: "107.9%",
+        md: "121%",
+        lg: "183%",
+      },
     },
   },
   plugins: [],
 };
-
