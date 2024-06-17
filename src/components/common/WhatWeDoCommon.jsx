@@ -7,8 +7,8 @@ import Button from "./Button";
 export const WhatWeDoCommon = (props) => {
   return (
     <div className="flex flex-row flex-wrap -mx-3">
-      <div className="w-full lg:w-1/2 px-3 relative ">
-        <span className={`absolute   pointer-events-none ${props.className}`}>
+      <div className="w-full lg:w-1/2 px-3 relative">
+        <span className={`absolute pointer-events-none ${props.className}`}>
           <VectoArrow />
         </span>
         <SubHeading
@@ -28,14 +28,18 @@ export const WhatWeDoCommon = (props) => {
             alt="what-we-do"
           />
           <div className="pointer-events-none absolute top-[24%] left-[4%] flex items-center z-[-1]">
-            <span className="block w-[203px] h-[203px] opacity-20 blur-[100px] bg-darkpurple rounded-[203px]"></span>
-            <span className="block w-[203px] h-[203px] opacity-20 blur-[100px] bg-sky rounded-[203px]"></span>
+            <span
+              className={`${props.className} block w-[203px] h-[203px] opacity-20 blur-[100px] bg-darkpurple rounded-[203px]`}
+            ></span>
+            <span
+              className={`${props.className} block w-[203px] h-[203px] opacity-20 blur-[100px] bg-sky rounded-[203px]`}
+            ></span>
           </div>
         </div>
       </div>
       <div className="w-full lg:w-1/2 px-3 pt-10 lg:pt-16">
         <div className="md:max-w-[511px] max-lg:mx-auto lg:ms-auto">
-          <span className="max-md:max-w-[50px] max-w-[70px] max-md:max-h-[55px] max-h-[85px] max-lg:mx-auto lg:ms-auto block ">
+          <span className="max-md:max-w-[50px] max-w-[70px] max-md:max-h-[55px] max-h-[85px] max-lg:mx-auto lg:ms-auto block">
             <CommonLogo />
           </span>
           <p className="font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5">
