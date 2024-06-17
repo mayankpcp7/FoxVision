@@ -14,8 +14,8 @@ export const howWeWorkCardlist = [
       "Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.",
   },
   {
-    svg: <SoftwareTools />,
-    tittle: "Software Tools Development",
+    svg: <WebsiteSolution />,
+    tittle: "Teach Website Solution",
     description:
       "Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.",
   },

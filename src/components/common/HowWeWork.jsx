@@ -3,6 +3,8 @@ import work from "../../assets/images/webp/how-we-work/work-img.webp";
 import Button from "./Button";
 import Heading from "./Heading";
 import { WorkArrow } from "../common/Icon";
+import { howWeWorkCardlist } from "./Helper";
+import HowWeWorkCards from "./HowWeWorkCards";
 
 const HowWeWork = () => {
   return (
@@ -38,6 +40,22 @@ const HowWeWork = () => {
               <Button btnName="Contact" />
             </div>
           </div>
+        </div>
+        <div className="flex flex-row xl:gap-[17px] lg:gap-[15px] md:gap-5 gap-3 justify-center flex-wrap pt-[126px]">
+          {howWeWorkCardlist.map((obj, index) => (
+            <div
+              className="lg:w-[32.3%] md:w-[45%] sm:w-[49%] w-full"
+              key={index}
+            >
+              <HowWeWorkCards
+                className={index === 1 ? "bg-lightsky" : "bg-lightpurple"}
+                svg={obj.svg}
+                tittle={obj.tittle}
+                description={obj.description}
+                cardBox={index === 1}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
