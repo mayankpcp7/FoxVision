@@ -31,6 +31,10 @@ module.exports = {
       boxShadow: {
         navshadow: "0px 0px 13px 0px #00000024",
       },
+      screens: {
+        xlg: "992px",
+        xs: "425px",
+      },
     },
   },
   plugins: [],

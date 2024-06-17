@@ -1,7 +1,7 @@
 import React from "react";
 import work from "../../assets/images/webp/how-we-work/work-img.webp";
 import Button from "./Button";
-import Heading from "./Heading";
+import {BlueHeading} from "./Heading"
 
 const HowWeWork = () => {
   return (
@@ -12,7 +12,7 @@ const HowWeWork = () => {
             <p className="uppercase font-poppins text-darkblue font-bold text-xl leading-normal mb-3">
               A RESULTS-DRIVEN AGENCY
             </p>
-            <Heading heading="How we work" className="mb-[26.95px]" />
+            <BlueHeading headingText="How we work" className="mb-[26.95px]" />
             <img width={378} height={294} src={work} alt="work" />
           </div>
           <div className="w-6/12 mb-[10px] flex justify-end">

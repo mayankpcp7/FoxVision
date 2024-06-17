@@ -1,13 +1,19 @@
-import React from "react";
-
-const Heading = ({ heading, className }) => {
+export const BlueHeading = ({ headingText, className }) => {
   return (
     <h2
       className={`${className} capitalize font-semibold font-montserrat text-6xxl leading-md text-darkblue`}
     >
-      {heading}
+      {headingText}
     </h2>
   );
 };
 
-export default Heading;
+export const WhiteHeading = ({ whiteHeadingText, className }) => {
+  return (
+    <h2
+      className={`${className} capitalize font-semibold font-montserrat text-6xxl leading-md text-white`}
+    >
+      {whiteHeadingText}
+    </h2>
+  );
+};
