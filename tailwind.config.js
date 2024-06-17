@@ -3,6 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      container: { center: true, padding: "12px" },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
       colors: {
         darkblue: "#071838",
         sky: "#05D5FB",
@@ -13,7 +18,7 @@ module.exports = {
         offpurple: " #4B17E60A",
       },
       fontSize: {
-        xxsm: "8px",
+        " xxsm": "8px",
         "4xxl": "40px",
         "6xxl": "64px",
         "8xxl": "88.41px",
