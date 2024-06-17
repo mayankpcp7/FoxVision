@@ -36,7 +36,7 @@ const Strategy = () => {
               <div className="flex flex-col gap-3 sm:gap-4 md:gap-[26px]">
                 <div className="max-w-[203px]">
                   <img
-                    className="w-full border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                    className="w-full rounded-[12.59px] shadow-whatwedo"
                     width={203}
                     height={219}
                     src={logoDesign}
@@ -45,7 +45,7 @@ const Strategy = () => {
                 </div>
                 <div className="max-w-[203px]">
                   <img
-                    className="w-full border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                    className="w-full rounded-[12.59px] shadow-whatwedo"
                     width={203}
                     height={219}
                     src={brandingLogo}
