@@ -207,8 +207,7 @@ export const MailIcon = () => {
 export const Corporate = () => {
   return (
     <svg
-      width="51"
-      height="50"
+      className="sm:w-[51px] sm:h-[50px] w-[41px] h-10"
       viewBox="0 0 51 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -243,8 +242,7 @@ export const Corporate = () => {
 export const Redesign = () => {
   return (
     <svg
-      width="46"
-      height="47"
+      className="sm:w-[46px] sm:h-[47px] w-[36px] h-[37px]"
       viewBox="0 0 46 47"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -283,8 +281,7 @@ export const Redesign = () => {
 export const WebDesign = () => {
   return (
     <svg
-      width="45"
-      height="46"
+      className="sm:w-[45px] sm:h-[46px] w-[35px] h-[36px]"
       viewBox="0 0 45 46"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -315,8 +312,7 @@ export const WebDesign = () => {
 export const DigitalMarketing = () => {
   return (
     <svg
-      width="53"
-      height="54"
+      className="sm:w-[53px] sm:h-[54px] w-[43px] h-[44px]"
       viewBox="0 0 53 54"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -359,8 +355,7 @@ export const DigitalMarketing = () => {
 export const Stick = () => {
   return (
     <svg
-      width="42"
-      height="43"
+      className="sm:w-[42px] sm:h-[43px] w-8 h-[33pxs]"
       viewBox="0 0 42 43"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -379,8 +374,7 @@ export const Stick = () => {
 export const Beschriftungen = () => {
   return (
     <svg
-      width="41"
-      height="41"
+      className="sm:w-[41px] sm:h-[41px] w-[31px] h-[31px]"
       viewBox="0 0 41 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -21,11 +21,11 @@ const Angebot = () => {
               <AngebotCardsList
                 className={`${
                   index === 0
-                    ? "pb-[59.24px]"
+                    ? "sm:pb-[59.24px]"
                     : index === 1
-                    ? "pb-[59.24px]"
+                    ? "sm:pb-[59.24px]"
                     : index === 2
-                    ? "pb-[59.24px]"
+                    ? "sm:pb-[59.24px]"
                     : ""
                 }`}
                 svg={obj.svg}
