@@ -27,6 +27,7 @@ module.exports = {
         sm: "107.9%",
         md: "121%",
         lg: "183%",
+        xl: "122%",
       },
       boxShadow: {
         navshadow: "0px 0px 13px 0px #00000024",
