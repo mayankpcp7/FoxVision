@@ -17,10 +17,11 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />}></Route>
         <Route path="/offer" element={<Offer />}></Route>
       </Routes>
-      <Footer />
+      <div className="px-3 bg-darkblue">
+        <Footer />
+      </div>
     </>
   );
-      
 }
 
 export default App;
