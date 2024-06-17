@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading } from "./common/Heading";
+import { BlueHeading } from "./common/Heading";
 import whatWeDoImg from "../assets/images/webp/what-we-do/what-we-do.webp";
 import {
   CommonLogo,
@@ -29,7 +29,7 @@ import mobile from "../assets/images/webp/what-we-do/mobile.webp";
 import menstar from "../assets/images/webp/what-we-do/menstar.webp";
 const WhatWeDo = () => {
   return (
-    <div className=" pt-[238px]">
+    <div className=" pt-[238px] overflow-x-clip">
       <div className="container max-w-[1164px] ">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="w-full lg:w-1/2 px-3 relative ">
@@ -40,7 +40,10 @@ const WhatWeDo = () => {
               className="max-lg:text-center"
               text="A RESULTS-DRIVEN AGENCY"
             />
-            <Heading className="max-lg:text-center" heading="What we do" />
+            <BlueHeading
+              className="max-lg:text-center"
+              headingText="What we do"
+            />
             <div className="max-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
               <img
                 className="w-full"
