@@ -8,7 +8,7 @@ import { BlueHeading } from "./Heading";
 
 const HowWeWork = () => {
   return (
-    <div className="xl:pt-[144.76px] md:pt-[90px] sm:pt-[65px] pt-[50px]">
+    <div className="xl:pt-[144.76px] xl:pb-[126.85ox] md:pb-[90px] sm:pb-[65px] pb-[50px] md:pt-[90px] sm:pt-[65px] pt-[50px]">
       <div className="container xl:max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-row flex-wrap justify-between items-end">
           <div className="lg:w-6/12 w-full relative">
