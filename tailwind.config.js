@@ -18,7 +18,7 @@ module.exports = {
         offpurple: " #4B17E60A",
       },
       fontSize: {
-        xxsm: "8px",
+        " xxsm": "8px",
         "4xxl": "40px",
         "6xxl": "64px",
         "8xxl": "88.41px",
