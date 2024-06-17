@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [navBar]);
 
   return (
-    <nav className="max-w-[1240px] mx-auto px-3 rounded-[150px] py-[11px] px-12 shadow-nav-shadow bg-white">
+    <nav className="max-w-[1240px] mx-auto rounded-[150px] py-[11px] px-12 shadow-nav-shadow bg-white">
       <img src={logo} alt="navlogo" />
       <div className="mx-auto">
         <ul
