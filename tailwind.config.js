@@ -18,7 +18,7 @@ module.exports = {
         offpurple: " #4B17E60A",
       },
       fontSize: {
-        " xxsm": "8px",
+        xxsm: "8px",
         "4xxl": "40px",
         "6xxl": "64px",
         "8xxl": "88.41px",
@@ -27,6 +27,13 @@ module.exports = {
         sm: "107.9%",
         md: "121%",
         lg: "183%",
+      },
+      boxShadow: {
+        navshadow: "0px 0px 13px 0px #00000024",
+      },
+      screens: {
+        xlg: "992px",
+        xs: "425px",
       },
     },
   },

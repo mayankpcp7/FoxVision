@@ -1,10 +1,10 @@
 import React from "react";
 import work from "../../assets/images/webp/how-we-work/work-img.webp";
 import Button from "./Button";
-import Heading from "./Heading";
 import { WorkArrow } from "../common/Icon";
 import { howWeWorkCardlist } from "./Helper";
 import HowWeWorkCards from "./HowWeWorkCards";
+import { BlueHeading } from "./Heading";
 
 const HowWeWork = () => {
   return (
@@ -16,7 +16,7 @@ const HowWeWork = () => {
             <p className="uppercase font-poppins text-darkblue font-bold sm:text-xl text-sm leading-normal mb-3">
               A RESULTS-DRIVEN AGENCY
             </p>
-            <Heading heading="How we work" className="mb-[26.95px]" />
+            <BlueHeading headingText="How we work" className="mb-[26.95px]" />
             <img
               width={378}
               height={294}
@@ -31,10 +31,10 @@ const HowWeWork = () => {
                 We see our customers as partners and identify passionately with
                 their companies. Regardless of what the goal is, whether to
                 increase sales, increase brand awareness or attract new
-                employees. We always look for the{" "}
+                employees. We always look for the
                 <span className="text-sky">
                   right solution for your company
-                </span>{" "}
+                </span>
                 and advise you individually
               </p>
               <Button btnName="Contact" />
