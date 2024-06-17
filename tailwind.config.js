@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Specify where Tailwind should look for CSS classes
+  content: ["./src/**/*.{js,jsx,ts,tsx}"], 
   theme: {
     extend: {
       container: {
-        center: true, // Center the content horizontally
-        padding: "12px", // Add padding of 12px to the container
+        center: true, 
+        padding: "12px",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"], 
@@ -19,6 +19,9 @@ module.exports = {
         lightsky: "#E9FCFF",
         darkpurple: "#4B17E6",
         offpurple: "#4B17E60A",
+        gray: "#E5E5E5",
+        comet: "#515D74",
+        mediumPurple: "#8B66F6",
       },
       fontSize: {
         xxsm: "8px",
@@ -33,6 +36,9 @@ module.exports = {
       },
       boxShadow: {
         navshadow: "0px 0px 13px 0px #00000024",
+        creativeiconshadow: " 0px 12.63px 25.25px 0px #4B17E62B",
+        whatwedo: " 0px 16.7px 41.74px 0px #3B3E430D",
+        graphicdesign: "0px 10px 20px 0px #05D5FB29",
       },
       screens: {
         xlg: "992px",
