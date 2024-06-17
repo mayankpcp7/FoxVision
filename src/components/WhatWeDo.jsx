@@ -28,11 +28,11 @@ import mobile from "../assets/images/webp/what-we-do/mobile.webp";
 import menstar from "../assets/images/webp/what-we-do/menstar.webp";
 const WhatWeDo = () => {
   return (
-    <div className=" pt-[238px] overflow-x-clip">
+    <div className="pt-16 md:pt-28 lg:pt-40 xl:pt-[238px] overflow-x-clip">
       <div className="container max-w-[1164px] ">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="w-full lg:w-1/2 px-3 relative ">
-            <span className="absolute -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]  pointer-events-none">
+            <span className="absolute max-sm:hidden -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]  pointer-events-none">
               <VectoArrow />
             </span>
             <SubHeading
@@ -62,7 +62,7 @@ const WhatWeDo = () => {
               <span className="max-md:max-w-[50px] max-w-[70px] max-md:max-h-[55px] max-h-[85px] max-lg:mx-auto lg:ms-auto block ">
                 <CommonLogo />
               </span>
-              <p className="font-poppins font-normal text-base lg:text-xl text-darkblue leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5">
+              <p className="font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5">
                 We define the intangible assets of your brand and subsequently
                 increase{" "}
                 <Link href="#" className="text-purple">
@@ -75,22 +75,22 @@ const WhatWeDo = () => {
                 reposition you profitably
               </p>
               <Button
-                className="mt-8 lg:mt-10 max-lg:mx-auto block"
+                className="mt-6 sm:mt-8 lg:mt-10 max-lg:mx-auto block"
                 btnName="Contact"
               />
             </div>
           </div>
         </div>
         <div className="flex lg:flex-row flex-wrap -mx-3 pt-16 md:pt-28 lg:pt-40 xl:pt-[206px] flex-col-reverse items-center ">
-          <div className="w-full lg:w-5/12 px-3 max-lg:pt-16">
+          <div className="w-full lg:w-5/12 px-3 max-lg:pt-20">
             <div className="max-lg:max-w-[511px] max-lg:mx-auto">
-              <div className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-lightpurple rounded-lg shadow-creativeiconshadow max-lg:mx-auto">
+              <div className="flex justify-center items-center max-lg:w-[70px] max-lg:h-[70px] w-[93px] h-[93px] bg-lightpurple rounded-lg shadow-creativeiconshadow max-lg:mx-auto">
                 <CreativeDesignIcon />
               </div>
-              <p className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-darkblue leading-normal mt-6 sm:mt-8 md:mt-[39px] max-lg:text-center">
+              <p className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-darkblue !leading-normal mt-6 sm:mt-8 md:mt-[39px] max-lg:text-center">
                 UI/UX Creative Design
               </p>
-              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue leading-normal lg:max-w-[386px] mt-2 max-lg:text-center">
+              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue !leading-normal lg:max-w-[386px] mt-2 max-lg:text-center">
                 UI/UX creative design is the art of crafting digital experiences
                 that seamlessly blend aesthetics with functionality. It's about
                 understanding users' needs and behaviors and translating that
@@ -246,10 +246,10 @@ const WhatWeDo = () => {
               <div className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-lightsky rounded-lg shadow-graphicdesign max-lg:mx-auto">
                 <GraphicDesignIcon />
               </div>
-              <p className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-darkblue leading-normal mt-6 sm:mt-8 md:mt-[39px] max-lg:text-center">
+              <p className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-darkblue !leading-normal mt-6 sm:mt-8 md:mt-[39px] max-lg:text-center">
                 Visual Graphic Design
               </p>
-              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue leading-normal  mt-2 max-lg:text-center">
+              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue !leading-normal  mt-2 max-lg:text-center">
                 Visual graphic design is the art of using visual elements, such
                 as images, typography, color, and layout, to convey a message,
                 tell a story, or evoke emotions.
@@ -257,7 +257,7 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <span className="block mt-[142px] mb-[30px]">
+        <span className="block mt-12 sm:mt-28 md:mt-[142px] mb-[30px]">
           <CommonLogo />
         </span>
       </div>
