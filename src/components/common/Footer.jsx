@@ -33,7 +33,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex justify-between lg:justify-start w-full sm:w-10/12 md:w-7/12 lg:w-6/12">
-              <div className="w-4/12 md:w-3/12 px-3">
+              <div className="w-10/12 xs:w-4/12 md:w-3/12 px-3">
                 <p className="text-white font-poppins font-semibold text-base md:text-start text-center leading-md pb-[14px]">
                   Home
                 </p>
@@ -64,7 +64,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-4/12 md:w-5/12 xl:w-7/12 px-3">
+              <div className="w-full xs:w-4/12 md:w-5/12 xl:w-7/12 px-3">
                 <p className="text-white font-poppins font-semibold text-base md:text-start text-center leading-md pb-[14px]">
                   Agency
                 </p>
@@ -103,7 +103,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-4/12 md:w-3/12 px-3">
+              <div className="w-full xs:w-4/12 md:w-3/12 px-3">
                 <p className="text-white font-poppins font-semibold text-base md:text-start text-center leading-md pb-[14px]">
                   Legal
                 </p>
