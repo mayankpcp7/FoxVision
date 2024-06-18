@@ -10,7 +10,7 @@ import { SubHeading } from "./SubHeading";
 const HowWeWork = () => {
   return (
     <div className="xl:pt-[144.76px] xl:pb-[126.85ox] lg:py-24 md:py-[80px] sm:py-14 py-12">
-      <div className="container xl:max-w-[1164px] px-3 mx-auto">
+      <div className="max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-row flex-wrap justify-between items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
             <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] -right-[24%] max-xl:max-w-[140px] lg:block hidden" />

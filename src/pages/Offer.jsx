@@ -6,7 +6,7 @@ const Offer = () => {
   return (
     <>
       <Hero />
-      {/* <Frequently /> */}
+      <Frequently />
     </>
   );
 };
