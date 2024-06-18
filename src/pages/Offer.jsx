@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "../components/common/Hero";
-import Frequently from "../components/Frequently";
+import Design from "../components/Design";
+import DesignStrategy from "../components/DesignStrategy";
 
 const Offer = () => {
   return (
     <>
-      <Hero />
-      {/* <Frequently /> */}
+      <Design />
+      <DesignStrategy />
     </>
   );
 };

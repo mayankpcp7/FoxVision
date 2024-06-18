@@ -20,7 +20,10 @@ import nunc from "../../assets/images/webp/portfolie-card/nunc-tellus.webp";
 import sedAuctor from "../../assets/images/webp/portfolie-card/sed-auctor-nulla.webp";
 import building from "../../assets/images/webp/portfolie-card/building.webp";
 import twoTshirt from "../../assets/images/webp/portfolie-card/egestas-faucv.webp";
-
+import wireframing from "../../assets/images/webp/design/wirerraming.webp";
+import logoDesign from "../../assets/images/webp/design/logo-design.webp";
+import webDesign from "../../assets/images/webp/design/web-design.webp";
+import appDesign from "../../assets/images/webp/design/app-design.webp";
 // ================================ HOW WE WORK ================================
 export const howWeWorkCardlist = [
   {
@@ -173,3 +176,29 @@ export const portfoliosArray = [
 //       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
 //   },
 // ];
+
+//
+// =========================================design=========================================
+export const DesignCardArray = [
+  {
+    src: wireframing,
+    alt: "wireframing",
+    heading: "Wireframing",
+  },
+  {
+    src: webDesign,
+    alt: "web-Design",
+    heading: "Web Design",
+  },
+  {
+    src: logoDesign,
+    alt: "logo-Design",
+    heading: "Logo Design",
+  },
+
+  {
+    src: appDesign,
+    alt: "app-Design",
+    heading: "App Design",
+  },
+];
