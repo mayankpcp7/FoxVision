@@ -146,30 +146,42 @@ export const portfoliosArray = [
   },
 ];
 // ======================================FREQUENTYL======================================
-// const accordionData = [
-//   {
-//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
-//     content:
-//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
-//   },
-//   {
-//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
-//     content:
-//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
-//   },
-//   {
-//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
-//     content:
-//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
-//   },
-//   {
-//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
-//     content:
-//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
-//   },
-//   {
-//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
-//     content:
-//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
-//   },
-// ];
+export const accordionData = [
+  {
+    index: 0,
+    title: "Dolor sit amet consectetur. In sapien donec quisque sodales at.",
+    content:
+      "Scelerisque lacus non ut diam auctor elementum suspendisse. Erat feugiat tincidunt aliquam phasellus nulla diam. Id id eget risus nisi viverra varius non. Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+  },
+  {
+    index: 1,
+    title: "Ipsum dolor sit amet consectetur. Semper vel orci nunc.",
+    content:
+      "Scelerisque lacus non ut diam auctor elementum suspendisse. Erat feugiat tincidunt aliquam phasellus nulla diam. Id id eget risus nisi viverra varius non. Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+  },
+  {
+    index: 2,
+    title: "Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+    content:
+      "Scelerisque lacus non ut diam auctor elementum suspendisse. Erat feugiat tincidunt aliquam phasellus nulla diam. Id id eget risus nisi viverra varius non. Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+  },
+  {
+    index: 3,
+    title: "A dictum et sit vitae mauris egestas. ",
+    content:
+      "Scelerisque lacus non ut diam auctor elementum suspendisse. Erat feugiat tincidunt aliquam phasellus nulla diam. Id id eget risus nisi viverra varius non. Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+  },
+  {
+    index: 4,
+    title:
+      "quisque aliquam Mi ullamcorper lectus orci purus felis scelerisque.",
+    content:
+      "Scelerisque lacus non ut diam auctor elementum suspendisse. Erat feugiat tincidunt aliquam phasellus nulla diam. Id id eget risus nisi viverra varius non. Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+  },
+  {
+    index: 5,
+    title: "Iaculis odio vitae morbi magna enim dictum viverra habitasse.",
+    content:
+      "Scelerisque lacus non ut diam auctor elementum suspendisse. Erat feugiat tincidunt aliquam phasellus nulla diam. Id id eget risus nisi viverra varius non. Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+  },
+];

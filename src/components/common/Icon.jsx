@@ -823,7 +823,7 @@ export const PurpleArrow = (props) => {
 // ========================================FREQUENTLY========================================
 export const FaqArrow = () => {
   return (
-    <svg
+    <svg className="sm:w-[19px] sm:h-3 w-[17px] h-[10px]"
       width="19"
       height="12"
       viewBox="0 0 19 12"
