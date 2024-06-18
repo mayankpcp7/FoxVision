@@ -24,10 +24,10 @@ import menstar from "../assets/images/webp/what-we-do/menstar.webp";
 import { WhatWeDoCommon } from "./common/WhatWeDoCommon";
 const WhatWeDo = () => {
   return (
-    <div className="pt-16 md:pt-28 lg:pt-40 xl:pt-[238px] overflow-x-clip">
+    <div className="pt-16 md:pt-24 lg:pt-40 xl:pt-[238px] overflow-x-clip">
       <div className="container max-w-[1164px] ">
         <WhatWeDoCommon
-          className="max-sm:hidden -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]"
+          classNameIcon="max-sm:hidden -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]"
           SubheadingText="A RESULTS-DRIVEN AGENCY"
           BlueHeadingText="What we do"
           src={whatWeDoImg}
@@ -216,7 +216,7 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <span className="block mt-12 sm:mt-16 lg:mt-[142px] mb-[30px] max-lg:mx-auto max-lg:max-w-[50px]">
+        <span className="block mt-12 sm:mt-16 lg:mt-24 xl:mt-[142px] mb-12 sm:mb-14 md:mb-20 lg:mb-[30px] max-lg:mx-auto max-lg:max-w-[50px]">
           <CommonLogo />
         </span>
       </div>
