@@ -33,14 +33,14 @@ const Frequently = () => {
         <div className="flex flex-col w-full lg:max-w-[970px] mx-auto">
           {accordionData.map((item, index) => (
             <div
-              className="accordion-item border border-solid border-[#00000033] sm:pl-[21px] sm:pr-[30px] px-3 py-[21px] sm:mb-5 mb-4 rounded-[6px] transition-all duration-300 ease-in-out"
+              className="accordion-item border border-solid border-[#00000033] sm:pl-[21px] sm:pr-[30px] px-3 py-5 sm:mb-5 mb-4 rounded-[6px] transition-all duration-300 ease-in-out"
               key={index}
             >
               <div
                 className="accordion-title flex justify-between sm:items-center items-start cursor-pointer"
                 onClick={() => toggleAccordion(index)}
               >
-                <p className="font-montserrat font-semibold text-darkblue leading-md xl:text-2xl md:text-xl text-base">
+                <p className="font-montserrat font-semibold text-darkblue !leading-md xl:text-2xl md:text-xl text-base">
                   {item.title}
                 </p>
                 <div className="sm:pt-0 pt-2">
