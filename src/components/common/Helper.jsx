@@ -10,6 +10,16 @@ import {
   Beschriftungen,
   CardBtnArrow,
 } from "./Icon";
+import poloka from "../../assets/images/webp/portfolie-card/paloka-ag-section.webp";
+import sanalife from "../../assets/images/webp/portfolie-card/sanalife.webp";
+import polokaAg from "../../assets/images/webp/portfolie-card/paloka-ag-two.webp";
+import eleme from "../../assets/images/webp/portfolie-card/eleme.webp";
+import abrCot from "../../assets/images/webp/portfolie-card/abr-gmbh.webp";
+import amet from "../../assets/images/webp/portfolie-card/amet-consectetur.webp";
+import nunc from "../../assets/images/webp/portfolie-card/nunc-tellus.webp";
+import sedAuctor from "../../assets/images/webp/portfolie-card/sed-auctor-nulla.webp";
+import building from "../../assets/images/webp/portfolie-card/building.webp";
+import twoTshirt from "../../assets/images/webp/portfolie-card/egestas-faucv.webp";
 
 // ================================ HOW WE WORK ================================
 export const howWeWorkCardlist = [
@@ -84,5 +94,54 @@ export const angebotCardList = [
     arrow: <CardBtnArrow />,
   },
 ];
+// ==========================================portfolio==========================================
 
-
+export const portfoliosArray = [
+  { src: poloka, heading: "Anton Paloka", paragraph: "Facility Management " },
+  {
+    src: sanalife,
+    heading: "Gut versichert ins leben.",
+    paragraph: "Wir helfen ihnen dabei",
+  },
+  { src: polokaAg, heading: "Anton Paloka", paragraph: "Geschäftsführer " },
+  {
+    src: polokaAg,
+    heading: "Mhill Paloka",
+    paragraph: "Leiter Administration ",
+  },
+  {
+    src: eleme,
+    heading: "Id nisi elementum",
+    paragraph: "Lorem ipsum dolor consectetur.",
+  },
+  {
+    src: abrCot,
+    heading: "Augue tincidunt ipsum",
+    paragraph: "Ipsum dolor sit amet.",
+  },
+  {
+    src: amet,
+    heading: "Amet consectetur Consequat",
+    paragraph: "Lorem sit amet consectetur. ",
+  },
+  {
+    src: nunc,
+    heading: "Nunc tellus sed auctor nulla",
+    paragraph: "dolor sit amet consectetur.",
+  },
+  {
+    src: twoTshirt,
+    heading: "Egestas faucs aliquam libero",
+    paragraph: "Lorem ipsum dolor ",
+  },
+  {
+    src: building,
+    heading: "Amet consectetur Consequat",
+    paragraph: "Lorem ipsum. ",
+  },
+  {
+    src: sedAuctor,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+  },
+];
