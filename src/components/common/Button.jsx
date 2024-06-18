@@ -1,14 +1,10 @@
-import React from "react";
-
 const Button = ({ btnName, className }) => {
   return (
-    <div>
-      <button
-        className={`${className} py-[14px] px-[30px] bg-sky rounded-[69px] hover:bg-darkpurple duration-300 text-white font-semibold sm:text-base text-sm leading-normal`}
-      >
-        {btnName}
-      </button>
-    </div>
+    <button
+      className={`${className} font-poppins sm:py-[14px] sm:px-[30px] py-3 px-7 bg-sky hover:bg-darkpurple transition-all ease-linear duration-300 rounded-[69px] text-white font-semibold sm:text-base text-sm leading-normal`}
+    >
+      {btnName}
+    </button>
   );
 };
 

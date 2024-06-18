@@ -38,11 +38,15 @@ export const WhatWeDoCommon = (props) => {
         </div>
       </div>
       <div className="w-full lg:w-1/2 px-3 pt-10 lg:pt-16">
-        <div className="md:max-w-[511px] max-lg:mx-auto lg:ms-auto">
+        <div
+          className={`max-lg:max-w-[560px] lg:max-w-[511px] max-lg:mx-auto lg:ms-auto`}
+        >
           <span className="max-md:max-w-[50px] max-w-[70px] max-md:max-h-[55px] max-h-[85px] max-lg:mx-auto lg:ms-auto block">
             <CommonLogo />
           </span>
-          <p className="font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5">
+          <p
+            className={`${props.className} font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5`}
+          >
             {props.paragraphFirst}
             <Link href="#" className="text-purple">
               {props.linkText}

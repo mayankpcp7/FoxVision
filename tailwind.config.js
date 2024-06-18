@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"], 
   theme: {
     extend: {
       container: {
-        center: true,
+        center: true, 
         padding: "12px",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"], 
         montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
@@ -18,7 +18,7 @@ module.exports = {
         lightpurple: "#E6DEFF",
         lightsky: "#E9FCFF",
         darkpurple: "#4B17E6",
-        offpurple: " #4B17E60A",
+        offpurple: "#4B17E60A",
         gray: "#E5E5E5",
         comet: "#515D74",
         mediumPurple: "#8B66F6",
@@ -43,6 +43,10 @@ module.exports = {
       screens: {
         xlg: "992px",
         xs: "425px",
+      },
+      backgroundImage: {
+        footer:
+          "linear-gradient(0deg, #071838, #071838), linear-gradient(0deg, #05D5FB, #05D5FB)",
       },
     },
   },

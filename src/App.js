@@ -1,13 +1,25 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Strategy from "./components/Strategy";
-import WhatWeDo from "./components/WhatWeDo";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
+import Portfolio from "./pages/Portfolio";
+import Offer from "./pages/Offer";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
     <>
-      {" "}
-      <WhatWeDo /> <Strategy />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<AboutUs />}></Route>
+        <Route path="/contact" element={<ContactUs />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route>
+        <Route path="/offer" element={<Offer />}></Route>
+      </Routes>
+      <div className="px-3 bg-darkblue">
+        <Footer />
+      </div>
     </>
   );
 }
