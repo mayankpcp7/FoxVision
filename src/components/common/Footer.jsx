@@ -12,7 +12,7 @@ const Footer = () => {
           className="flex justify-center flex-col absolute top-[-25%] md:top-[-36%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky
          rounded-[10px] items-center mx-auto py-9"
         >
-          <p className="text-white font-montserrat font-semibold text-xl max-w-[300px] xs:max-w-[450px] sm:text-3xl md:text-4xl xl:text-4xl leading-md text-center md:max-w-[713px]">
+          <p className="text-white font-montserrat font-semibold text-xl max-w-[300px] xs:max-w-[450px] sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xxl leading-md text-center md:max-w-[713px]">
             Möchten Sie ein Projekt starten? Wir freuen uns.
           </p>
           <Link to="/contact">
