@@ -1,3 +1,17 @@
+import poloka from "../../assets/images/webp/portfolie-card/paloka-ag-section.webp";
+import sanalife from "../../assets/images/webp/portfolie-card/sanalife.webp";
+import polokaAg from "../../assets/images/webp/portfolie-card/paloka-ag-two.webp";
+import eleme from "../../assets/images/webp/portfolie-card/eleme.webp";
+import abrCot from "../../assets/images/webp/portfolie-card/abr-gmbh.webp";
+import amet from "../../assets/images/webp/portfolie-card/amet-consectetur.webp";
+import nunc from "../../assets/images/webp/portfolie-card/nunc-tellus.webp";
+import sedAuctor from "../../assets/images/webp/portfolie-card/sed-auctor-nulla.webp";
+import building from "../../assets/images/webp/portfolie-card/building.webp";
+import twoTshirt from "../../assets/images/webp/portfolie-card/egestas-faucv.webp";
+import wireframing from "../../assets/images/webp/design/wirerraming.webp";
+import logoDesign from "../../assets/images/webp/design/logo-design.webp";
+import webDesign from "../../assets/images/webp/design/web-design.webp";
+import appDesign from "../../assets/images/webp/design/app-design.webp";
 import {
   Platform,
   SoftwareTools,
@@ -10,17 +24,6 @@ import {
   Beschriftungen,
   CardBtnArrow,
 } from "./Icon";
-import poloka from "../../assets/images/webp/portfolie-card/paloka-ag-section.webp";
-import sanalife from "../../assets/images/webp/portfolie-card/sanalife.webp";
-import polokaAg from "../../assets/images/webp/portfolie-card/paloka-ag-two.webp";
-import eleme from "../../assets/images/webp/portfolie-card/eleme.webp";
-import abrCot from "../../assets/images/webp/portfolie-card/abr-gmbh.webp";
-import amet from "../../assets/images/webp/portfolie-card/amet-consectetur.webp";
-import nunc from "../../assets/images/webp/portfolie-card/nunc-tellus.webp";
-import sedAuctor from "../../assets/images/webp/portfolie-card/sed-auctor-nulla.webp";
-import building from "../../assets/images/webp/portfolie-card/building.webp";
-import twoTshirt from "../../assets/images/webp/portfolie-card/egestas-faucv.webp";
-
 // ================================ HOW WE WORK ================================
 export const howWeWorkCardlist = [
   {
@@ -183,5 +186,29 @@ export const accordionData = [
     title: "Iaculis odio vitae morbi magna enim dictum viverra habitasse.",
     content:
       "Scelerisque lacus non ut diam auctor elementum suspendisse. Erat feugiat tincidunt aliquam phasellus nulla diam. Id id eget risus nisi viverra varius non. Venenatis augue id lacus diam sed pellentesque amet senectus nunc.",
+  },
+];
+// =========================================design=========================================
+export const DesignCardArray = [
+  {
+    src: wireframing,
+    alt: "wireframing",
+    heading: "Wireframing",
+  },
+  {
+    src: webDesign,
+    alt: "web-Design",
+    heading: "Web Design",
+  },
+  {
+    src: logoDesign,
+    alt: "logo-Design",
+    heading: "Logo Design",
+  },
+
+  {
+    src: appDesign,
+    alt: "app-Design",
+    heading: "App Design",
   },
 ];

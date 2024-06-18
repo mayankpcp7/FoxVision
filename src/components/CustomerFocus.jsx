@@ -35,7 +35,7 @@ const CustomerFocus = () => {
           </div>
         </div>
         <span className="flex justify-center mt-12 sm:mt-16 xl:mt-[78px]">
-          <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[132px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
+          <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[171px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </span>
       </div>
     </div>
