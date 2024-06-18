@@ -7,8 +7,8 @@ const AboutUs = () => {
   return (
     <>
       <Home />
-      {/* <DesignProjectAgency />
-      <HowWeWork /> */}
+      <DesignProjectAgency />
+      <HowWeWork />
     </>
   );
 };
