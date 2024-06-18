@@ -28,7 +28,7 @@ const DesignProjectAgency = () => {
                 height={85.39}
                 src={logo}
                 alt="logo"
-                className="lg:ml-auto mx-auto lg:mb-5 mb-4 sm:w-[70.9px] w-[60px]"
+                className="lg:ml-auto max-lg:mx-auto lg:mb-5 mb-4 sm:w-[70.9px] w-[60px]"
               />
               <p className="lg:max-w-[511px] font-poppins text-darkblue opacity-70 font-normal lg:text-xl text-base lg:mb-10 sm:mb-8 mb-6 !leading-lg lg:text-start text-center">
                 As a design agency, we create a contemporary and

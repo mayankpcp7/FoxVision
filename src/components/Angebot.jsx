@@ -3,14 +3,16 @@ import { BlueHeading } from "./common/Heading";
 import { angebotCardList } from "./common/Helper";
 import AngebotCardsList from "./AngebotCardsList";
 import { WhiteLogo } from "./common/Icon";
+import { SubHeading } from "./common/SubHeading";
 
 const Angebot = () => {
   return (
     <div className="bg-darkpurple xl:pt-[122.94px] lg:pt-24 md:pt-[80px] sm:pt-14 pt-12 xl:pb-[248.65px] md:pb-[190px] sm:pb-[240px] pb-[250px]">
       <div className="container xl:max-w-[1164px] px-3">
-        <p className="uppercase text-white text-center font-poppins font-bold sm:text-xl text-sm leading-normal mb-[13.27px]">
-          A RESULTS-DRIVEN AGENCY
-        </p>
+        <SubHeading
+          className="text-white mb-[13.27px] text-center"
+          text="A RESULTS-DRIVEN AGENCY"
+        />
         <BlueHeading
           headingText="Angebot"
           className="!text-white text-center"
