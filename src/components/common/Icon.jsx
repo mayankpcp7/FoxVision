@@ -800,3 +800,24 @@ export const PurpleArrow = (props) => {
     </svg>
   );
 };
+// -------------------------------------------OFFER-------------------------------------------
+// ========================================FREQUENTLY========================================
+export const FaqArrow = () => {
+  return (
+    <svg
+      width="19"
+      height="12"
+      viewBox="0 0 19 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 10.625L9.5 1.625L18 10.625"
+        stroke="#071838"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
