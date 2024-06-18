@@ -5,6 +5,7 @@ import { WorkArrow } from "../common/Icon";
 import { howWeWorkCardlist } from "./Helper";
 import HowWeWorkCards from "./HowWeWorkCards";
 import { BlueHeading } from "./Heading";
+import { SubHeading } from "./SubHeading";
 
 const HowWeWork = () => {
   return (
@@ -13,9 +14,7 @@ const HowWeWork = () => {
         <div className="flex flex-row flex-wrap justify-between items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
             <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] -right-[24%] max-xl:max-w-[140px] lg:block hidden" />
-            <p className="uppercase font-poppins text-darkblue font-bold sm:text-xl text-sm leading-normal mb-3">
-              A RESULTS-DRIVEN AGENCY
-            </p>
+            <SubHeading text="A RESULTS-DRIVEN AGENCY" className="mb-3" />
             <BlueHeading headingText="How we work" className="mb-[26.95px]" />
             <img
               width={378}

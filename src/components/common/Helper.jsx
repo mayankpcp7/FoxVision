@@ -145,3 +145,31 @@ export const portfoliosArray = [
     paragraph: "Lorem ipsum consectetur.",
   },
 ];
+// ======================================FREQUENTYL======================================
+// const accordionData = [
+//   {
+//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
+//     content:
+//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
+//   },
+//   {
+//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
+//     content:
+//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
+//   },
+//   {
+//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
+//     content:
+//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
+//   },
+//   {
+//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
+//     content:
+//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
+//   },
+//   {
+//     title: "Maecenas laoreet, sapien vel cursus ultricies?",
+//     content:
+//       "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
+//   },
+// ];
