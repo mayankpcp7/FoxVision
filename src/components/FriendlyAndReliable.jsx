@@ -13,7 +13,9 @@ const FriendlyAndReliable = () => {
         Design Mastery <span className="lowercase">in</span> Our Genes
       </h2>
       <div className="flex flex-row flex-wrap">
-        <div className="p-[35px] shadow-[0px_-8px_51px_8px_#00000012] flex flex-wrap items-center">
+        <div
+          className="p-[35px] shadow-phil flex flex-wrap items-center"
+        >
           <div className="lg:w-6/12">
             <p className="capitalize text-darkblue font-poppins font-semibold sm:text-2xl text-xl leading-normal mb-[15px]">
               Mhill Paloka

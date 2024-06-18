@@ -84,7 +84,7 @@ const Footer = () => {
                       Offer
                     </Link>
                   </li>
-                  <li className="pb-3 md:text-left text-center">
+                  <li className="md:text-left text-center">
                     <Link
                       to="/contact"
                       className="leading-md hover:opacity-100 duration-300 md:text-left sm:text-base text-sm text-center font-poppins text-white font-normal opacity-70"
@@ -123,7 +123,7 @@ const Footer = () => {
                       +41 79 725 61 00
                     </Link>
                   </li>
-                  <li className="pb-3 md:text-left text-center">
+                  <li className="md:text-left text-center">
                     <Link
                       to="/contact"
                       className="leading-md md:text-left sm:text-base text-sm text-center hover:opacity-100 duration-300 font-poppins text-white font-normal opacity-70"
@@ -154,7 +154,7 @@ const Footer = () => {
                       Data protection
                     </Link>
                   </li>
-                  <li className="pb-3 md:text-left text-center">
+                  <li className="md:text-left text-center">
                     <Link
                       to="/contact"
                       className="leading-md md:text-left hover:opacity-100 duration-300 sm:text-base text-sm text-center font-poppins text-white font-normal opacity-70"

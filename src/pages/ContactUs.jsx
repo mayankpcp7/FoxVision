@@ -4,7 +4,7 @@ import Home from "./Home";
 const ContactUs = () => {
   return (
     <>
-      <Home />
+    
     </>
   );
 };
