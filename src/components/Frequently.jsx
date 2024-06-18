@@ -24,7 +24,7 @@ const Frequently = () => {
   };
 
   return (
-    <div className="xl:py-[150px] py-12 sm:py-14 md:py-[80px] lg:py-24">
+    <div className="xl:pt-[150px] pt-12 sm:pt-14 md:pt-[80px] lg:pt-24 xl:pb-[294px] lg:pb-[200px] sm:pb-[180px] pb-[200px]">
       <div className="max-w-[1164px] mx-auto px-3">
         <BlueHeading
           headingText="Frequently Asked Questions"
@@ -33,14 +33,14 @@ const Frequently = () => {
         <div className="flex flex-col w-full lg:max-w-[970px] mx-auto">
           {accordionData.map((item, index) => (
             <div
-              className="accordion-item border border-solid border-[#00000033] sm:pl-[21px] sm:pr-[30px] px-3 py-[21px] mb-5 rounded-[6px] transition-all duration-300 ease-in-out"
+              className="accordion-item border border-solid border-[#00000033] sm:pl-[21px] sm:pr-[30px] px-3 py-5 sm:mb-5 mb-4 rounded-[6px] transition-all duration-300 ease-in-out"
               key={index}
             >
               <div
                 className="accordion-title flex justify-between sm:items-center items-start cursor-pointer"
                 onClick={() => toggleAccordion(index)}
               >
-                <p className="font-montserrat font-semibold text-darkblue leading-md xl:text-2xl md:text-xl text-base">
+                <p className="font-montserrat font-semibold text-darkblue !leading-md xl:text-2xl md:text-xl text-base">
                   {item.title}
                 </p>
                 <div className="sm:pt-0 pt-2">
@@ -49,7 +49,7 @@ const Frequently = () => {
                       openAccordion === index ? "rotate-180" : ""
                     } transition-transform duration-300 ease-linear`}
                   >
-                    <FaqArrow />
+                    <FaqArrow className="sm:w-[19px] sm:h-3 w-[17px] h-[10px]" />
                   </div>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Frequently = () => {
                 }}
               >
                 <div
-                  className="pt-[15px] font-poppins font-normal md:text-xl sm:text-base text-sm text-darkblue opacity-70 sm:max-w-[859px] leading-lg"
+                  className="pt-[15px] font-poppins font-normal md:text-xl sm:text-base text-sm text-darkblue opacity-70 sm:max-w-[859px] !leading-lg"
                   ref={(el) => (refs.current[index] = el)}
                 >
                   {item.content}
