@@ -12,7 +12,7 @@ import manavatar from "../assets/images/webp/Strategy/man-avatar-like.webp";
 import strategyimg from "../assets/images/webp/Strategy/Startegy-digital.webp";
 const Strategy = () => {
   return (
-    <div className="pt-36 xl:pt-[193px] pb-12 sm:pb-[60px] bg-darkpurple">
+    <div className="pt-[150px] xl:pt-[193px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[60px] bg-darkpurple">
       <div className="container max-w-[1164px]">
         <div className="flex lg:flex-row flex-wrap -mx-3 flex-col-reverse">
           <div className="w-full lg:w-5/12 px-3 max-lg:pt-20">
@@ -22,7 +22,7 @@ const Strategy = () => {
             <p className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px] max-lg:text-center ">
               Logo Design
             </p>
-            <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[560px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+            <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
               Logo design is a specialized discipline within the realm of
               graphic design, focused on creating unique and memorable visual
               symbols that represent a brand, company, or organization.
@@ -83,7 +83,7 @@ const Strategy = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap -mx-3 pt-12 sm:pt-20 md:pt-[90px] justify-between items-center">
+        <div className="flex flex-row flex-wrap -mx-3 pt-12 sm:pt-14 md:pt-20 justify-between items-center">
           <div className="w-full lg:w-6/12 px-3">
             <div className="max-w-[320px] max-lg:max-w-[400px] lg:max-w-[495px] max-lg:mx-auto ">
               <img
@@ -104,7 +104,7 @@ const Strategy = () => {
               <p className=" !font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px]  max-lg:text-center ">
                 Strategy & Digital Marketing
               </p>
-              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[560px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
                 Strategy in digital marketing is the foundation upon which
                 successful online campaigns are built. It involves setting clear
                 objectives, identifying target audiences.
