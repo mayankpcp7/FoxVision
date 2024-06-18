@@ -64,7 +64,7 @@ const Frequently = () => {
                 }}
               >
                 <div
-                  className="pt-[15px] font-poppins font-normal md:text-xl sm:text-base text-sm text-darkblue opacity-70 sm:max-w-[859px] leading-lg"
+                  className="pt-[15px] font-poppins font-normal md:text-xl sm:text-base text-sm text-darkblue opacity-70 sm:max-w-[859px] !leading-lg"
                   ref={(el) => (refs.current[index] = el)}
                 >
                   {item.content}
