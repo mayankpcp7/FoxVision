@@ -49,7 +49,7 @@ const Frequently = () => {
                       openAccordion === index ? "rotate-180" : ""
                     } transition-transform duration-300 ease-linear`}
                   >
-                    <FaqArrow />
+                    <FaqArrow className="sm:w-[19px] sm:h-3 w-[17px] h-[10px]" />
                   </div>
                 </div>
               </div>
