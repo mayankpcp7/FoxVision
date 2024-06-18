@@ -8,7 +8,7 @@ export const WhatWeDoCommon = (props) => {
   return (
     <div className="flex flex-row flex-wrap -mx-3">
       <div className="w-full lg:w-1/2 px-3 relative">
-        <span className={`absolute pointer-events-none ${props.className}`}>
+        <span className={`absolute pointer-events-none ${props.classNameIcon}`}>
           <VectoArrow />
         </span>
         <SubHeading

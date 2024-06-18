@@ -24,7 +24,7 @@ module.exports = {
         mediumPurple: "#8B66F6",
       },
       fontSize: {
-        xxsm: "8px",
+        'xxsm': "8px",
         "4xxl": "40px",
         "6xxl": "64px",
         "8xxl": "88.41px",
