@@ -6,9 +6,8 @@ import HowWeWork from "../components/common/HowWeWork";
 const AboutUs = () => {
   return (
     <>
-      <Home />
-      {/* <DesignProjectAgency />
-      <HowWeWork /> */}
+      <DesignProjectAgency />
+      <HowWeWork />
     </>
   );
 };
