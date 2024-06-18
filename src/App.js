@@ -6,10 +6,16 @@ import ContactUs from "./pages/ContactUs";
 import Portfolio from "./pages/Portfolio";
 import Offer from "./pages/Offer";
 import Footer from "./components/common/Footer";
+import Hero from "./components/common/Hero";
+import Navbar from "./components/common/Navbar";
 
 function App() {
   return (
     <>
+      <div className="bg-darkpurple pt-5 pb-1">
+        <Navbar />
+        <Hero />
+      </div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<AboutUs />}></Route>
