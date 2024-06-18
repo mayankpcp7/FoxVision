@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./Home";
+import PortfolioCard from "../components/PortfolioCard";
 
 const Portfolio = () => {
   return (
     <>
-      <Home />
+      <PortfolioCard />
     </>
   );
 };

@@ -4,26 +4,26 @@ import { Link } from "react-router-dom";
 import footerlogo from "../../assets/images/common/footer-logo.svg";
 import { Facebook, Insta } from "./Icon";
 import rightvector from "../../assets/images/webp/footer/right-vector.webp";
-import leftvector from "../../assets/images/webp/footer/right-vector.webp";
+import leftvector from "../../assets/images/webp/footer/left-vector.webp";
 const Footer = () => {
   return (
     <>
       <footer className="pt-28 sm:pt-40 xl:pt-[224px] relative">
         <img
-          className="absolute bottom-0 end-0"
+          className="absolute -z-0 bottom-0 pointer-events-none end-0"
           src={rightvector}
           alt="vector"
         />
         <img
-          className="absolute top-0 start-0"
+          className="absolute -z-0 pointer-events-none top-0 start-0"
           src={leftvector}
           alt="vector"
         />
         <div
-          className="flex justify-center flex-col absolute top-[-25%] md:top-[-36%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky
+          className="flex justify-center flex-col absolute top-[-15%] md:top-[-40%] xl:top-[-30%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky
          rounded-[10px] items-center mx-auto py-9"
         >
-          <p className="text-white font-montserrat font-semibold text-xl max-w-[300px] xs:max-w-[450px] sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xxl leading-md text-center md:max-w-[713px]">
+          <p className="text-white font-montserrat font-semibold text-xl max-w-[300px] xs:max-w-[450px] sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xxl !leading-md text-center md:max-w-[713px]">
             Möchten Sie ein Projekt starten? Wir freuen uns.
           </p>
           <Link to="/contact">
@@ -84,10 +84,10 @@ const Footer = () => {
                       Offer
                     </Link>
                   </li>
-                  <li className="pb-3 md:text-left text-center">
+                  <li className="md:text-left text-center">
                     <Link
                       to="/contact"
-                      className="leading-md pb-2 xs:pb-3 hover:opacity-100 duration-300 md:text-left sm:text-base text-sm text-center font-poppins text-white font-normal opacity-70"
+                      className="leading-md hover:opacity-100 duration-300 md:text-left sm:text-base text-sm text-center font-poppins text-white font-normal opacity-70"
                     >
                       Contact
                     </Link>
@@ -123,7 +123,7 @@ const Footer = () => {
                       +41 79 725 61 00
                     </Link>
                   </li>
-                  <li className="pb-3 md:text-left text-center">
+                  <li className="md:text-left text-center">
                     <Link
                       to="/contact"
                       className="leading-md md:text-left sm:text-base text-sm text-center hover:opacity-100 duration-300 font-poppins text-white font-normal opacity-70"
@@ -154,7 +154,7 @@ const Footer = () => {
                       Data protection
                     </Link>
                   </li>
-                  <li className="pb-3 md:text-left text-center">
+                  <li className="md:text-left text-center">
                     <Link
                       to="/contact"
                       className="leading-md md:text-left hover:opacity-100 duration-300 sm:text-base text-sm text-center font-poppins text-white font-normal opacity-70"

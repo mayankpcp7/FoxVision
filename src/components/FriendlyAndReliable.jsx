@@ -13,7 +13,7 @@ const FriendlyAndReliable = () => {
         Design Mastery <span className="lowercase">in</span> Our Genes
       </h2>
       <div className="flex flex-row flex-wrap justify-center">
-        <div className="lg:p-[35px] sm:p-7 p-4 shadow-[0px_-8px_51px_8px_#00000012] flex lg:flex-row max-lg:max-w-[500px] flex-col-reverse flex-wrap items-center">
+        <div className="lg:p-9 sm:p-7 p-4 shadow-phil flex lg:flex-row max-lg:max-w-[500px] flex-col-reverse flex-wrap items-center">
           <div className="lg:w-6/12 lg:pt-0 pt-8">
             <p className="capitalize text-darkblue font-poppins font-semibold sm:text-2xl text-xl leading-normal sm:mb-[15px] mb-3">
               Mhill Paloka

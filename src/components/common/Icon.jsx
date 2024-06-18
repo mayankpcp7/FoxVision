@@ -488,9 +488,8 @@ export const StrategySettingIcon = () => {
 export const Corporate = () => {
   return (
     <svg
-      width="127"
-      height="126"
-      viewBox="0 0 127 126"
+      className="sm:w-[51px] w-[41px] sm:h-[50px] h-10"
+      viewBox="0 0 51 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -823,7 +822,8 @@ export const PurpleArrow = (props) => {
 // ========================================FREQUENTLY========================================
 export const FaqArrow = (props) => {
   return (
-    <svg className={`${props.className}}`}
+    <svg
+      className={`${props.className}}`}
       width="19"
       height="12"
       viewBox="0 0 19 12"
