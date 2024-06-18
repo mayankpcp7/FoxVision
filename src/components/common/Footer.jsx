@@ -10,12 +10,12 @@ const Footer = () => {
     <>
       <footer className="pt-28 sm:pt-40 xl:pt-[224px] relative">
         <img
-          className="absolute bottom-0 end-0"
+          className="absolute -z-0 bottom-0 pointer-events-none end-0"
           src={rightvector}
           alt="vector"
         />
         <img
-          className="absolute top-0 start-0"
+          className="absolute -z-0 pointer-events-none top-0 start-0"
           src={leftvector}
           alt="vector"
         />
@@ -87,7 +87,7 @@ const Footer = () => {
                   <li className="pb-3 md:text-left text-center">
                     <Link
                       to="/contact"
-                      className="leading-md pb-2 hover:opacity-100 duration-300 md:text-left sm:text-base text-sm text-center font-poppins text-white font-normal opacity-70"
+                      className="leading-md hover:opacity-100 duration-300 md:text-left sm:text-base text-sm text-center font-poppins text-white font-normal opacity-70"
                     >
                       Contact
                     </Link>
