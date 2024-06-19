@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./Home";
+import ReachOut from "../components/ReachOut";
 
 const ContactUs = () => {
   return (
     <>
-      <Home />
+      <ReachOut />
     </>
   );
 };

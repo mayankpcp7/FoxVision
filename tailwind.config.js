@@ -22,6 +22,7 @@ module.exports = {
         gray: "#E5E5E5",
         comet: "#515D74",
         mediumPurple: "#8B66F6",
+        contactUsCard: "#EBE5FC",
       },
       fontSize: {
         xxsm: "8px",
@@ -42,6 +43,7 @@ module.exports = {
         graphicdesign: "0px 10px 20px 0px #05D5FB29",
         designcardshadow: "0px 4px 27px 0px #4B17E614",
         portfoliocardshadow: "0px 4px 27px 0px #00000024",
+        contactusIconshadow: "0px 11.57px 27px 0px #4B17E61A",
       },
       screens: {
         xlg: "992px",
