@@ -13,8 +13,8 @@ const DesignProjectAgency = () => {
       <div className="container xl:max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-row justify-center flex-wrap items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
-            <PurpleArrow className="absolute xl:-right-[12%] xl:top-[15%] top-[12%] -right-[23%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden" />
-            <SubHeading text="FOX VISION" className="lg:!mb-3 sm:!mb-0 !mb-1" />
+            <PurpleArrow className="absolute xl:-right-[12%] xl:top-[15%] top-[14%] -right-[6%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden" />
+            <SubHeading text="FOX VISION" className="lg:!mb-3 !mb-1" />
             <BlueHeading
               className="!leading-xl !capitalize mb-[29px] lg:text-start text-center"
               headingText="Design Project Agency"
