@@ -1,7 +1,7 @@
 export const BlueHeading = ({ headingText, className }) => {
   return (
     <h2
-      className={`${className} font-semibold font-montserrat xl:text-6xxl lg:text-5xxl md:text-5xl sm:text-4xl text-3xl leading-md text-darkblue`}
+      className={`${className} font-semibold font-montserrat xl:text-6xxl lg:text-5xxl md:text-5xl sm:text-4xl text-3xl !leading-md text-darkblue`}
     >
       {headingText}
     </h2>
