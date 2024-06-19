@@ -13,12 +13,12 @@ const DesignProjectAgency = () => {
         <div className="flex flex-row flex-wrap items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
             <PurpleArrow className="absolute xl:-right-[12%] xl:top-[16%] top-[12%] -right-[23%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden" />
-            <SubHeading text="FOX VISION" className="lg:mb-3 !mb-1" />
+            <SubHeading text="FOX VISION" className="lg:mb-3 sm:!mb-0 !mb-1" />
             <BlueHeading
               className="!leading-xl mb-[29px] lg:text-start text-center"
               headingText="Design Project Agency"
             />
-            <img width={564} height={328} src={project} alt="project" />
+            <img width={564} height={328} src={project} alt="project" className="w-full xl:max-w-[564px] max-w-[480px]" />
           </div>
           <div className="lg:w-6/12 w-full flex justify-end lg:pt-0 pt-8">
             <div className="xl:pb-[50.61px]">

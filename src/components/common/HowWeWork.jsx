@@ -16,9 +16,9 @@ const HowWeWork = () => {
             <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] -right-[24%] max-xl:max-w-[140px] lg:block hidden" />
             <SubHeading
               text="A RESULTS-DRIVEN AGENCY"
-              className="lg:mb-3 !mb-1"
+              className="xl:!mb-3 sm:!mb-0 !mb-1"
             />
-            <BlueHeading headingText="How we work" className="mb-[26.95px]" />
+            <BlueHeading headingText="How we work" className="mb-[26.95px] !leading-xl" />
             <img
               width={378}
               height={294}
