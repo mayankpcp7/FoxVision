@@ -14,7 +14,7 @@ const HowWeWork = () => {
       <div className="max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-row flex-wrap lg:justify-between justify-center items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
-            <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[8%] -right-[8%] max-xl:max-w-[140px] lg:block hidden" />
+            <WorkArrow className="absolute xl:-right-[12%] xl:top-[17%] top-[8%] -right-[8%] max-xl:max-w-[140px] lg:block hidden" />
             <SubHeading
               text="A RESULTS-DRIVEN AGENCY"
               className="xl:!mb-3 sm:!mb-0 !mb-1"
