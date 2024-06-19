@@ -33,11 +33,9 @@ const HowWeWork = () => {
                 We see our customers as partners and identify passionately with
                 their companies. Regardless of what the goal is, whether to
                 increase sales, increase brand awareness or attract new
-                employees. We always look for the
-                <span className="text-sky">
-                  right solution for your company
-                </span>
-                and advise you individually
+                employees. We always look for the 
+                <span className="text-sky"> right solution for your company 
+                </span> and advise you individually
               </p>
               <Button
                 className="lg:mx-0 mx-auto flex max-lg:justify-center"

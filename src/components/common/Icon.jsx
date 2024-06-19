@@ -841,11 +841,10 @@ export const FaqArrow = (props) => {
   );
 };
 // =================================== CORPORATE IDENTITY ===================================
-export const Identity = () => {
+export const Identity = (props) => {
   return (
     <svg
-      width="55"
-      height="45"
+      className={`${props.className}`}
       viewBox="0 0 55 45"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

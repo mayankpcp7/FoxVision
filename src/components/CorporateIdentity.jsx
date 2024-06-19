@@ -24,8 +24,8 @@ const CorporateIdentity = () => {
             />
           </div>
           <div className="lg:w-6/12 sm:w-8/12 w-full lg:pt-0 pt-7">
-            <div className="w-[93px] h-[93px] rounded-[6px] bg-lightsky shadow-identityicon flex items-center justify-center mb-[15px] lg:mx-0 mx-auto">
-              <Identity />
+            <div className="sm:w-[93px] sm:h-[93px] w-[83px] h-[83px] rounded-[6px] bg-lightsky shadow-identityicon flex items-center justify-center mb-[15px] lg:mx-0 mx-auto">
+              <Identity className="sm:w-[55px] sm:h-[45px] w-[45px] h-[35px]" />
             </div>
             <p className="lg:max-w-[552px] font-poppins font-normal lg:text-xl text-base lg:text-start text-center opacity-70 leading-lg lg:mb-[35px] sm:mb-7 mb-6">
               Many people primarily associate logo and colors with it. Corporate

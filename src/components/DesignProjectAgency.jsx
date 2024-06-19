@@ -4,6 +4,7 @@ import project from "../assets/images/webp/project-agency/project.webp";
 import logo from "../assets/images/webp/project-agency/agency-logo.webp";
 import Button from "./common/Button";
 import { PurpleArrow } from "./common/Icon";
+import { SubHeading } from "./common/SubHeading";
 
 const DesignProjectAgency = () => {
   return (
@@ -12,9 +13,7 @@ const DesignProjectAgency = () => {
         <div className="flex flex-row flex-wrap items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
             <PurpleArrow className="absolute xl:-right-[12%] xl:top-[16%] top-[12%] -right-[23%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden" />
-            <p className="uppercase text-darkblue font-poppins font-bold text-xl leading-normal lg:mb-3 !mb-1">
-              FOX VISION
-            </p>
+            <SubHeading text="FOX VISION" className="lg:mb-3 !mb-1" />
             <BlueHeading
               className="!leading-xl mb-[29px] lg:text-start text-center"
               headingText="Design Project Agency"
