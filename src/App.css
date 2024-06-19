@@ -14,3 +14,11 @@ nav ul li a:hover {
 .customBefore::before {
     background-image: url(../src/assets/images/webp/offer-design-strategy/design-strategy-vector.webp);
 }
+
+input::placeholder {
+    font-family: "Poppins";
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 7px;
+}

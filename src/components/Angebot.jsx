@@ -7,8 +7,8 @@ import { SubHeading } from "./common/SubHeading";
 
 const Angebot = () => {
   return (
-    <div className="bg-darkpurple xl:pt-[122.94px] lg:pt-24 md:pt-[80px] sm:pt-14 pt-12 xl:pb-[248.65px] md:pb-[190px] sm:pb-[240px] pb-[250px]">
-      <div className="container xl:max-w-[1164px] px-3">
+    <div className="bg-darkpurple xl:pt-[122.94px] lg:pt-24 md:pt-[80px] sm:pt-14 pt-12 xl:pb-[248.65px] md:pb-[190px] sm:pb-[240px] pb-[180px]">
+      <div className="max-w-[1164px] mx-auto px-3">
         <SubHeading
           className="text-white mb-[13.27px] text-center"
           text="A RESULTS-DRIVEN AGENCY"
@@ -45,7 +45,7 @@ const Angebot = () => {
           ))}
         </div>
         <div className="flex justify-center">
-          <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[132px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
+          <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[171px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </div>
       </div>
     </div>
