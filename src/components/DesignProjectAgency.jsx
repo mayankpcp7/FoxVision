@@ -12,7 +12,7 @@ const DesignProjectAgency = () => {
         <div className="flex flex-row flex-wrap items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
             <PurpleArrow className="absolute xl:-right-[12%] xl:top-[16%] top-[12%] -right-[23%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden" />
-            <p className="uppercase text-darkblue font-poppins font-bold text-xl leading-normal mb-3">
+            <p className="uppercase text-darkblue font-poppins font-bold text-xl leading-normal lg:mb-3 !mb-1">
               FOX VISION
             </p>
             <BlueHeading

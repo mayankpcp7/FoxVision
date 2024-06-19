@@ -7,13 +7,13 @@ import Hero from "../components/common/Hero";
 
 const Offer = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <Hero />
       <CorporateIdentity />
       <Design />
       <DesignStrategy />
       <Frequently />
-    </>
+    </div>
   );
 };
 
