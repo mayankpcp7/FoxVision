@@ -1,10 +1,9 @@
 import React from "react";
-import Home from "./Home";
-
+import Conversation from "../components/Conversation";
 const ContactUs = () => {
   return (
     <>
-    
+    <Conversation/>
     </>
   );
 };
