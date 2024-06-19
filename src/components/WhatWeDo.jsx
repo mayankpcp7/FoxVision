@@ -27,7 +27,7 @@ const WhatWeDo = () => {
     <div className="pt-16 md:pt-24 lg:pt-40 xl:pt-[238px] overflow-x-clip">
       <div className="container max-w-[1164px] ">
         <WhatWeDoCommon
-          classNameIcon="max-sm:hidden -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]"
+          classNameIcon="max-sm:hidden -top-[20%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%] "
           SubheadingText="A RESULTS-DRIVEN AGENCY"
           BlueHeadingText="What we do"
           src={whatWeDoImg}
