@@ -241,7 +241,7 @@ export const CommonLogo = () => {
 export const VectoArrow = () => {
   return (
     <svg
-      className=" max-w-[110px] sm:max-w-[150px] lg:max-w-[184px]"
+      className=" max-w-[110px] sm:max-w-[150px] lg:max-w-[128px] xl:max-w-[184px]"
       width="184"
       height="146"
       viewBox="0 0 184 146"

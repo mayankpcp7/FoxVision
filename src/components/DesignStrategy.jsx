@@ -7,7 +7,7 @@ const DesignStrategy = () => {
     <div className="pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[150px] pb-[200px]">
       <div className="container max-w-[1164px]">
         <div className="flex flex-col lg:flex-row -mx-3">
-          <div className="w-full lg:max-w-[521px] px-3">
+          <div className="w-full lg:max-w-[525px] px-3">
             <BlueHeading
               className="!text-5xl xl:!text-6xxl max-lg:text-center"
               headingText="UI/UX Design Strategy"
