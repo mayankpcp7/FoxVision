@@ -305,7 +305,7 @@ export const CreativeDesignIcon = () => {
 export const WhatWeDoRightVector = () => {
   return (
     <svg
-      className=" max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] lg:max-w-[200px] xl:max-w-[307px] "
+      className=" max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] md:max-w-[250px] lg:max-w-[200px] xl:max-w-[307px] "
       width="308"
       height="416"
       viewBox="0 0 308 416"
@@ -401,6 +401,7 @@ export const GraphicDesignIcon = () => {
 export const LogoDesignIcon = () => {
   return (
     <svg
+      className="max-lg:max-w-12 max-lg:max-h-12"
       width="63"
       height="50"
       viewBox="0 0 63 50"
@@ -434,6 +435,7 @@ export const LogoDesignVectorWhite = () => {
 export const StrategySettingIcon = () => {
   return (
     <svg
+      className="max-lg:max-w-12 max-lg:max-h-12"
       width="72"
       height="72"
       viewBox="0 0 72 72"
