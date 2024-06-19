@@ -7,7 +7,7 @@ const FriendlyAndReliable = () => {
     <div className="max-w-[1164px] mx-auto px-3">
       <SubHeading
         text="FOX VISION - Friendly and reliable"
-        className="text-center mb-3"
+        className="text-center lg:mb-3 !mb-1"
       />
       <h2 className="capitalize font-semibold font-montserrat xl:text-6xxl md:text-5xl sm:text-4xl text-3xl leading-md text-darkblue text-center lg:mb-[55px] sm:mb-12 mb-8 max-sm:px-1">
         Design Mastery <span className="lowercase">in</span> Our Genes
