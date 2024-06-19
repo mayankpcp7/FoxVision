@@ -65,7 +65,7 @@ const Strategy = () => {
                   <img
                     width={194}
                     height={194}
-                    className="absolute -top-[35%] -left-[8%] pointer-events-none max-w-[150px] sm:max-w-[194px] object-cover"
+                    className="absolute -top-[36%] -left-[8%] pointer-events-none max-w-[150px] sm:max-w-[194px] object-cover"
                     src={manavatar}
                     alt=""
                   />
@@ -83,7 +83,7 @@ const Strategy = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap -mx-3 pt-12 sm:pt-14 md:pt-20 justify-between items-center">
+        <div className="flex flex-row flex-wrap -mx-3 pt-12 sm:pt-14 md:pt-20 lg:pt-24 xl:pt-[140px] justify-between items-center">
           <div className="w-full lg:w-6/12 px-3">
             <div className="max-w-[320px] max-lg:max-w-[400px] lg:max-w-[495px] max-lg:mx-auto ">
               <img
