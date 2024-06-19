@@ -28,6 +28,7 @@ module.exports = {
       fontSize: {
         xxsm: "8px",
         "4xxl": "40px",
+        "5xxl": "54px",
         "6xxl": "64px",
         "8xxl": "88.41px",
       },
