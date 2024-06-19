@@ -13,9 +13,4 @@ nav ul li a:hover {
 
 .customBefore::before {
     background-image: url(../src/assets/images/webp/offer-design-strategy/design-strategy-vector.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 134px;
-    width: 100%;
-    height: 163px;
 }

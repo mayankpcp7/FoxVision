@@ -50,6 +50,9 @@ module.exports = {
         footer:
           "linear-gradient(0deg, #071838, #071838), linear-gradient(0deg, #05D5FB, #05D5FB)",
       },
+      backgroundSize: {
+        size: "100% 100%",
+      },
     },
   },
   plugins: [],

@@ -202,3 +202,29 @@ export const DesignCardArray = [
     heading: "App Design",
   },
 ];
+export const DesignStrategyArray = [
+  {
+    indexnumber: "1.",
+    heading: "Understanding Your Vision",
+    paragraph:
+      " We start by deeply understanding your goals, brand identity, and the needs of your target audience.",
+  },
+  {
+    indexnumber: "2.",
+    heading: "Research and Analysis",
+    paragraph:
+      " Our team conducts thorough research, including market an competitor analysis, to inform our design decisions.",
+  },
+  {
+    indexnumber: "3.",
+    heading: "Wireframing and Prototyping",
+    paragraph:
+      " We create wireframes and interactive prototypes to map out the layout and functionality of your project.",
+  },
+  {
+    indexnumber: "4.",
+    heading: "User Testing",
+    paragraph:
+      " Real users provide invaluable feedback to refine the design, ensuring it aligns with user expectations.",
+  },
+];

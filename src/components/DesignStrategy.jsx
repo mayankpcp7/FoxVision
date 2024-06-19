@@ -1,20 +1,24 @@
 import React from "react";
 import { BlueHeading } from "./common/Heading";
 import Designstrategy from "../assets/images/webp/offer-design-strategy/design-strategy.webp";
+import { DesignStrategyArray } from "./common/Helper";
 const DesignStrategy = () => {
   return (
-    <div className="pt-[150px] pb-[200px]">
+    <div className="pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[150px] pb-[200px]">
       <div className="container max-w-[1164px]">
-        <div className="flex flex-row -mx-3">
-          <div className="max-w-[521px] px-3">
-            <BlueHeading headingText="UI/UX Design Strategy" />
-            <p className="font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 !max-w-[484px] mt-5">
+        <div className="flex flex-col lg:flex-row -mx-3">
+          <div className="w-full lg:max-w-[521px] px-3">
+            <BlueHeading
+              className="!text-5xl xl:!text-6xxl max-lg:text-center"
+              headingText="UI/UX Design Strategy"
+            />
+            <p className="font-poppins font-normal text-base lg:text-lg xl:text-xl text-darkblue !leading-normal xl:!leading-lg opacity-70 max-lg:max-w-[440px] lg:!max-w-[481px] mt-3 xl:mt-5 max-lg:mx-auto max-lg:text-center">
               Our design process is a{" "}
               <span className="text-sky">well-thought-out journey</span> that
               combines innovation, strategy, and collaboration to produce
               outstanding results.
             </p>
-            <div className="max-w-[451px] mt-[45px]">
+            <div className="max-w-[451px] mt-[45px] max-lg:mx-auto">
               <img
                 width={451}
                 height={358}
@@ -24,21 +28,27 @@ const DesignStrategy = () => {
               />
             </div>
           </div>
-          <div className="max-w-[635px] px-3">
-            <div className="w-full bg-white shadow-designcardshadow p-[27px_23px_26px_131px] relative before:absolute before:top-0 before:-left-5 customBefore">
-              <p className="font-montserrat font-semibold text-4xxl !leading-md text-white absolute bottom-[26px] left-5">
-                1.
-              </p>
-              <div>
-                <p className="font-poppins font-semibold text-base lg:text-xl text-darkblue !leading-normal lg:!leading-md mt-3">
-                  Research and Analysis
+          <div className="w-full lg:max-w-[635px] px-3 pt-8 sm:pt-10 lg:pt-0">
+            {DesignStrategyArray.map((obj, index) => (
+              <div
+                key={index}
+                className={`${
+                  index === 0 && "!mt-0"
+                } mt-[50px] w-full bg-white shadow-designcardshadow max-[500px]:p-[10px_10px_10px_110px]  p-[27px_23px_26px_131px] lg:p-[10px_10px_10px_131px] xl:p-[27px_23px_26px_131px] before:pointer-events-none relative before:absolute before:top-0 before:-left-5 customBefore max-lg:max-w-[615px] max-lg:mx-auto before:w-full before:max-w-[120px] max-xl:before:bg-size xl:before:bg-cover before:h-[154px] lg:before:h-[164px] lg:before:max-w-[134px]`}
+              >
+                <p className="font-montserrat font-semibold text-4xl md:text-4xxl !leading-md text-white absolute max-[500px]:bottom-7 bottom-7 left-5 sm:bottom-[26px] sm:left-5">
+                  {obj.indexnumber}
                 </p>
-                <p className="font-poppins font-normal text-base text-darkblue !leading-normal lg:!leading-lg opacity-70 mt-[15px]">
-                  Our team conducts thorough research, including market and
-                  competitor analysis, to inform our design decisions.
-                </p>
+                <div>
+                  <p className="font-poppins font-semibold sm:text-lg xl:text-xl text-darkblue !leading-normal lg:!leading-md">
+                    {obj.heading}
+                  </p>
+                  <p className="font-poppins font-normal  text-sm sm:text-base text-darkblue !leading-normal lg:!leading-lg opacity-70 mt-2.5 xl:mt-[15px]">
+                    {obj.paragraph}
+                  </p>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
