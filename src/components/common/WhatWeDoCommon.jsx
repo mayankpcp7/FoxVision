@@ -19,7 +19,7 @@ export const WhatWeDoCommon = (props) => {
           className="max-lg:text-center"
           headingText={props.BlueHeadingText}
         />
-        <div className="max-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
+        <div className="max-lg:max-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
           <img
             className="w-full"
             width={590}
@@ -53,10 +53,12 @@ export const WhatWeDoCommon = (props) => {
             </Link>{" "}
             {props.paragraphSecond}
           </p>
-          <Button
-            className="mt-6 sm:mt-8 lg:mt-10 max-lg:mx-auto block"
-            btnName="Contact"
-          />
+          <Link aria-label="contact" to="/contact">
+            <Button
+              className="mt-6 sm:mt-8 lg:mt-10 max-lg:mx-auto block"
+              btnName="Contact"
+            />
+          </Link>
         </div>
       </div>
     </div>
