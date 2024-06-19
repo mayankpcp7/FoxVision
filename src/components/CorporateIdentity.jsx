@@ -3,6 +3,7 @@ import { BlueHeading } from "./common/Heading";
 import corporate from "../assets/images/webp/corporateidentity/corporate.webp";
 import { Identity, PurpleArrow } from "./common/Icon";
 import Button from "./common/Button";
+import { Link } from "react-router-dom";
 
 const CorporateIdentity = () => {
   return (
@@ -30,16 +31,22 @@ const CorporateIdentity = () => {
             <p className="lg:max-w-[552px] font-poppins font-normal lg:text-xl text-base lg:text-start text-center opacity-70 leading-lg lg:mb-[35px] sm:mb-7 mb-6">
               Many people primarily associate logo and colors with it. Corporate
               identity is much more. Corporate identity, together with{" "}
-              <span className="text-purple">corporate design</span>, forms the
-              character of your company. Give your company a face and awaken
-              emotions and trust in your customers.{" "}
-              <span className="text-purple uppercase">FOX VISION</span> would be
-              happy to develop your corporate identity.
+              <span className="text-purple cursor-pointer">
+                corporate design
+              </span>
+              , forms the character of your company. Give your company a face
+              and awaken emotions and trust in your customers.{" "}
+              <span className="text-purple uppercase cursor-pointer">
+                FOX VISION
+              </span>{" "}
+              would be happy to develop your corporate identity.
             </p>
-            <Button
-              className="lg:mx-0 mx-auto flex max-lg:justify-center"
-              btnName="Contact"
-            />
+            <Link to="/contact">
+              <Button
+                className="lg:mx-0 mx-auto flex max-lg:justify-center"
+                btnName="Contact"
+              />
+            </Link>
           </div>
         </div>
       </div>
