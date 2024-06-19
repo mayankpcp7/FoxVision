@@ -60,7 +60,7 @@ const Conversation = () => {
                 placeholder="Tell us more about your projects"
               ></textarea>
             </form>
-            <div className="flex w-full border border-lightgrey rounded-md">
+            <div className="flex w-full border bg- border-lightgrey rounded-md">
               <label for="robotCheck">
                 <input type="checkbox" id="robotCheck" name="robotCheck" />I am
                 not a robot

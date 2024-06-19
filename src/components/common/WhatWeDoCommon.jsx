@@ -19,10 +19,10 @@ export const WhatWeDoCommon = (props) => {
           className="max-lg:text-center"
           headingText={props.BlueHeadingText}
         />
-        <div className="max-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
+        <div className=" lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
           <img
-            className="w-full"
-            width={590}
+            className=""
+           
             height={390}
             src={props.src}
             alt="what-we-do"
@@ -50,7 +50,7 @@ export const WhatWeDoCommon = (props) => {
             {props.paragraphFirst}
             <Link href="#" className="text-purple">
               {props.linkText}
-            </Link>{" "}
+            </Link>
             {props.paragraphSecond}
           </p>
           <Button
