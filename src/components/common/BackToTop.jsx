@@ -5,8 +5,8 @@ const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
   const toggleVisibility = () => {
     if (
-      document.body.scrollTop > 300 ||
-      document.documentElement.scrollTop > 300
+      document.body.scrollTop > 150 ||
+      document.documentElement.scrollTop > 150
     ) {
       setIsVisible(true);
     } else {
@@ -24,14 +24,18 @@ const BackToTop = () => {
   }, []);
   return (
     <>
-      {isVisible && (
+      <div
+        className={`fixed z-50 bottom-5 right-5 transition-all duration-300 ${
+          isVisible ? "scale-100 translate-y-0" : "scale-0 translate-y-[40px]"
+        }`}
+      >
         <button
           onClick={scrollToTop}
-          className="fixed bg-sky w-7 h-7 md:w-10 md:h-10 flex justify-center items-center rounded-full duration-300 z-[51] bottom-5 right-5 hover:bg-darkpurple"
+          className="flex items-center justify-center transition-all duration-300 rounded-[40px] w-7 h-7 sm:w-10 sm:h-10 bg-sky  hover:bg-darkpurple"
         >
           <BackToTopIcon />
         </button>
-      )}
+      </div>
     </>
   );
 };
