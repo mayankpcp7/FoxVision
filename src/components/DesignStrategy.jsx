@@ -5,7 +5,7 @@ import { DesignStrategyArray } from "./common/Helper";
 const DesignStrategy = () => {
   return (
     <div className="pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[150px] max-sm:pb-12 max-md:pb-2.5">
-      <div className="container max-w-[1164px] max-sm:px-7">
+      <div className="container max-w-[1164px]">
         <div className="flex flex-col lg:flex-row -mx-3">
           <div className="w-full lg:max-w-[525px] px-3">
             <BlueHeading
@@ -22,13 +22,13 @@ const DesignStrategy = () => {
               <img
                 width={451}
                 height={358}
-                className="w-full"
+                className="w-full max-h-[358px] object-cover"
                 src={Designstrategy}
                 alt="designstrategy"
               />
             </div>
           </div>
-          <div className="w-full lg:max-w-[635px] px-3 pt-8 sm:pt-10 lg:pt-0">
+          <div className="w-full lg:max-w-[635px] max-sm:px-7 px-3 pt-8 sm:pt-10 lg:pt-0">
             {DesignStrategyArray.map((obj, index) => (
               <div
                 key={index}

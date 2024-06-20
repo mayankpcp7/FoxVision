@@ -61,11 +61,10 @@ const Conversation = () => {
               ></textarea>
             </form>
             <div className="flex w-full border border-lightgrey rounded-md">
-              <label for="robotCheck">
+              <label htmlFor="robotCheck">
                 <input type="checkbox" id="robotCheck" name="robotCheck" />I am
                 not a robot
-                          </label>
-                          
+              </label>
             </div>
           </div>
         </div>

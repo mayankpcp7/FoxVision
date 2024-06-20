@@ -19,9 +19,9 @@ export const WhatWeDoCommon = (props) => {
           className="max-lg:text-center"
           headingText={props.BlueHeadingText}
         />
-        <div className="max-lg:max-w-[590px] xl:min-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
+        <div className="max-lg:max-w-[590px] xl:min-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] relative max-lg:mx-auto">
           <img
-            className="w-full object-cover"
+            className="w-full object-cover max-h-[390px]"
             width={590}
             height={390}
             src={props.src}
@@ -29,10 +29,10 @@ export const WhatWeDoCommon = (props) => {
           />
           <div className="pointer-events-none absolute top-[24%] left-[4%] flex items-center z-[-1]">
             <span
-              className={`${props.className} block w-[203px] h-[203px] opacity-20 blur-[100px] bg-darkpurple rounded-[203px]`}
+              className={`${props.className} block w-[130px] h-[120px] sm:w-[203px] sm:h-[203px] opacity-20 blur-[100px] bg-darkpurple rounded-[203px]`}
             ></span>
             <span
-              className={`${props.className} block w-[203px] h-[203px] opacity-20 blur-[100px] bg-sky rounded-[203px]`}
+              className={`${props.className} block w-[130px] h-[120px] sm:w-[203px] sm:h-[203px] opacity-20 blur-[100px] bg-sky rounded-[203px]`}
             ></span>
           </div>
         </div>

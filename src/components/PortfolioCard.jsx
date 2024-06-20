@@ -13,7 +13,6 @@ const PortfolioCard = () => {
   }
   return (
     <div className=" pt-6 sm:pt-12 md:pt-24 lg:pt-20 xl:pt-[99px] pb-20 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[147px]">
-      {" "}
       <div className="container max-w-[1164px] pb-[147px]">
         <div className="flex flex-row flex-wrap -mx-3">
           <>
@@ -24,7 +23,7 @@ const PortfolioCard = () => {
                     <img
                       width={330}
                       height={311}
-                      className="w-full object-cover group-hover:scale-105 duration-300"
+                      className="w-full object-cover max-h-[311px] group-hover:scale-105 duration-300"
                       src={obj.src}
                       alt={obj.alt}
                     />

@@ -1,5 +1,5 @@
 import React from "react";
-import whatWeDoImg from "../assets/images/webp/what-we-do/what-we-do.webp";
+import dashboardmg from "../assets/images/webp/what-we-do/dashboard.webp";
 import {
   CommonLogo,
   CreativeDesignIcon,
@@ -30,7 +30,7 @@ const WhatWeDo = () => {
           classNameIcon="max-md:hidden -top-[20%] md:-top-[10%] max-lg:left-[5%] lg:top-[8%] lg:-right-[10%]"
           SubheadingText="A RESULTS-DRIVEN AGENCY"
           BlueHeadingText="What we do"
-          src={whatWeDoImg}
+          src={dashboardmg}
           paragraphFirst="We define the intangible assets of your brand and subsequently
             increase"
           linkText="trust and loyalty to your brand."
@@ -64,7 +64,7 @@ const WhatWeDo = () => {
             <div className="flex justif-center max-[450px]:gap-2 gap-3 lg:gap-[22px] max-lg:justify-center items-center max-md:max-w-[500px] lg:max-w-[665px] mx-auto">
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full border max-h-[219px] object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={219}
                   src={watch}
@@ -73,14 +73,14 @@ const WhatWeDo = () => {
               </div>
               <div className="max-w-[203px] relative">
                 <img
-                  className="w-full border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] "
+                  className="w-full border max-h-[219px] object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] "
                   width={203}
                   height={219}
                   src={makethings}
                   alt="watch"
                 />
                 <img
-                  className="max-[400px]:max-w-[70px] max-[500px]:max-w-[80px] max-[600px]:max-w-[110px] max-w-[123px] absolute -top-[29%] right-[7%] object-cover"
+                  className="max-h-[123px] max-[400px]:max-w-[70px] max-[500px]:max-w-[80px] max-[600px]:max-w-[110px] max-w-[123px] absolute -top-[29%] right-[7%] object-cover"
                   width={123}
                   height={123}
                   src={men}
@@ -89,7 +89,7 @@ const WhatWeDo = () => {
               </div>
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo object-cover"
+                  className="w-full max-h-[219px] border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo object-cover"
                   width={203}
                   height={219}
                   src={summeredition}
@@ -100,16 +100,16 @@ const WhatWeDo = () => {
             <div className="flex justif-center max-[450px]:gap-2 gap-3 lg:gap-[22px] max-lg:justify-center items-center pt-4 lg:pt-[25px] max-md:max-w-[500px] lg:max-w-[665px] mx-auto">
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo object-cover"
+                  className="w-full max-h-[151px] border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo object-cover"
                   width={203}
                   height={151}
                   src={ultrahigh}
                   alt="watch"
                 />
               </div>
-              <div className="max-w-[203px] translate-y-[35px] sm:translate-y-[43px]">
+              <div className="max-w-[203px] translate-y-[25px] lg:translate-y-[43px]">
                 <img
-                  className="w-full border duration-300 border-transparent object-cover hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full max-h-[151px] border duration-300 border-transparent object-cover hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={151}
                   src={boodie}
@@ -118,7 +118,7 @@ const WhatWeDo = () => {
               </div>
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border duration-300 border-transparent object-cover hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full max-h-[151px] border duration-300 border-transparent object-cover hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={151}
                   src={unlockimg}
@@ -136,7 +136,7 @@ const WhatWeDo = () => {
             <div className="flex justif-center max-[450px]:gap-2 gap-3 lg:gap-[22px] items-center max-lg:justify-center max-md:max-w-[500px] lg:max-w-[665px] mx-auto">
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full max-h-[219px] border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={219}
                   src={joker}
@@ -145,14 +145,14 @@ const WhatWeDo = () => {
               </div>
               <div className="max-w-[203px] relative translate-y-8">
                 <img
-                  className="w-full border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px]"
+                  className="w-full max-h-[219px] border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px]"
                   width={203}
                   height={219}
                   src={dog}
                   alt="watch"
                 />
                 <img
-                  className="max-[400px]:max-w-[70px] max-[500px]:max-w-[80px] max-[600px]:max-w-[110px] max-w-[123px] absolute -top-[29%] translate-x-[18%] pointer-events-none"
+                  className="max-h-[123px] max-[400px]:max-w-[70px] max-[500px]:max-w-[80px] max-[600px]:max-w-[110px] max-w-[123px] absolute -top-[29%] translate-x-[18%] pointer-events-none"
                   width={123}
                   height={123}
                   src={menstar}
@@ -161,7 +161,7 @@ const WhatWeDo = () => {
               </div>
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full max-h-[219px] border duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={219}
                   src={cattes}
@@ -172,7 +172,7 @@ const WhatWeDo = () => {
             <div className="flex justif-center max-[450px]:gap-2 gap-3 lg:gap-[22px] items-center max-lg:justify-center pt-4 lg:pt-[25px] max-md:max-w-[500px] lg:max-w-[665px] max-lg:mx-auto">
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full max-h-[151px] border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={151}
                   src={women}
@@ -181,7 +181,7 @@ const WhatWeDo = () => {
               </div>
               <div className="max-w-[203px] translate-y-[30px] sm:translate-y-[35px]">
                 <img
-                  className="w-full border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full border max-h-[151px] object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={151}
                   src={fruit}
@@ -190,7 +190,7 @@ const WhatWeDo = () => {
               </div>
               <div className="max-w-[203px]">
                 <img
-                  className="w-full border object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
+                  className="w-full border max-h-[151px] object-cover duration-300 border-transparent hover:border-purple rounded-[12.59px] shadow-whatwedo"
                   width={203}
                   height={151}
                   src={mobile}
@@ -198,7 +198,7 @@ const WhatWeDo = () => {
                 />
               </div>
             </div>
-          </div>{" "}
+          </div>
           <div className="w-full lg:w-5/12 px-3 pt-20 lg:pt-0">
             <div className="max-lg:max-w-[560px] max-lg:mx-auto lg:max-w-[420px] ms-auto">
               <div className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-lightsky rounded-lg shadow-graphicdesign max-lg:mx-auto">

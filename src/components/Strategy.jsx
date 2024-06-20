@@ -36,7 +36,7 @@ const Strategy = () => {
               <div className="flex flex-col gap-3 sm:gap-4 md:gap-[26px]">
                 <div className="max-w-[203px]">
                   <img
-                    className="w-full rounded-[12.59px] object-cover"
+                    className="w-full rounded-[12.59px] object-cover max-h-[219px]"
                     width={203}
                     height={219}
                     src={logoDesign}
@@ -45,7 +45,7 @@ const Strategy = () => {
                 </div>
                 <div className="max-w-[203px]">
                   <img
-                    className="w-full rounded-[12.59px] object-cover"
+                    className="w-full rounded-[12.59px] object-cover max-h-[219px]"
                     width={203}
                     height={219}
                     src={brandingLogo}
@@ -56,7 +56,7 @@ const Strategy = () => {
               <div className="flex flex-col gap-3 sm:gap-4 md:gap-[26px] translate-y-10">
                 <div className="max-w-[203px]">
                   <img
-                    className="w-full rounded-[12.59px] object-cover relative"
+                    className="w-full rounded-[12.59px] object-cover relative max-h-[219px]"
                     width={203}
                     height={219}
                     src={dollarred}
@@ -65,14 +65,14 @@ const Strategy = () => {
                   <img
                     width={194}
                     height={194}
-                    className="absolute -top-[36%] -left-[8%] pointer-events-none max-w-[150px] sm:max-w-[194px] object-cover"
+                    className="absolute -top-[36%] -left-[8%] pointer-events-none max-w-[150px] sm:max-w-[194px] object-cover max-h-[194px]"
                     src={manavatar}
                     alt=""
                   />
                 </div>
                 <div className="max-w-[203px]">
                   <img
-                    className="w-full rounded-[12.59px] object-cover"
+                    className="w-full rounded-[12.59px] object-cover max-h-[219px]"
                     width={203}
                     height={151}
                     src={Teamup}
@@ -87,7 +87,7 @@ const Strategy = () => {
           <div className="w-full lg:w-6/12 px-3">
             <div className="max-w-[320px] max-lg:max-w-[400px] lg:max-w-[495px] max-lg:mx-auto ">
               <img
-                className="w-full object-cover"
+                className="w-full object-cover max-h-[529px]"
                 width={495}
                 height={529}
                 src={strategyimg}
