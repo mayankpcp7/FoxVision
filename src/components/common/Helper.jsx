@@ -151,6 +151,26 @@ export const portfoliosArray = [
     heading: "Nunc tellus sed auctor  nulla",
     paragraph: "Lorem ipsum consectetur.",
   },
+  {
+    src: amet,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+  },
+  {
+    src: polokaAg,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+  },
+  {
+    src: eleme,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+  },
+  {
+    src: sanalife,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+  },
 ];
 // ======================================FREQUENTYL======================================
 export const accordionData = [

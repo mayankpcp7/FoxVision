@@ -305,7 +305,7 @@ export const CreativeDesignIcon = () => {
 export const WhatWeDoRightVector = () => {
   return (
     <svg
-      className=" max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] md:max-w-[250px] lg:max-w-[200px] xl:max-w-[307px] "
+      className="max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] md:max-w-[250px] lg:max-w-[200px] xl:max-w-[307px]"
       width="308"
       height="416"
       viewBox="0 0 308 416"
@@ -322,7 +322,7 @@ export const WhatWeDoRightVector = () => {
 export const WhatWeDoLeftVector = () => {
   return (
     <svg
-      className=" max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] lg:max-w-[200px] xl:max-w-[307px] "
+      className="max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] md:max-w-[250px] lg:max-w-[200px] xl:max-w-[307px]"
       width="308"
       height="416"
       viewBox="0 0 308 416"

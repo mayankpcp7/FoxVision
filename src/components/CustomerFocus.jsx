@@ -10,7 +10,7 @@ const CustomerFocus = () => {
         <div className="flex lg:flex-row flex-col-reverse flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3 max-lg:pt-6">
             <SubHeading
-              className="text-white max-lg:text-center max-lg:!mb-1"
+              className="text-white max-lg:text-center max-lg:!mb-1 !normal-case"
               text="FOX philosophy"
             />
             <BlueHeading
