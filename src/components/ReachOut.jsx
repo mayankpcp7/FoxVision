@@ -9,7 +9,7 @@ const ReachOut = () => {
     <div className="py-12 sm:py-16 md:py-20 lg:py-24 xl:pt-[118px] xl:pb-[165px]">
       <div className="container max-w-[1164px]">
         <SubHeading
-          className="text-center"
+          className="text-center !normal-case"
           text="FOX VISION - Friendly and reliable"
         />
         <BlueHeading
@@ -22,7 +22,7 @@ const ReachOut = () => {
               key={index}
               className="w-full sm:w-1/2 lg:w-1/3 px-3 pt-6 sm:pt-8"
             >
-              <div className="bg-white shadow-designcardshadow pt-10 pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-[38px] group duration-500 h-full flex flex-col">
+              <div className="bg-white shadow-designcardshadow pt-10 pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-[38px] group duration-500 xl:max-h-[265px] h-full flex flex-col">
                 <Link
                   target="_blank"
                   to={obj.href}
