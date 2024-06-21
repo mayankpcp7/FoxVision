@@ -54,7 +54,7 @@ const HowWeWork = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row xl:gap-[17px] lg:gap-[15px] md:gap-5 sm:gap-3 gap-4 justify-center flex-wrap xl:pt-[126px] md:pt-[70px] sm:pt-[55px] pt-10">
+        <div className="flex flex-row xl:gap-[17px] lg:gap-[15px] md:gap-5 sm:gap-3 gap-4 justify-center flex-wrap xl:pt-[109px] md:pt-[70px] sm:pt-[55px] pt-10">
           {howWeWorkCardlist.map((obj, index) => (
             <div
               className="lg:w-[32.3%] md:w-[45%] sm:w-[49%] w-full"
