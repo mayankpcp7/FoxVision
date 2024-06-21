@@ -35,11 +35,9 @@ const CorporateIdentity = () => {
                 corporate design
               </span>
               , forms the character of your company. Give your company a face
-              and awaken emotions and trust in your customers.{" "}
-              <span className="text-purple uppercase cursor-pointer">
-                FOX VISION
-              </span>
-              would be happy to develop your corporate identity.
+              and awaken emotions and trust in your customers. 
+              <span className="text-purple uppercase cursor-pointer"> FOX VISION
+              </span> would be happy to develop your corporate identity.
             </p>
             <Link to="/contact">
               <Button
