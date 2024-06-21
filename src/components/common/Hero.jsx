@@ -13,13 +13,17 @@ const Hero = () => {
       <div className="pt-16 flex flex-col items-center pb-14 px-3">
         <WhiteHeading boldText="FOX " normalText="Vision" />
         <WhiteHeading normalText=" Ihre Design Agentur!" />
-        <p className="text-center font-poppins text-sm sm:text-lg md:text-xl xl:text-2xl pt-2 sm:pt-4 lg:pt-6 xl:pt-9 text-white">
+        <p
+          className="text-center font-poppins text-sm sm:text-lg md:text-xl xl:text-2xl pt-2 sm:pt-4 lg:pt-6 xl:pt-9 text-white"
+          data-aos="fade-up"
+        >
           Kreativagentur für Branding, Social Media & digitale Lösungen
         </p>
         <img
           className="max-w-[720px] xl:ms-12 mt-3 sm:mt-1 w-full"
           src={monitor}
           alt="monitor"
+          data-aos="zoom-in-up"
         />
       </div>
     );
@@ -60,7 +64,11 @@ const Hero = () => {
       <>
         <div className="pt-16 mt-3 flex flex-col items-center pb-24 px-3">
           {currentPath === "/contact" ? (
-            <WhiteHeading className="flex flex-row-reverse gap-3" normalText={normalTitle} boldText={boldTitle} />
+            <WhiteHeading
+              className="flex flex-row-reverse gap-3"
+              normalText={normalTitle}
+              boldText={boldTitle}
+            />
           ) : (
             <WhiteHeading boldText={boldTitle} normalText={normalTitle} />
           )}

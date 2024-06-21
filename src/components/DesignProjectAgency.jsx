@@ -13,7 +13,7 @@ const DesignProjectAgency = () => {
       <div className="container overflow-hidden xl:max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-row justify-center flex-wrap items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
-            <PurpleArrow className="absolute xl:-right-[12%] xl:top-[15%] top-[14%] -right-[6%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden" />
+            <PurpleArrow className="absolute xl:-right-[12%] xl:top-[15%] top-[14%] -right-[6%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden animate-pulse" />
             <SubHeading text="FOX VISION" className="lg:!mb-3 !mb-1" />
             <BlueHeading
               className="!leading-xl !capitalize mb-[29px] lg:text-start text-center"
@@ -25,6 +25,7 @@ const DesignProjectAgency = () => {
               src={project}
               alt="project"
               className="w-full xl:max-w-[564px] max-w-[480px] max-h-[328px]"
+              data-aos="zoom-in"
             />
           </div>
           <div className="lg:w-6/12 sm:w-10/12 w-full flex justify-end lg:pt-0 pt-8">
@@ -35,22 +36,25 @@ const DesignProjectAgency = () => {
                 src={logo}
                 alt="logo"
                 className="lg:ml-auto max-lg:mx-auto lg:mb-5 mb-4 sm:w-[70.9px] w-[60px]"
+                data-aos="zoom-in-left"
               />
-              <p className="lg:max-w-[511px] font-poppins text-darkblue opacity-70 font-normal lg:text-xl text-base lg:mb-10 sm:mb-8 mb-6 !leading-lg lg:text-start text-center">
-                As a design agency, we create a contemporary and
-                <span className="text-sky cursor-pointer">
-                  {" "}
-                  distinctive appearance
-                </span>{" "}
-                for you. Style is more in demand than ever. We help you show
-                your best side to your customers.{" "}
-                <span className="text-sky cursor-pointer">
-                  Strong branding sets
-                </span>{" "}
-                you apart from your competition and creates trust and
-                seriousness.
-              </p>
-              <Link to="/contact">
+              <div data-aos="zoom-in-left">
+                <p className="lg:max-w-[511px] font-poppins text-darkblue opacity-70 font-normal lg:text-xl text-base lg:mb-10 sm:mb-8 mb-6 !leading-lg lg:text-start text-center">
+                  As a design agency, we create a contemporary and
+                  <span className="text-sky cursor-pointer">
+                    {" "}
+                    distinctive appearance
+                  </span>{" "}
+                  for you. Style is more in demand than ever. We help you show
+                  your best side to your customers.{" "}
+                  <span className="text-sky cursor-pointer">
+                    Strong branding sets
+                  </span>{" "}
+                  you apart from your competition and creates trust and
+                  seriousness.
+                </p>
+              </div>
+              <Link to="/contact" data-aos="zoom-in-left">
                 <Button btnName="Contact" className="max-lg:mx-auto flex" />
               </Link>
             </div>

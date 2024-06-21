@@ -22,6 +22,7 @@ const Angebot = () => {
             <div
               key={index}
               className="lg:w-[32.3%] md:w-[45%] sm:w-[49%] w-full"
+              data-aos="fade-up"
             >
               <AngebotCardsList
                 className={`${
@@ -44,7 +45,7 @@ const Angebot = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center" data-aos="zoom-out">
           <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[171px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </div>
       </div>

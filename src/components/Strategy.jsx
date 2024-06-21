@@ -16,19 +16,31 @@ const Strategy = () => {
       <div className="container max-w-[1164px]">
         <div className="flex lg:flex-row flex-wrap -mx-3 flex-col-reverse">
           <div className="w-full lg:w-5/12 px-3 max-lg:pt-20">
-            <div className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto">
+            <div
+              className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto"
+              data-aos="fade-right"
+            >
               <LogoDesignIcon />
             </div>
-            <p className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px] max-lg:text-center ">
+            <p
+              className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px] max-lg:text-center"
+              data-aos="fade-right"
+            >
               Logo Design
             </p>
-            <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+            <p
+              className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center"
+              data-aos="fade-right"
+            >
               Logo design is a specialized discipline within the realm of
               graphic design, focused on creating unique and memorable visual
               symbols that represent a brand, company, or organization.
             </p>
           </div>
-          <div className="w-full lg:w-7/12 px-3 max-lg:max-w-[547px] max-lg:mx-auto max-lg:pt-[90px">
+          <div
+            className="w-full lg:w-7/12 px-3 max-lg:max-w-[547px] max-lg:mx-auto max-lg:pt-[90px"
+            data-aos="fade-up"
+          >
             <div className="flex items-center justify-center relative z-[1] gap-2.5 sm:gap-4 md:gap-[22px] max-sm:max-w-[330px] max-lg:max-w-[400px] max-lg:mx-auto">
               <span className="absolute bottom-0 -right-[3%] sm:right-0 lg:right-[3%] z-[-1] max-md:max-w-[313px] pointer-events-none">
                 <LogoDesignVectorWhite />
@@ -92,18 +104,28 @@ const Strategy = () => {
                 height={529}
                 src={strategyimg}
                 alt="Strategy"
+                data-aos="fade-up"
               />
             </div>
           </div>
           <div className="w-full lg:w-5/12 px-3 pt-8 sm:pt-10 md:pt-12 lg:pt-0">
             <div className="lg:ps-5">
-              <div className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto">
+              <div
+                className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto"
+                data-aos="fade-left"
+              >
                 <StrategySettingIcon />
               </div>
-              <p className=" !font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px]  max-lg:text-center ">
+              <p
+                className=" !font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px]  max-lg:text-center"
+                data-aos="fade-left"
+              >
                 Strategy & Digital Marketing
               </p>
-              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+              <p
+                className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center"
+                data-aos="fade-left"
+              >
                 Strategy in digital marketing is the foundation upon which
                 successful online campaigns are built. It involves setting clear
                 objectives, identifying target audiences.
