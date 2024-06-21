@@ -20,52 +20,51 @@ const Conversation = () => {
               alt="phone"
             />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col ms-12">
             <form
-              className="w-full ms-12"
+              className="w-full"
               action="
                   "
             >
               <div className="flex gap-3">
                 <input
-                  className="max-w-[297px] w-full px-2 h-[55px] border shadow-forminput border-offgrey"
+                  className="max-w-[297px] w-full outline-none px-2 h-[55px] border shadow-forminput border-offgrey"
                   type="text"
                   placeholder="First Name"
                 />
                 <input
-                  className="max-w-[297px] w-full px-2 h-[55px] border shadow-forminput border-offgrey"
+                  className="max-w-[297px] w-full outline-none px-2 h-[55px] border shadow-forminput border-offgrey"
                   type="text"
                   placeholder="Last Name"
                 />
               </div>
               <div className="flex gap-3 mt-3">
                 <input
-                  className="max-w-[297px] w-full px-2 h-[55px] border shadow-forminput border-offgrey"
+                  className="max-w-[297px] w-full outline-none px-2 h-[55px] border shadow-forminput border-offgrey"
                   type="text"
                   placeholder="Subject"
                 />
                 <input
-                  className="max-w-[297px] w-full px-2 h-[55px] border shadow-forminput border-offgrey"
+                  className="max-w-[297px] w-full outline-none px-2 h-[55px] border shadow-forminput border-offgrey"
                   type="mobile"
                   placeholder="Mobile Number"
                 />
               </div>
               <input
-                className="w-full max-w-[605px] mt-3 px-2 h-[55px] border shadow-forminput border-offgrey"
+                className="w-full outline-none max-w-[605px] mt-3 px-2 h-[55px] border shadow-forminput border-offgrey"
                 type="Email"
                 placeholder="Email"
               />
               <textarea
-                className="max-w-[605px] py-4 px-2 w-full h-[159px] mt-3 border shadow-forminput border-offgrey"
+                className="max-w-[605px] outline-none py-4 px-2 w-full h-[159px] mt-3 border shadow-forminput border-offgrey"
                 placeholder="Tell us more about your projects"
               ></textarea>
             </form>
-            <div className="flex w-full border border-lightgrey rounded-md">
+            <div className="flex w-full border bg- border-lightgrey rounded-md">
               <label for="robotCheck">
                 <input type="checkbox" id="robotCheck" name="robotCheck" />I am
                 not a robot
-                          </label>
-                          
+              </label>
             </div>
           </div>
         </div>

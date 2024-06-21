@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const DesignProjectAgency = () => {
   return (
     <div className="xl:pt-[126.27px] xl:pb-[150px] py-12 sm:py-14 md:py-[80px] lg:py-24">
-      <div className="container xl:max-w-[1164px] px-3 mx-auto">
+      <div className="container overflow-hidden xl:max-w-[1164px] px-3 mx-auto">
         <div className="flex flex-row justify-center flex-wrap items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
             <PurpleArrow className="absolute xl:-right-[12%] xl:top-[15%] top-[14%] -right-[6%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden" />

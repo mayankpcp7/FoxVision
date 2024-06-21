@@ -12,7 +12,7 @@ import manavatar from "../assets/images/webp/Strategy/man-avatar-like.webp";
 import strategyimg from "../assets/images/webp/Strategy/Startegy-digital.webp";
 const Strategy = () => {
   return (
-    <div className="pt-[150px] xl:pt-[193px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[60px] bg-darkpurple">
+    <div className=" pt-[120px] lg:pt-[150px] xl:pt-[193px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[60px] bg-darkpurple">
       <div className="container max-w-[1164px]">
         <div className="flex lg:flex-row flex-wrap -mx-3 flex-col-reverse">
           <div className="w-full lg:w-5/12 px-3 max-lg:pt-20">
@@ -29,7 +29,7 @@ const Strategy = () => {
             </p>
           </div>
           <div className="w-full lg:w-7/12 px-3 max-lg:max-w-[547px] max-lg:mx-auto max-lg:pt-[90px">
-            <div className="flex items-center justify-center relative z-[1] gap-2.5 sm:gap-4 md:gap-[22px] max-lg:max-w-[400px] max-lg:mx-auto">
+            <div className="flex items-center justify-center relative z-[1] gap-2.5 sm:gap-4 md:gap-[22px] max-sm:max-w-[330px] max-lg:max-w-[400px] max-lg:mx-auto">
               <span className="absolute bottom-0 -right-[3%] sm:right-0 lg:right-[3%] z-[-1] max-md:max-w-[313px] pointer-events-none">
                 <LogoDesignVectorWhite />
               </span>
@@ -65,7 +65,7 @@ const Strategy = () => {
                   <img
                     width={194}
                     height={194}
-                    className="absolute -top-[35%] -left-[8%] pointer-events-none max-w-[150px] sm:max-w-[194px] object-cover"
+                    className="absolute -top-[36%] -left-[8%] pointer-events-none max-w-[150px] sm:max-w-[194px] object-cover"
                     src={manavatar}
                     alt=""
                   />
@@ -83,7 +83,7 @@ const Strategy = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap -mx-3 pt-12 sm:pt-14 md:pt-20 justify-between items-center">
+        <div className="flex flex-row flex-wrap -mx-3 pt-12 sm:pt-14 md:pt-20 lg:pt-24 xl:pt-[140px] justify-between items-center">
           <div className="w-full lg:w-6/12 px-3">
             <div className="max-w-[320px] max-lg:max-w-[400px] lg:max-w-[495px] max-lg:mx-auto ">
               <img
@@ -97,7 +97,6 @@ const Strategy = () => {
           </div>
           <div className="w-full lg:w-5/12 px-3 pt-8 sm:pt-10 md:pt-12 lg:pt-0">
             <div className="lg:ps-5">
-              {" "}
               <div className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto">
                 <StrategySettingIcon />
               </div>

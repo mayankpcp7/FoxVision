@@ -1,3 +1,18 @@
+import {
+  Platform,
+  SoftwareTools,
+  WebsiteSolution,
+  Corporate,
+  Redesign,
+  WebDesign,
+  DigitalMarketing,
+  Stick,
+  Beschriftungen,
+  CardBtnArrow,
+  PhoneIcon,
+  EmailIcon,
+  VisitIcon,
+} from "./Icon";
 import poloka from "../../assets/images/webp/portfolie-card/paloka-ag-section.webp";
 import sanalife from "../../assets/images/webp/portfolie-card/sanalife.webp";
 import polokaAg from "../../assets/images/webp/portfolie-card/paloka-ag-two.webp";
@@ -12,18 +27,7 @@ import wireframing from "../../assets/images/webp/design/wirerraming.webp";
 import logoDesign from "../../assets/images/webp/design/logo-design.webp";
 import webDesign from "../../assets/images/webp/design/web-design.webp";
 import appDesign from "../../assets/images/webp/design/app-design.webp";
-import {
-  Platform,
-  SoftwareTools,
-  WebsiteSolution,
-  Corporate,
-  Redesign,
-  WebDesign,
-  DigitalMarketing,
-  Stick,
-  Beschriftungen,
-  CardBtnArrow,
-} from "./Icon";
+
 // ================================ HOW WE WORK ================================
 export const howWeWorkCardlist = [
   {
@@ -210,5 +214,54 @@ export const DesignCardArray = [
     src: appDesign,
     alt: "app-Design",
     heading: "App Design",
+  },
+];
+export const DesignStrategyArray = [
+  {
+    indexnumber: "1.",
+    heading: "Understanding Your Vision",
+    paragraph:
+      " We start by deeply understanding your goals, brand identity, and the needs of your target audience.",
+  },
+  {
+    indexnumber: "2.",
+    heading: "Research and Analysis",
+    paragraph:
+      " Our team conducts thorough research, including market an competitor analysis, to inform our design decisions.",
+  },
+  {
+    indexnumber: "3.",
+    heading: "Wireframing and Prototyping",
+    paragraph:
+      " We create wireframes and interactive prototypes to map out the layout and functionality of your project.",
+  },
+  {
+    indexnumber: "4.",
+    heading: "User Testing",
+    paragraph:
+      " Real users provide invaluable feedback to refine the design, ensuring it aligns with user expectations.",
+  },
+];
+export const ContactUsCardArray = [
+  {
+    href: "tel:+41 725 61 00",
+    arialabe: "Phone",
+    icon: <PhoneIcon />,
+    contactus: "Call Us",
+    contactid: "+41 725 61 00",
+  },
+  {
+    href: "mailto:info@foxvision.ch",
+    arialabeone: "Email",
+    icon: <EmailIcon />,
+    contactus: "Email Us",
+    contactid: "info@foxvision.ch",
+  },
+  {
+    arialabetwo: "visit",
+    href: "https://www.google.com/maps/search/Fox+Vision+GmbH+Badstrasse+50+CH-5200+Brugg/@47.4740556,8.1922879,17z/data=!3m1!4b1?entry=ttu",
+    icon: <VisitIcon />,
+    contactus: "Visit Us",
+    contactid: "Fox Vision GmbH Badstrasse 50 CH-5200 Brugg",
   },
 ];

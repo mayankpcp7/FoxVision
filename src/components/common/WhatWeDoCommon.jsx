@@ -12,16 +12,16 @@ export const WhatWeDoCommon = (props) => {
           <VectoArrow />
         </span>
         <SubHeading
-          className="max-lg:text-center"
+          className="max-lg:text-center max-sm:!mb-1"
           text={props.SubheadingText}
         />
         <BlueHeading
           className="max-lg:text-center"
           headingText={props.BlueHeadingText}
         />
-        <div className="max-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
+        <div className="max-lg:max-w-[590px] xl:min-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
           <img
-            className="w-full"
+            className="w-full object-cover"
             width={590}
             height={390}
             src={props.src}
@@ -50,13 +50,15 @@ export const WhatWeDoCommon = (props) => {
             {props.paragraphFirst}
             <Link href="#" className="text-purple">
               {props.linkText}
-            </Link>{" "}
+            </Link>
             {props.paragraphSecond}
           </p>
-          <Button
-            className="mt-6 sm:mt-8 lg:mt-10 max-lg:mx-auto block"
-            btnName="Contact"
-          />
+          <Link aria-label="contact" to="/contact">
+            <Button
+              className="mt-6 sm:mt-8 xl:mt-10 max-lg:mx-auto block"
+              btnName="Contact"
+            />
+          </Link>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ const CorporateIdentity = () => {
               and awaken emotions and trust in your customers.{" "}
               <span className="text-purple uppercase cursor-pointer">
                 FOX VISION
-              </span>{" "}
+              </span>
               would be happy to develop your corporate identity.
             </p>
             <Link to="/contact">

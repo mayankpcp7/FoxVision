@@ -1,30 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 nav ul li a:hover {
-  -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 0.5px;
 }
 
 .nav_icons:hover path {
-  fill: #4b17e6;
+    fill: #4b17e6;
 }
 
 .nav_icons:hover rect {
-  stroke: #4b17e6;
+    stroke: #4b17e6;
 }
 
 .customBefore::before {
-  background-image: url(../src/assets/images/webp/offer-design-strategy/design-strategy-vector.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 134px;
-  width: 100%;
-  height: 163px;
+    background-image: url(../src/assets/images/webp/offer-design-strategy/design-strategy-vector.webp);
 }
 
 input::placeholder {
-  font-family: "Poppins";
-  color: #808080;
-  font-size: 16px;
-  font-weight: 400;
-  padding-left: 7px;
+    font-family: "Poppins";
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 7px;
 }
