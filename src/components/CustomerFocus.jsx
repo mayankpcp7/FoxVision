@@ -17,24 +17,31 @@ const CustomerFocus = () => {
               className="text-white lg:!text-5xl xl:!text-6xxl max-lg:text-center"
               headingText="Customer Focus"
             />
-            <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal lg:max-w-[481px] mt-2.5 sm:mt-3 md:mt-4 lg:mt-[21px] max-lg:max-w-[550px] max-lg:mx-auto max-lg:text-center">
+            <p
+              className="font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal lg:max-w-[481px] mt-2.5 sm:mt-3 md:mt-4 lg:mt-[21px] max-lg:max-w-[550px] max-lg:mx-auto max-lg:text-center"
+              data-aos="fade-up"
+            >
               The customer is our focus. We do everything we can to provide our
               customers with individual, needs-based advice.
             </p>
           </div>
           <div className="w-full lg:w-1/2 px-3">
-            <div className=" max-lg:max-w-[425px] lg:max-w-[556px] max-lg:mx-auto">
+            <div className="max-lg:max-w-[425px] lg:max-w-[556px] max-lg:mx-auto">
               <img
                 className="w-full max-h-[371px]"
                 width={556}
                 height={371}
                 src={customerfocus}
                 alt="customer-focus"
+                data-aos="fade-left"
               />
             </div>
           </div>
         </div>
-        <span className="flex justify-center mt-10 sm:mt-12 xl:mt-[78px]">
+        <span
+          className="flex justify-center mt-10 sm:mt-12 xl:mt-[78px]"
+          data-aos="fade-up"
+        >
           <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[171px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </span>
       </div>

@@ -10,6 +10,7 @@ const Design = () => {
             <div
               key={index}
               className="w-full xs:w-1/2 lg:w-1/4 px-3 max-lg:pt-6"
+              data-aos="zoom-in"
             >
               <div className="bg-white p-[22px_10px] rounded-md shadow-designcardshadow group duration-300">
                 <div className="overflow-hidden rounded-md">

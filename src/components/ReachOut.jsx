@@ -21,6 +21,7 @@ const ReachOut = () => {
             <div
               key={index}
               className="w-full sm:w-1/2 lg:w-1/3 px-3 pt-6 sm:pt-8"
+              data-aos="zoom-in-up"
             >
               <div className="bg-white shadow-designcardshadow pt-7 pb-5 sm:pt-10 sm:pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-[38px] group duration-500 xl:max-h-[265px] h-full flex flex-col">
                 <Link

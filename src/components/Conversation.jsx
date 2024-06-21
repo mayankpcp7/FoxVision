@@ -99,6 +99,7 @@ const Conversation = () => {
               className="max-w-[483px] object-cover w-full h-[349px] mt-5"
               src={phone}
               alt="phone"
+              data-aos="fade-up"
             />
           </div>
           <div className="flex flex-col w-full md:items-start items-center md:ms-12">
@@ -108,7 +109,7 @@ const Conversation = () => {
               action="#"
             >
               <div className="flex w-full justify-center md:justify-start gap-3">
-                <div className="w-full max-w-[297px]">
+                <div className="w-full max-w-[297px]" data-aos="fade-up">
                   <input
                     className={`max-w-[297px] w-full outline-none px-2 h-[55px] border shadow-forminput border-offgrey ${
                       formErrors.firstName ? "border-red-500" : ""
@@ -125,7 +126,7 @@ const Conversation = () => {
                     </p>
                   )}
                 </div>
-                <div className="max-w-[297px] w-full">
+                <div className="max-w-[297px] w-full" data-aos="fade-up">
                   <input
                     className={`max-w-[297px] w-full outline-none px-2 h-[55px] border shadow-forminput border-offgrey ${
                       formErrors.lastName ? "border-red-500" : ""
@@ -143,7 +144,10 @@ const Conversation = () => {
                   )}
                 </div>
               </div>
-              <div className="flex w-full justify-center md:justify-start gap-3 mt-3">
+              <div
+                className="flex w-full justify-center md:justify-start gap-3 mt-3"
+                data-aos="fade-up"
+              >
                 <div className="w-full max-w-[297px]">
                   <input
                     className={`max-w-[297px] w-full outline-none px-2 h-[55px] border shadow-forminput border-offgrey ${
@@ -175,9 +179,12 @@ const Conversation = () => {
                   )}
                 </div>
               </div>
-              <div className="flex flex-col justify-center md:justify-start items-center md:items-start">
+              <div
+                className="flex flex-col justify-center md:justify-start items-center md:items-start"
+                data-aos="fade-up"
+              >
                 <input
-                  className={`w-full mx-auto outline-none max-w-[605px] mt-3 px-2 h-[55px] border shadow-forminput border-offgrey ${
+                  className={`w-full outline-none max-w-[605px] mt-3 px-2 h-[55px] border shadow-forminput border-offgrey ${
                     formErrors.email ? "border-red-500" : ""
                   }`}
                   type="email"

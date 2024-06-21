@@ -35,6 +35,7 @@ const Frequently = () => {
             <div
               className="accordion-item border border-solid border-[#00000033] sm:pl-[21px] sm:pr-[30px] px-3 py-5 sm:mb-5 mb-4 rounded-[6px] transition-all duration-300 ease-in-out"
               key={index}
+              data-aos="zoom-in-up"
             >
               <div
                 className="accordion-title flex justify-between sm:items-center items-start cursor-pointer"

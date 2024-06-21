@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -9,8 +10,19 @@ import Footer from "./components/common/Footer";
 import Hero from "./components/common/Hero";
 import Navbar from "./components/common/Navbar";
 import BackToTop from "./components/common/BackToTop";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 function App() {
+  // -----------------------Aos-------------------------
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 1200,
+    });
+    Aos.refresh();
+  });
   return (
     <>
       <div className="bg-darkpurple pt-5 pb-1">
