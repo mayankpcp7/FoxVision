@@ -181,7 +181,6 @@ const Conversation = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                
                 placeholder="Tell us more about your projects"
               ></textarea>
               {formErrors.message && (
@@ -189,7 +188,6 @@ const Conversation = () => {
               )}
               <div className="flex w-full max-w-[302px] mt-3 border items-center justify-between bg-inputgrey py-2 px-3 border-lightgrey rounded-md">
                 <div>
-                  {" "}
                   <label htmlFor="robotCheck" className="flex items-center">
                     <input
                       type="checkbox"
