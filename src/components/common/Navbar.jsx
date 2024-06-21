@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/images/common/nav-logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { CallIcon, MailIcon } from "./Icon";
 import Button from "./Button";
 
 const Navbar = () => {
+  const location = useLocation();
   const [navBar, setNavBar] = useState(false);
 
   function showNav() {
@@ -19,13 +20,9 @@ const Navbar = () => {
     }
   }, [navBar]);
 
-  function handleLinkClick() {
-    setNavBar(false); // Close the navigation menu when a link is clicked
-  }
-
   return (
     <div className="px-3">
-      <nav className="max-w-[1240px] mx-auto rounded-[150px] py-4 xlg:py-[11px] flex justify-between px-8 lg:px-12 shadow-navshadow bg-white">
+      <nav className="max-w-[1240px]  mx-auto rounded-[150px] py-4 xlg:py-[11px] flex justify-between px-8 lg:px-12 shadow-navshadow bg-white">
         <Link className="items-center flex" to="">
           <img
             className="max-w-[150px] xs:max-w-[170px] md:max-w-[190px] relative z-50 lg:max-w-[207px]"
@@ -42,8 +39,9 @@ const Navbar = () => {
             <li className="duration-300 transition-all">
               <Link
                 to="/"
-                className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue"
-                onClick={handleLinkClick}
+                className={` ${
+                  location.pathname === "/" ? "before:w-[26px]" : ""
+                } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
               >
                 Home
               </Link>
@@ -51,8 +49,9 @@ const Navbar = () => {
             <li className="duration-300 transition-all">
               <Link
                 to="/about"
-                className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue"
-                onClick={handleLinkClick}
+                className={`${
+                  location.pathname === "/about" ? "before:w-[26px]" : ""
+                } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
               >
                 Über uns
               </Link>
@@ -60,8 +59,9 @@ const Navbar = () => {
             <li className="duration-300 transition-all">
               <Link
                 to="/offer"
-                className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue"
-                onClick={handleLinkClick}
+                className={`${
+                  location.pathname === "/offer" ? "before:w-[26px]" : ""
+                } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
               >
                 Angebot
               </Link>
@@ -69,34 +69,35 @@ const Navbar = () => {
             <li className="duration-300 transition-all">
               <Link
                 to="/portfolio"
-                className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue"
-                onClick={handleLinkClick}
+                className={`${
+                  location.pathname === "/portfolio" ? "before:w-[26px]" : ""
+                } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
               >
                 Portfolio
               </Link>
             </li>
             <div className="xlg:hidden items-center flex flex-col gap-10 sm:gap-6">
               <div className="flex items-center gap-4">
-                <a href="tel:+1234567890">
+                <a href="tel:+1234567890" aria-label="number">
                   <CallIcon />
                 </a>
-                <a href="mailto:example@example.com">
+                <a href="mailto:example@example.com" aria-label="email">
                   <MailIcon />
                 </a>
               </div>
-              <Link to="/contact" onClick={handleLinkClick}>
+              <Link to="/contact">
                 <Button btnName="Kontakt" />
               </Link>
             </div>
           </ul>
         </div>
         <div className="hidden items-center xlg:flex gap-4">
-          <Link to="tel:+1234567890">
+          <a href="tel:+1234567890">
             <CallIcon />
-          </Link>
-          <Link to="mailto:example@example.com">
+          </a>
+          <a href="mailto:example@example.com">
             <MailIcon />
-          </Link>
+          </a>
           <Link to="/contact">
             <Button btnName="Kontakt" />
           </Link>
