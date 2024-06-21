@@ -35,7 +35,7 @@ const CorporateIdentity = () => {
               <Identity className="sm:w-[55px] sm:h-[45px] w-[45px] h-[35px]" />
             </div>
             <div data-aos="fade-left">
-              <p className="lg:max-w-[552px] font-poppins font-normal lg:text-xl text-base lg:text-start text-center opacity-70 leading-lg lg:mb-[35px] sm:mb-7 mb-6">
+              <p className="lg:max-w-[552px] font-poppins font-normal lg:text-xl text-base lg:text-start text-center opacity-70 !leading-lg lg:mb-[35px] sm:mb-7 mb-6">
                 Many people primarily associate logo and colors with it.
                 Corporate identity is much more. Corporate identity, together
                 with{" "}
