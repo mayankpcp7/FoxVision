@@ -21,7 +21,7 @@ const CorporateIdentity = () => {
               height={349}
               src={corporate}
               alt="corporate"
-              className="md:max-w-[465px] max-w-[310px]"
+              className="md:max-w-[465px] max-h-[349px] max-w-[310px]"
             />
           </div>
           <div className="lg:w-6/12 sm:w-8/12 w-full lg:pt-0 pt-7">
@@ -35,11 +35,9 @@ const CorporateIdentity = () => {
                 corporate design
               </span>
               , forms the character of your company. Give your company a face
-              and awaken emotions and trust in your customers.{" "}
-              <span className="text-purple uppercase cursor-pointer">
-                FOX VISION
-              </span>
-              would be happy to develop your corporate identity.
+              and awaken emotions and trust in your customers. 
+              <span className="text-purple uppercase cursor-pointer"> FOX VISION
+              </span> would be happy to develop your corporate identity.
             </p>
             <Link to="/contact">
               <Button
