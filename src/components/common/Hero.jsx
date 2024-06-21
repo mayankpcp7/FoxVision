@@ -1,7 +1,7 @@
 import React from "react";
 import { WhiteHeading } from "./Heading";
 import monitor from "../../assets/images/webp/hero/monitor.webp";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { PathArrow } from "./Icon";
 
 const Hero = () => {
@@ -74,7 +74,7 @@ const Hero = () => {
           )}
         </div>
         <div className="flex gap-4 mb-[30px] max-w-[1164px] mx-auto px-3 items-center">
-          <p className="text-white text-base font-poppins font-medium">Home</p>
+          <Link to="/" className="text-white text-base font-poppins font-medium">Home</Link>
           <PathArrow />
           <p className="text-white font-medium text-base font-poppins">
             {pathName}
