@@ -834,9 +834,9 @@ export const FaqArrow = (props) => {
       <path
         d="M1 10.625L9.5 1.625L18 10.625"
         stroke="#071838"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
