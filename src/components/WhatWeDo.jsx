@@ -80,7 +80,7 @@ const WhatWeDo = () => {
                   alt="watch"
                 />
                 <img
-                  className="max-h-[123px] max-[400px]:max-w-[70px] max-[500px]:max-w-[80px] max-[600px]:max-w-[110px] max-w-[123px] absolute -top-[29%] right-[7%] object-cover"
+                  className="max-h-[123px] max-[400px]:max-w-[70px] max-[500px]:max-w-[80px] max-[600px]:max-w-[110px] max-w-[123px] absolute -top-[29%] right-[7%] object-cover pointer-events-none"
                   width={123}
                   height={123}
                   src={men}
