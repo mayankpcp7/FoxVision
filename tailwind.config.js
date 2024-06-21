@@ -25,6 +25,9 @@ module.exports = {
         contactUsCard: "#EBE5FC",
         offgrey: "#EDE8FC",
         lightgrey: "#D3D3D3",
+        inputgrey: "#F9F9F9",
+        robotgrey: "#4B4B4B",
+        privacy: "#A6A6A6",
       },
       fontSize: {
         xxsm: "8px",
