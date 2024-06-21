@@ -5,8 +5,10 @@ import phone from "../assets/images/webp/Contact/mobile.webp";
 import recaptcha from "../assets/images/webp/Contact/recaptcha.webp";
 import Button from "./common/Button";
 import Swal from "sweetalert2"; // Import SweetAlert
+import { CheckedIcon } from "./common/Icon";
 
 const Conversation = () => {
+  const checked = "";
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -208,18 +210,19 @@ const Conversation = () => {
                 {formErrors.message && (
                   <p className="text-red-500 text-sm">{formErrors.message}</p>
                 )}
-                <div className="flex w-full justify-center md:justify-start max-w-[302px] mt-3 border items-center justify-between bg-inputgrey py-2 px-3 border-lightgrey rounded-md">
+                <div className="flex w-full md:justify-start max-w-[302px] mt-3 border items-center !justify-between bg-inputgrey py-2 px-3 border-lightgrey rounded-md">
                   <div>
-                    <label htmlFor="robotCheck" className="flex items-center">
+                    <label className=" relative block mb-3 cursor-pointer text-xl user-select-none">
                       <input
                         type="checkbox"
                         id="robotCheck"
                         name="robotCheck"
-                        className="bg:transparent"
+                        className="absolute opacity-0 cursor-pointer h-0 w-0"
                         checked={formData.robotCheck}
                         onChange={handleChange}
                       />
-                      <p className="font-poppins font-normal ms-2 text-base text-robotgrey">
+                      <span className="checkmark absolute top-0 left-0 h-[22px] w-[22px] bg-transparent border-2 rounded border-lightgrey"></span>
+                      <p className="font-poppins font-normal ms-7 text-base text-robotgrey">
                         I am not a robot
                       </p>
                     </label>

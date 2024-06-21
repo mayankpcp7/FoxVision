@@ -18,7 +18,7 @@ export const WhatWeDoCommon = (whatwedo) => {
           text={whatwedo.SubheadingText}
         />
         <BlueHeading
-          className="max-lg:text-center"
+          className="max-lg:text-center !normal-case"
           headingText={whatwedo.BlueHeadingText}
         />
         <div className="max-lg:max-w-[590px] xl:min-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] relative max-lg:mx-auto">

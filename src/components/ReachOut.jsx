@@ -23,7 +23,7 @@ const ReachOut = () => {
               className="w-full sm:w-1/2 lg:w-1/3 px-3 pt-6 sm:pt-8"
               data-aos="zoom-in-up"
             >
-              <div className="bg-white shadow-designcardshadow pt-7 pb-5 sm:pt-10 sm:pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-[38px] group duration-500 xl:max-h-[265px] h-full flex flex-col">
+              <div className="bg-white shadow-designcardshadow pt-5 pb-5 sm:pt-7 sm:pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-6  lg:hover:-translate-y-[38px] group duration-500 h-full flex flex-col">
                 <Link
                   target="_blank"
                   to={obj.href}
@@ -36,7 +36,7 @@ const ReachOut = () => {
                   target="_blank"
                   to={obj.href}
                   aria-label={obj.ariaLabelOne}
-                  className="font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-normal pt-5 sm:mt-[25px]"
+                  className="font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-normal mt-5 sm:mt-[25px]"
                 >
                   {obj.contactus}
                 </Link>
@@ -44,7 +44,7 @@ const ReachOut = () => {
                   target="_blank"
                   to={obj.href}
                   aria-label={obj.ariaLabelTwo}
-                  className="font-poppins font-normal text-sm sm:text-base !leading-normal pt-3 sm:mt-[15px] max-w-[280px] mx-auto"
+                  className="font-poppins font-normal text-sm sm:text-base !leading-normal mt-3 sm:mt-[15px] max-w-[280px] mx-auto"
                 >
                   {obj.contactid}
                 </Link>

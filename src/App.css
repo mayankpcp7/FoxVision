@@ -11,8 +11,8 @@
     background: #5925F2;
 }
 
-nav ul li a:active {
-    -webkit-text-strokeWidth: 0.5px !important;
+nav ul li a:hover {
+    -webkit-text-strokeWidth: 0.5px;
 }
 
 .nav_icons:hover path {
@@ -33,4 +33,25 @@ input::placeholder {
     font-size: 16px;
     font-weight: 400;
     padding-left: 7px;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+input:checked~.checkmark::after {
+    display: block;
+}
+
+.checkmark::after {
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg) !important;
+    width: 8.49px;
+    height: 11.31px;
+    border: solid #B3B3B3;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
 }
