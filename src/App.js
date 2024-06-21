@@ -8,6 +8,7 @@ import Offer from "./pages/Offer";
 import Footer from "./components/common/Footer";
 import Hero from "./components/common/Hero";
 import Navbar from "./components/common/Navbar";
+import BackToTop from "./components/common/BackToTop";
 
 function App() {
   return (
@@ -15,17 +16,28 @@ function App() {
       <div className="bg-darkpurple pt-5 pb-1">
         <Navbar />
         <Hero />
-      </div>
+      </div>{" "}
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<AboutUs />}></Route>
-        <Route path="/contact" element={<ContactUs />}></Route>
-        <Route path="/portfolio" element={<Portfolio />}></Route>
-        <Route path="/offer" element={<Offer />}></Route>
-      </Routes>
+        <Route path="/" element={<Home />}>
+          {" "}
+        </Route>{" "}
+        <Route path="/about" element={<AboutUs />}>
+          {" "}
+        </Route>{" "}
+        <Route path="/contact" element={<ContactUs />}>
+          {" "}
+        </Route>{" "}
+        <Route path="/portfolio" element={<Portfolio />}>
+          {" "}
+        </Route>{" "}
+        <Route path="/offer" element={<Offer />}>
+          {" "}
+        </Route>{" "}
+      </Routes>{" "}
       <div className="px-3 bg-darkblue">
         <Footer />
-      </div>
+      </div>{" "}
+      <BackToTop />
     </>
   );
 }

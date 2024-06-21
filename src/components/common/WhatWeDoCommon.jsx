@@ -4,35 +4,37 @@ import { CommonLogo, VectoArrow } from "./Icon";
 import { SubHeading } from "./SubHeading";
 import Button from "./Button";
 
-export const WhatWeDoCommon = (props) => {
+export const WhatWeDoCommon = (whatwedo) => {
   return (
     <div className="flex flex-row flex-wrap -mx-3">
       <div className="w-full lg:w-1/2 px-3 relative">
-        <span className={`absolute pointer-events-none ${props.classNameIcon}`}>
+        <span
+          className={`absolute pointer-events-none ${whatwedo.classNameIcon}`}
+        >
           <VectoArrow />
         </span>
         <SubHeading
           className="max-lg:text-center max-sm:!mb-1"
-          text={props.SubheadingText}
+          text={whatwedo.SubheadingText}
         />
         <BlueHeading
           className="max-lg:text-center"
-          headingText={props.BlueHeadingText}
+          headingText={whatwedo.BlueHeadingText}
         />
-        <div className="max-lg:max-w-[590px] xl:min-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] max-lg:mx-auto relative">
+        <div className="max-lg:max-w-[590px] xl:min-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] relative max-lg:mx-auto">
           <img
-            className="w-full object-cover"
+            className="w-full object-cover max-h-[390px]"
             width={590}
             height={390}
-            src={props.src}
+            src={whatwedo.src}
             alt="what-we-do"
           />
           <div className="pointer-events-none absolute top-[24%] left-[4%] flex items-center z-[-1]">
             <span
-              className={`${props.className} block w-[203px] h-[203px] opacity-20 blur-[100px] bg-darkpurple rounded-[203px]`}
+              className={`${whatwedo.className} block w-[130px] h-[120px] sm:w-[203px] sm:h-[203px] opacity-20 blur-[100px] bg-darkpurple rounded-[203px]`}
             ></span>
             <span
-              className={`${props.className} block w-[203px] h-[203px] opacity-20 blur-[100px] bg-sky rounded-[203px]`}
+              className={`${whatwedo.className} block w-[130px] h-[120px] sm:w-[203px] sm:h-[203px] opacity-20 blur-[100px] bg-sky rounded-[203px]`}
             ></span>
           </div>
         </div>
@@ -45,13 +47,13 @@ export const WhatWeDoCommon = (props) => {
             <CommonLogo />
           </span>
           <p
-            className={`${props.className} font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5`}
+            className={`${whatwedo.className} font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5`}
           >
-            {props.paragraphFirst}
+            {whatwedo.paragraphFirst}
             <Link href="#" className="text-purple">
-              {props.linkText}
-            </Link>
-            {props.paragraphSecond}
+              {whatwedo.linkText}
+            </Link>{" "}
+            {whatwedo.paragraphSecond}
           </p>
           <Link aria-label="contact" to="/contact">
             <Button

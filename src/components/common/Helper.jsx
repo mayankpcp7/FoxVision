@@ -104,52 +104,95 @@ export const angebotCardList = [
 // ==========================================portfolio==========================================
 
 export const portfoliosArray = [
-  { src: poloka, heading: "Anton Paloka", paragraph: "Facility Management " },
+  {
+    src: poloka,
+    heading: "Anton Paloka",
+    paragraph: "Facility Management ",
+    alt: "poloka",
+  },
   {
     src: sanalife,
     heading: "Gut versichert ins leben.",
     paragraph: "Wir helfen ihnen dabei",
+    alt: "sanalife",
   },
-  { src: polokaAg, heading: "Anton Paloka", paragraph: "Geschäftsführer " },
+  {
+    src: polokaAg,
+    heading: "Anton Paloka",
+    paragraph: "Geschäftsführer ",
+    alt: "polokaAg2",
+  },
   {
     src: polokaAg,
     heading: "Mhill Paloka",
     paragraph: "Leiter Administration ",
+    alt: "polokaAg",
   },
   {
     src: eleme,
     heading: "Id nisi elementum",
     paragraph: "Lorem ipsum dolor consectetur.",
+    alt: "eleme",
   },
   {
     src: abrCot,
     heading: "Augue tincidunt ipsum",
     paragraph: "Ipsum dolor sit amet.",
+    alt: "abrCot",
   },
   {
     src: amet,
     heading: "Amet consectetur Consequat",
     paragraph: "Lorem sit amet consectetur. ",
+    alt: "amet",
   },
   {
     src: nunc,
     heading: "Nunc tellus sed auctor nulla",
     paragraph: "dolor sit amet consectetur.",
+    alt: "nunc",
   },
   {
     src: twoTshirt,
     heading: "Egestas faucs aliquam libero",
     paragraph: "Lorem ipsum dolor ",
+    alt: "twoTshirt",
   },
   {
     src: building,
     heading: "Amet consectetur Consequat",
     paragraph: "Lorem ipsum. ",
+    alt: "building",
   },
   {
     src: sedAuctor,
     heading: "Nunc tellus sed auctor  nulla",
     paragraph: "Lorem ipsum consectetur.",
+    alt: "sedAuctor",
+  },
+  {
+    src: amet,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+    alt: "amet",
+  },
+  {
+    src: polokaAg,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+    alt: "polokaAg",
+  },
+  {
+    src: eleme,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+    alt: "eleme",
+  },
+  {
+    src: sanalife,
+    heading: "Nunc tellus sed auctor  nulla",
+    paragraph: "Lorem ipsum consectetur.",
+    alt: "sanalife",
   },
 ];
 // ======================================FREQUENTYL======================================

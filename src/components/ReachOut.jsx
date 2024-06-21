@@ -6,10 +6,10 @@ import { SubHeading } from "./common/SubHeading";
 
 const ReachOut = () => {
   return (
-    <div className="pb-[200px] pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[118px]">
+    <div className="py-12 sm:py-16 md:py-20 lg:py-24 xl:pt-[118px] xl:pb-[165px]">
       <div className="container max-w-[1164px]">
         <SubHeading
-          className="text-center"
+          className="text-center !normal-case"
           text="FOX VISION - Friendly and reliable"
         />
         <BlueHeading
@@ -20,29 +20,29 @@ const ReachOut = () => {
           {ContactUsCardArray.map((obj, index) => (
             <div
               key={index}
-              className=" w-full sm:w-1/2 lg:w-1/3 px-3 pt-6 sm:pt-8 "
+              className="w-full sm:w-1/2 lg:w-1/3 px-3 pt-6 sm:pt-8"
             >
-              <div className="bg-white shadow-designcardshadow pt-10 pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-[38px] group duration-500 h-full flex flex-col">
+              <div className="bg-white shadow-designcardshadow pt-10 pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-[38px] group duration-500 xl:max-h-[265px] h-full flex flex-col">
                 <Link
-                  target="blank"
+                  target="_blank"
                   to={obj.href}
-                  aria-label={obj.arialabe}
+                  aria-label={obj.ariaLabel}
                   className="bg-contactUsCard group-hover:bg-darkpurple duration-300 w-[85px] h-[85px] rounded-[7px] mx-auto flex justify-center items-center shadow-contactusIconshadow"
                 >
                   {obj.icon}
                 </Link>
                 <Link
-                  target="blank"
+                  target="_blank"
                   to={obj.href}
-                  aria-label={obj.arialabeone}
-                  className="font-poppins font-semibold text-2xl !leading-normal mt-[25px] "
+                  aria-label={obj.ariaLabelOne}
+                  className="font-poppins font-semibold text-2xl !leading-normal mt-[25px]"
                 >
                   {obj.contactus}
                 </Link>
                 <Link
-                  target="blank"
+                  target="_blank"
                   to={obj.href}
-                  aria-label={obj.arialabetwo}
+                  aria-label={obj.ariaLabelTwo}
                   className="font-poppins font-normal text-base !leading-normal mt-[15px] max-w-[280px] mx-auto"
                 >
                   {obj.contactid}

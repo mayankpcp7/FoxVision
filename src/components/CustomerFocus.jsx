@@ -6,11 +6,11 @@ import { WhiteLogo } from "./common/Icon";
 const CustomerFocus = () => {
   return (
     <div className="bg-darkpurple pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[77px] pb-[144px]">
-      <div className="container max-w-[1164px] pb-[70px] sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[96px]">
+      <div className="container max-w-[1164px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[96px]">
         <div className="flex lg:flex-row flex-col-reverse flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3 max-lg:pt-6">
             <SubHeading
-              className="text-white max-lg:text-center max-lg:!mb-1"
+              className="text-white max-lg:text-center max-lg:!mb-1 !normal-case"
               text="FOX philosophy"
             />
             <BlueHeading
@@ -25,7 +25,7 @@ const CustomerFocus = () => {
           <div className="w-full lg:w-1/2 px-3">
             <div className=" max-lg:max-w-[425px] lg:max-w-[556px] max-lg:mx-auto">
               <img
-                className="w-full"
+                className="w-full max-h-[371px]"
                 width={556}
                 height={371}
                 src={customerfocus}
@@ -34,7 +34,7 @@ const CustomerFocus = () => {
             </div>
           </div>
         </div>
-        <span className="flex justify-center mt-12 sm:mt-16 xl:mt-[78px]">
+        <span className="flex justify-center mt-10 sm:mt-12 xl:mt-[78px]">
           <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[171px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </span>
       </div>

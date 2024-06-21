@@ -305,7 +305,7 @@ export const CreativeDesignIcon = () => {
 export const WhatWeDoRightVector = () => {
   return (
     <svg
-      className=" max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] md:max-w-[250px] lg:max-w-[200px] xl:max-w-[307px] "
+      className="max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] md:max-w-[250px] lg:max-w-[200px] xl:max-w-[307px]"
       width="308"
       height="416"
       viewBox="0 0 308 416"
@@ -322,7 +322,7 @@ export const WhatWeDoRightVector = () => {
 export const WhatWeDoLeftVector = () => {
   return (
     <svg
-      className=" max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] lg:max-w-[200px] xl:max-w-[307px] "
+      className="max-[400px]:max-w-[110px] max-w-[150px] sm:max-w-[180px] md:max-w-[250px] lg:max-w-[200px] xl:max-w-[307px]"
       width="308"
       height="416"
       viewBox="0 0 308 416"
@@ -834,9 +834,9 @@ export const FaqArrow = (props) => {
       <path
         d="M1 10.625L9.5 1.625L18 10.625"
         stroke="#071838"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -863,7 +863,7 @@ export const PhoneIcon = () => {
 export const EmailIcon = () => {
   return (
     <svg
-      className="w-full max-lg:max-w-[43px] max-w-[43px]"
+      className="w-[43px] max-lg:max-w-[43px] max-w-[43px]"
       width="40"
       height="33"
       viewBox="0 0 40 33"
@@ -873,7 +873,7 @@ export const EmailIcon = () => {
       <path
         className="group-hover:fill-white duration-300"
         d="M4.22681 32.375C3.26431 32.375 2.44006 32.032 1.75406 31.346C1.06806 30.66 0.725639 29.8363 0.726806 28.875V7H4.22681V28.875H33.1018V32.375H4.22681ZM11.2268 25.375C10.2643 25.375 9.44005 25.032 8.75406 24.346C8.06806 23.66 7.72564 22.8363 7.72681 21.875V4.375C7.72681 3.4125 8.06981 2.58825 8.75581 1.90225C9.4418 1.21625 10.2655 0.873836 11.2268 0.875003H35.7268C36.6893 0.875003 37.5136 1.218 38.1996 1.904C38.8856 2.59 39.228 3.41367 39.2268 4.375V21.875C39.2268 22.8375 38.8838 23.6618 38.1978 24.3478C37.5118 25.0338 36.6881 25.3762 35.7268 25.375H11.2268ZM23.4768 17.15L35.7268 8.61875V4.375L23.4768 12.8625L11.2268 4.375V8.61875L23.4768 17.15Z"
-        fill="#4B17E6"
+        fill="white"
       />
     </svg>
   );
@@ -897,7 +897,6 @@ export const VisitIcon = () => {
   );
 };
 
-// ------------------------------------------- corporate ------------------------------------
 export const Identity = (props) => {
   return (
     <svg
@@ -926,6 +925,22 @@ export const Identity = (props) => {
         d="M31.8186 25.5508C31.5812 25.7619 31.3965 26.1841 31.3965 26.4479C31.3965 26.7117 31.5812 27.1339 31.8186 27.3449C32.1616 27.7143 33.1906 27.7671 39.0478 27.7671C45.5382 27.7671 45.9076 27.7407 46.1714 27.2658C46.5408 26.5534 46.5144 26.0258 46.0131 25.5508C45.4063 24.9176 32.4255 24.9176 31.8186 25.5508Z"
         fill="#05D5FB"
       />
+    </svg>
+  );
+};
+
+export const BackToTopIcon = () => {
+  return (
+    <svg
+      className="w-full max-md:w-5 max-md:h-5"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="white"
+      viewBox="0 0 16 16"
+    >
+      <path d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
+      <path d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
     </svg>
   );
 };
