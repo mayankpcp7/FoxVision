@@ -24,7 +24,7 @@ const DesignProjectAgency = () => {
               height={328}
               src={project}
               alt="project"
-              className="w-full xl:max-w-[564px] max-w-[480px]"
+              className="w-full xl:max-w-[564px] max-w-[480px] max-h-[328px]"
             />
           </div>
           <div className="lg:w-6/12 sm:w-10/12 w-full flex justify-end lg:pt-0 pt-8">

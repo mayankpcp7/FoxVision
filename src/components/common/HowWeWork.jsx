@@ -28,7 +28,7 @@ const HowWeWork = () => {
               height={294}
               src={work}
               alt="work"
-              className="w-full sm:max-w-[378px] max-w-[310px]"
+              className="w-full sm:max-w-[378px] max-h-[294px] max-w-[310px]"
             />
           </div>
           <div className="lg:w-6/12 sm:w-9/12 w-full mb-[10px] flex xl:justify-end lg:pt-0 sm:pt-6 pt-3">

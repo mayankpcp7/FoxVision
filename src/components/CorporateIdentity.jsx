@@ -21,7 +21,7 @@ const CorporateIdentity = () => {
               height={349}
               src={corporate}
               alt="corporate"
-              className="md:max-w-[465px] max-w-[310px]"
+              className="md:max-w-[465px] max-h-[349px] max-w-[310px]"
             />
           </div>
           <div className="lg:w-6/12 sm:w-8/12 w-full lg:pt-0 pt-7">
