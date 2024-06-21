@@ -33,7 +33,7 @@ const WhatWeDo = () => {
           src={dashboardmg}
           paragraphFirst="We define the intangible assets of your brand and subsequently
             increase"
-          linkText="trust and loyalty to your brand."
+          linkText=" trust and loyalty to your brand."
           paragraphSecond=" Uniqueness, value proposition, clearly understandable core messages
             and an innovative design result in a brand personality that will be.
             We then transfer this genetic code to the relevant target groups

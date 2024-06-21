@@ -68,6 +68,8 @@ module.exports = {
       backgroundSize: {
         size: "100% 100%",
       },
+      backgroundColor: ["checked"],
+      borderColor: ["checked"],
     },
   },
   plugins: [],

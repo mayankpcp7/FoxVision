@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div className="px-3">
-      <nav className="max-w-[1240px]  mx-auto rounded-[150px] py-4 xlg:py-[11px] flex justify-between px-8 lg:px-12 shadow-navshadow bg-white">
+      <nav className="max-w-[1240px] mx-auto rounded-[150px] py-4 xlg:py-[11px] flex justify-between px-8 lg:px-12 shadow-navshadow bg-white">
         <Link className="items-center flex" to="">
           <img
             className="max-w-[150px] xs:max-w-[170px] md:max-w-[190px] relative z-50 lg:max-w-[207px]"
@@ -36,42 +36,77 @@ const Navbar = () => {
               navBar && "!left-0"
             }`}
           >
-            <li className="duration-300 transition-all">
+            <li
+              className="duration-300 transition-all"
+              style={{
+                WebkitTextStroke: location.pathname === "/" ? "0.5px" : "unset",
+              }}
+            >
               <Link
                 to="/"
-                className={` ${
-                  location.pathname === "/" ? "before:w-[26px]" : ""
+                className={`${
+                  location.pathname === "/" ? "before:w-[26px] active" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={() => setNavBar(false)}
               >
                 Home
               </Link>
             </li>
-            <li className="duration-300 transition-all">
+            <li
+              className="duration-300 transition-all"
+              style={{
+                WebkitTextStroke:
+                  location.pathname === "/about" ? "0.5px" : "unset",
+              }}
+            >
               <Link
                 to="/about"
                 className={`${
-                  location.pathname === "/about" ? "before:w-[26px]" : ""
+                  location.pathname === "/about"
+                    ? "before:w-[26px] active "
+                    : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={() => setNavBar(false)}
+                style={{
+                  WebkitTextStroke:
+                    location.pathname === "/about" ? "0.5px" : "unset",
+                }}
               >
                 Über uns
               </Link>
             </li>
-            <li className="duration-300 transition-all">
+            <li
+              className="duration-300 transition-all"
+              style={{
+                WebkitTextStroke:
+                  location.pathname === "/offer" ? "0.5px" : "unset",
+              }}
+            >
               <Link
                 to="/offer"
                 className={`${
-                  location.pathname === "/offer" ? "before:w-[26px]" : ""
+                  location.pathname === "/offer" ? "before:w-[26px] active" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={() => setNavBar(false)}
               >
                 Angebot
               </Link>
             </li>
-            <li className="duration-300 transition-all">
+            <li
+              className="duration-300 transition-all"
+              style={{
+                WebkitTextStroke:
+                  location.pathname === "/portfolio" ? "0.5px" : "unset",
+              }}
+            >
               <Link
                 to="/portfolio"
                 className={`${
-                  location.pathname === "/portfolio" ? "before:w-[26px]" : ""
+                  location.pathname === "/portfolio"
+                    ? "before:w-[26px] active"
+                    : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={() => setNavBar(false)}
               >
                 Portfolio
               </Link>
@@ -85,7 +120,7 @@ const Navbar = () => {
                   <MailIcon />
                 </a>
               </div>
-              <Link to="/contact">
+              <Link to="/contact" onClick={() => setNavBar(false)}>
                 <Button btnName="Kontakt" />
               </Link>
             </div>
@@ -98,7 +133,7 @@ const Navbar = () => {
           <a href="mailto:example@example.com">
             <MailIcon />
           </a>
-          <Link to="/contact">
+          <Link to="/contact" onClick={() => setNavBar(false)}>
             <Button btnName="Kontakt" />
           </Link>
         </div>
