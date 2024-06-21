@@ -832,11 +832,11 @@ export const FaqArrow = (props) => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M1 10.625L9.5 1.625L18 10.625"
+        d="M1 1.625L9.5 10.625L18 1.625"
         stroke="#071838"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

@@ -21,7 +21,7 @@ const HowWeWork = () => {
             />
             <BlueHeading
               headingText="How we work"
-              className="mb-[26.95px] !leading-xl"
+              className="mb-[26.95px] !leading-xl normal-case"
             />
             <img
               width={378}
