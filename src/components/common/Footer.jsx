@@ -28,7 +28,7 @@ const Footer = () => {
           alt="vector"
         />
         {!isContactPage && (
-          <div className="flex justify-center flex-col explore_card absolute top-[-21%] md:top-[-40%] xl:top-[-30%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky rounded-[10px] items-center mx-auto py-9">
+          <div className="flex justify-center flex-col explore_card absolute top-[-21%] md:top-[-40%] xl:top-[-32%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky rounded-[10px] items-center mx-auto py-9">
             <p className="text-white font-montserrat font-semibold text-xl max-w-[300px] xs:max-w-[450px] sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xxl !leading-md text-center md:max-w-[713px]">
               Möchten Sie ein Projekt starten? Wir freuen uns.
             </p>
@@ -44,9 +44,13 @@ const Footer = () => {
           <div className="flex gap-10 md:gap-0 justify-center md:justify-between flex-wrap -mx-3 max-w-[1140px]">
             <div className="w-full md:w-5/12 px-3 flex flex-col items-center md:items-start">
               <Link to="/">
-                <img className="max-w-[252px]" src={footerlogo} alt="logo" />
+                <img
+                  className="max-w-[160px] xs:max-w-[180px] md:max-w-[200px] relative z-50 lg:max-w-[252px]"
+                  src={footerlogo}
+                  alt="logo"
+                />
               </Link>
-              <p className="max-w-[433px] md:max-w-[311px] text-center md:text-left pt-4 text-white opacity-70">
+              <p className="max-w-[433px] md:max-w-[311px] text-center md:text-left pt-2 md:pt-4 text-white opacity-70">
                 Libero morbi pharetra sollicitudin enim praesent nulla velit
                 sitonec leodui.
               </p>

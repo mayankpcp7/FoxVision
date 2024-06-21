@@ -11,8 +11,8 @@
     background: #5925F2;
 }
 
-nav ul li a:hover {
-    -webkit-text-strokeWidth: 0.5px;
+nav ul li a:active {
+    -webkit-text-strokeWidth: 0.5px !important;
 }
 
 .nav_icons:hover path {

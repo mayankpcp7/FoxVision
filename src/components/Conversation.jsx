@@ -4,6 +4,7 @@ import { BlueHeading } from "./common/Heading";
 import phone from "../assets/images/webp/Contact/mobile.webp";
 import recaptcha from "../assets/images/webp/Contact/recaptcha.webp";
 import Button from "./common/Button";
+import Swal from "sweetalert2"; // Import SweetAlert
 
 const Conversation = () => {
   const [formData, setFormData] = useState({
@@ -58,17 +59,25 @@ const Conversation = () => {
     // If no errors, submit the form
     if (Object.keys(errors).length === 0) {
       console.log("Form data:", formData);
-      // Reset form
-      setFormData({
-        firstName: "",
-        lastName: "",
-        subject: "",
-        mobile: "",
-        email: "",
-        message: "",
-        robotCheck: false,
+      // Show success message using SweetAlert
+      Swal.fire({
+        icon: "success",
+        title: "Form Submitted Successfully!",
+        text: "We will get back to you shortly.",
+        confirmButtonColor: "#6B0C72", // Dark purple color
+        confirmButtonText: "OK",
+      }).then(() => {
+        // Reset form
+        setFormData({
+          firstName: "",
+          lastName: "",
+          subject: "",
+          mobile: "",
+          email: "",
+          message: "",
+          robotCheck: false,
+        });
       });
-      // Optionally, you can perform further submission logic here
     }
   };
 
@@ -199,6 +208,7 @@ const Conversation = () => {
                         type="checkbox"
                         id="robotCheck"
                         name="robotCheck"
+                        className="bg:transparent"
                         checked={formData.robotCheck}
                         onChange={handleChange}
                       />
