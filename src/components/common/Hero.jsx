@@ -17,7 +17,7 @@ const Hero = () => {
           Kreativagentur für Branding, Social Media & digitale Lösungen
         </p>
         <img
-          className="max-w-[714px] xl:ms-10 mt-3 sm:mt-1 w-full"
+          className="max-w-[720px] xl:ms-12 mt-3 sm:mt-1 w-full"
           src={monitor}
           alt="monitor"
         />

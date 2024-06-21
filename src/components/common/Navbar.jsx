@@ -12,6 +12,11 @@ const Navbar = () => {
     setNavBar(!navBar);
   }
 
+  // Function to handle link clicks and close the navbar
+  const handleLinkClick = () => {
+    setNavBar(false); // Set navBar to false to close the navbar
+  };
+
   useEffect(() => {
     if (navBar) {
       document.body.classList.add("max-xlg:overflow-hidden");
@@ -22,7 +27,7 @@ const Navbar = () => {
 
   return (
     <div className="px-3">
-      <nav className="max-w-[1240px]  mx-auto rounded-[150px] py-4 xlg:py-[11px] flex justify-between px-8 lg:px-12 shadow-navshadow bg-white">
+      <nav className="max-w-[1240px] mx-auto rounded-[150px] py-4 xlg:py-[11px] flex justify-between px-8 lg:px-12 shadow-navshadow bg-white">
         <Link className="items-center flex" to="">
           <img
             className="max-w-[150px] xs:max-w-[170px] md:max-w-[190px] relative z-50 lg:max-w-[207px]"
@@ -42,6 +47,7 @@ const Navbar = () => {
                 className={` ${
                   location.pathname === "/" ? "before:w-[26px]" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={handleLinkClick} // Close navbar on link click
               >
                 Home
               </Link>
@@ -52,6 +58,7 @@ const Navbar = () => {
                 className={`${
                   location.pathname === "/about" ? "before:w-[26px]" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={handleLinkClick} // Close navbar on link click
               >
                 Über uns
               </Link>
@@ -62,6 +69,7 @@ const Navbar = () => {
                 className={`${
                   location.pathname === "/offer" ? "before:w-[26px]" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={handleLinkClick} // Close navbar on link click
               >
                 Angebot
               </Link>
@@ -72,6 +80,7 @@ const Navbar = () => {
                 className={`${
                   location.pathname === "/portfolio" ? "before:w-[26px]" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
+                onClick={handleLinkClick} // Close navbar on link click
               >
                 Portfolio
               </Link>
@@ -85,7 +94,9 @@ const Navbar = () => {
                   <MailIcon />
                 </a>
               </div>
-              <Link to="/contact">
+              <Link to="/contact" onClick={handleLinkClick}>
+                {" "}
+                {/* Close navbar on link click */}
                 <Button btnName="Kontakt" />
               </Link>
             </div>
@@ -98,7 +109,9 @@ const Navbar = () => {
           <a href="mailto:example@example.com">
             <MailIcon />
           </a>
-          <Link to="/contact">
+          <Link to="/contact" onClick={handleLinkClick}>
+            {" "}
+            {/* Close navbar on link click */}
             <Button btnName="Kontakt" />
           </Link>
         </div>
