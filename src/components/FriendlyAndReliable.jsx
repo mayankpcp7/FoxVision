@@ -4,7 +4,7 @@ import mhillpaloka from "../assets/images/webp/project-agency/mhill-paloka.webp"
 
 const FriendlyAndReliable = () => {
   return (
-    <div className="px-3">
+    <div className="px-3 mb-1">
       <div className="max-w-[1164px] overflow-hidden mx-auto ">
         <SubHeading
           text="FOX VISION - Friendly and reliable"
