@@ -17,7 +17,7 @@ const Hero = () => {
           Kreativagentur für Branding, Social Media & digitale Lösungen
         </p>
         <img
-          className="max-w-[714px] xl:ms-10 mt-3 sm:mt-0 w-full"
+          className="max-w-[714px] xl:ms-10 mt-3 sm:mt-1 w-full"
           src={monitor}
           alt="monitor"
         />
@@ -36,14 +36,16 @@ const Hero = () => {
       case "/about":
         boldTitle = "About";
         normalTitle = " Us";
-        pathName = "About  Us";
+        pathName = "About Us";
         break;
       case "/contact":
-        boldTitle = "Contact Us";
+        normalTitle = "Contact";
+        boldTitle = " Us";
+        pathName = "Contact Us";
         break;
       case "/portfolio":
         normalTitle = "Portfolio";
-        pathName = "Portfolio";
+        pathName = "Portfolios";
         break;
       case "/offer":
         normalTitle = "Offer";
@@ -51,12 +53,17 @@ const Hero = () => {
         break;
       default:
         boldTitle = "";
+        pathName = "";
     }
 
     return (
       <>
         <div className="pt-16 mt-3 flex flex-col items-center pb-24 px-3">
-          <WhiteHeading boldText={boldTitle} normalText={normalTitle} />
+          {currentPath === "/contact" ? (
+            <WhiteHeading className="flex flex-row-reverse gap-3" normalText={normalTitle} boldText={boldTitle} />
+          ) : (
+            <WhiteHeading boldText={boldTitle} normalText={normalTitle} />
+          )}
         </div>
         <div className="flex gap-4 mb-[30px] max-w-[1164px] mx-auto px-3 items-center">
           <p className="text-white text-base font-poppins font-medium">Home</p>

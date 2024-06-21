@@ -13,7 +13,7 @@ const DesignStrategy = () => {
               headingText="UI/UX Design Strategy"
             />
             <p className="font-poppins font-normal text-base lg:text-lg xl:text-xl text-darkblue !leading-normal xl:!leading-lg opacity-70 max-lg:max-w-[440px] lg:!max-w-[481px] mt-3 xl:mt-5 max-lg:mx-auto max-lg:text-center">
-              Our design process is a{" "}
+              Our design process is a
               <span className="text-sky">well-thought-out journey</span> that
               combines innovation, strategy, and collaboration to produce
               outstanding results.

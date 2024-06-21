@@ -3,6 +3,7 @@ import logo from "../../assets/images/common/nav-logo.svg";
 import { Link, useLocation } from "react-router-dom";
 import { CallIcon, MailIcon } from "./Icon";
 import Button from "./Button";
+
 const Navbar = () => {
   const location = useLocation();
   const [navBar, setNavBar] = useState(false);

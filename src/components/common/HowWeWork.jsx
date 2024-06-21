@@ -6,40 +6,50 @@ import { howWeWorkCardlist } from "./Helper";
 import HowWeWorkCards from "./HowWeWorkCards";
 import { BlueHeading } from "./Heading";
 import { SubHeading } from "./SubHeading";
+import { Link } from "react-router-dom";
 
 const HowWeWork = () => {
   return (
-    <div className="xl:pt-[144.76px] xl:pb-[126.85ox] lg:py-24 md:py-[80px] sm:py-14 py-12">
+    <div className="xl:pt-[144.76px] xl:pb-[126.85px] lg:py-24 md:py-[80px] sm:py-14 py-12">
       <div className="max-w-[1164px] px-3 mx-auto">
-        <div className="flex flex-row flex-wrap justify-between items-end">
+        <div className="flex flex-row flex-wrap lg:justify-between justify-center items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
-            <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] -right-[24%] max-xl:max-w-[140px] lg:block hidden" />
-            <SubHeading text="A RESULTS-DRIVEN AGENCY" className="mb-3" />
-            <BlueHeading headingText="How we work" className="mb-[26.95px]" />
+            <WorkArrow className="absolute xl:-right-[12%] xl:top-[17%] top-[8%] -right-[8%] max-xl:max-w-[140px] lg:block hidden" />
+            <SubHeading
+              text="A RESULTS-DRIVEN AGENCY"
+              className="xl:!mb-3 sm:!mb-0 !mb-1"
+            />
+            <BlueHeading
+              headingText="How we work"
+              className="mb-[26.95px] !leading-xl"
+            />
             <img
               width={378}
               height={294}
               src={work}
               alt="work"
-              className="w-full sm:max-w-[378px] max-w-[310px]"
+              className="w-full sm:max-w-[378px] max-h-[294px] max-w-[310px]"
             />
           </div>
-          <div className="lg:w-6/12 w-full mb-[10px] flex lg:justify-end lg:pt-0 pt-6">
+          <div className="lg:w-6/12 sm:w-9/12 w-full mb-[10px] flex xl:justify-end lg:pt-0 sm:pt-6 pt-3">
             <div>
               <p className="font-normal font-poppins sm:text-xl text-base leading-normal text-darkblue opacity-70 lg:max-w-[481px] lg:mb-10 sm:mb-7 mb-6 lg:text-start text-center">
                 We see our customers as partners and identify passionately with
                 their companies. Regardless of what the goal is, whether to
                 increase sales, increase brand awareness or attract new
                 employees. We always look for the
-                <span className="text-sky">
+                <span className="text-sky cursor-pointer">
+                  {" "}
                   right solution for your company
-                </span>
+                </span>{" "}
                 and advise you individually
               </p>
-              <Button
-                className="lg:mx-0 mx-auto flex max-lg:justify-center"
-                btnName="Contact"
-              />
+              <Link to="/contact">
+                <Button
+                  className="lg:mx-0 mx-auto flex max-lg:justify-center"
+                  btnName="Contact"
+                />
+              </Link>
             </div>
           </div>
         </div>

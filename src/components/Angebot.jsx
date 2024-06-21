@@ -7,17 +7,17 @@ import { SubHeading } from "./common/SubHeading";
 
 const Angebot = () => {
   return (
-    <div className="bg-darkpurple xl:pt-[122.94px] lg:pt-24 md:pt-[80px] sm:pt-14 pt-12 xl:pb-[248.65px] md:pb-[190px] sm:pb-[240px] pb-[180px]">
+    <div className="bg-darkpurple xl:pt-[122.94px] lg:pt-24 md:pt-[80px] sm:pt-14 pt-12 xl:pb-[238.65px] md:pb-[190px] sm:pb-[240px] pb-[180px]">
       <div className="max-w-[1164px] mx-auto px-3">
         <SubHeading
-          className="text-white mb-[13.27px] text-center"
+          className="text-white xl:!mb-[13.27px] sm:mb-0 !mb-1 text-center"
           text="A RESULTS-DRIVEN AGENCY"
         />
         <BlueHeading
           headingText="Angebot"
           className="!text-white text-center"
         />
-        <div className="flex flex-row flex-wrap justify-center xl:gap-[17px] lg:gap-[15px] md:gap-5 sm:gap-3 gap-4 lg:pt-[97.79px] lg:pb-[77.23px] md:py-[60px] sm:py-12 py-9">
+        <div className="flex flex-row flex-wrap justify-center xl:gap-[17px] lg:gap-[15px] md:gap-5 sm:gap-3 gap-4 xl:pt-[97.79px] lg:pt-[70px] lg:pb-[77.23px] md:py-[60px] sm:py-12 py-9">
           {angebotCardList.map((obj, index) => (
             <div
               key={index}

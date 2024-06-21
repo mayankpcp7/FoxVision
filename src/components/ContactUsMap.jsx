@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUsMap = () => {
   return (
-    <div className="max-w-[1920px]">
+    <div className="max-w-[1920px] mx-auto">
       <div className="w-full">
         <iframe
           className="w-full"

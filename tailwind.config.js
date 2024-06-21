@@ -25,6 +25,9 @@ module.exports = {
         contactUsCard: "#EBE5FC",
         offgrey: "#EDE8FC",
         lightgrey: "#D3D3D3",
+        inputgrey: "#F9F9F9",
+        robotgrey: "#4B4B4B",
+        privacy: "#A6A6A6",
       },
       fontSize: {
         xxsm: "8px",
@@ -45,9 +48,12 @@ module.exports = {
         whatwedo: " 0px 16.7px 41.74px 0px #3B3E430D",
         graphicdesign: "0px 10px 20px 0px #05D5FB29",
         phil: "0px 0px 51px 8px #00000012",
-        designcardshadow: "0px 4px 27px 0px #4B17E614",
+        designcardshadow: "0px 0px 27px 0px #4B17E614",
         portfoliocardshadow: "0px 4px 27px 0px #00000024",
         contactusIconshadow: "0px 11.57px 27px 0px #4B17E61A",
+        forminput: "0px 0px 5px -2px #4B17E666",
+        identityicon: "0px 10px 20px 0px #05D5FB29",
+        identityicon: "0px 10px 20px 0px #05D5FB29",
         forminput: "0px 0px 5px -2px #4B17E666",
       },
 
