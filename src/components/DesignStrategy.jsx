@@ -16,7 +16,7 @@ const DesignStrategy = () => {
               Our design process is a {""}
               <span className="text-sky cursor-pointer">
                 well-thought-out journey
-              </span>
+              </span>{" "}
               that combines innovation, strategy, and collaboration to produce
               outstanding results.
             </p>
@@ -30,7 +30,7 @@ const DesignStrategy = () => {
               />
             </div>
           </div>
-          <div className="w-full lg:max-w-[635px] max-sm:ps-7 px-3 pt-8 sm:pt-10 lg:pt-0">
+          <div className="w-full lg:max-w-[635px] max-lg:ps-7 px-3 pt-8 sm:pt-10 lg:pt-0">
             {DesignStrategyArray.map((obj, index) => (
               <div
                 key={index}

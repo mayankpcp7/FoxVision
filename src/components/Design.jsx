@@ -5,7 +5,7 @@ const Design = () => {
   return (
     <div className="pt-6 sm:pt-10 md:pt-20 lg:pt-24 xl:pt-[130px] max-sm:pb-12">
       <div className="container max-w-[1164px]">
-        <div className="flex flex-wrap flex-row -mx-3">
+        <div className="flex flex-wrap flex-row -mx-3 max-lg:max-w-[815px] max-lg:mx-auto">
           {DesignCardArray.map((obj, index) => (
             <div
               key={index}
