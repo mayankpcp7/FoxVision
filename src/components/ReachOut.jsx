@@ -20,7 +20,7 @@ const ReachOut = () => {
           {ContactUsCardArray.map((obj, index) => (
             <div
               key={index}
-              className="w-full sm:w-1/2 lg:w-1/3 px-3 pt-6 sm:pt-8"
+              className="w-full sm:w-1/2 md:w-5/12 lg:w-1/3 px-3 pt-6 sm:pt-8"
               data-aos="zoom-in-up"
             >
               <div className="bg-white shadow-designcardshadow pt-5 pb-5 sm:pt-7 sm:pb-7 text-center max-w-[364px] mx-auto hover:-translate-y-6  lg:hover:-translate-y-[38px] group duration-500 h-full flex flex-col">

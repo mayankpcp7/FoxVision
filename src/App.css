@@ -8,7 +8,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #5925F2;
+    background: #05D5FB;
 }
 
 nav ul li a:hover {
@@ -48,7 +48,7 @@ input:checked~.checkmark::after {
 .checkmark::after {
     top: 50% !important;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg) !important;
+    transform: translate(-50%, -50%) rotate(45deg) !important;
     width: 8.49px;
     height: 11.31px;
     border: solid #B3B3B3;
