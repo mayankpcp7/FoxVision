@@ -25,7 +25,7 @@ const BackToTop = () => {
   return (
     <>
       <div
-        className={`fixed z-50 bottom-5 right-5 transition-all duration-300 ${
+        className={`fixed z-50 bottom-5 right-5 2xl:right-[calc((100vw-1700px)/2)] transition-all duration-300 ${
           isVisible ? "scale-100 translate-y-0" : "scale-0 translate-y-[40px]"
         }`}
       >

@@ -8,7 +8,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #5925F2;
+    background: #05D5FB;
 }
 
 nav ul li a:hover {
@@ -33,6 +33,12 @@ input::placeholder {
     font-size: 16px;
     font-weight: 400;
     padding-left: 7px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .checkmark::after {

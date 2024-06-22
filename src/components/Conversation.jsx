@@ -84,7 +84,7 @@ const Conversation = () => {
           <div className="flex-col flex">
             <SubHeading
               text="Contact With FoxVision"
-              className="md:text-start text-center"
+              className="md:text-start text-center lowercase"
             />
             <BlueHeading
               headingText="Let's Start a Conversation"
