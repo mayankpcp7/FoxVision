@@ -28,14 +28,13 @@ const Strategy = () => {
             >
               Logo Design
             </p>
-            <p
-              className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center"
-              data-aos="fade-right"
-            >
-              Logo design is a specialized discipline within the realm of
-              graphic design, focused on creating unique and memorable visual
-              symbols that represent a brand, company, or organization.
-            </p>
+            <div data-aos="fade-right">
+              <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+                Logo design is a specialized discipline within the realm of
+                graphic design, focused on creating unique and memorable visual
+                symbols that represent a brand, company, or organization.
+              </p>
+            </div>
           </div>
           <div
             className="w-full lg:w-7/12 px-3 max-lg:max-w-[547px] max-lg:mx-auto max-lg:pt-[90px"
@@ -122,14 +121,13 @@ const Strategy = () => {
               >
                 Strategy & Digital Marketing
               </p>
-              <p
-                className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center"
-                data-aos="fade-left"
-              >
-                Strategy in digital marketing is the foundation upon which
-                successful online campaigns are built. It involves setting clear
-                objectives, identifying target audiences.
-              </p>
+              <div data-aos="fade-left">
+                <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+                  Strategy in digital marketing is the foundation upon which
+                  successful online campaigns are built. It involves setting
+                  clear objectives, identifying target audiences.
+                </p>
+              </div>
             </div>
           </div>
         </div>
