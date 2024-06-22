@@ -35,6 +35,12 @@ input::placeholder {
     padding-left: 7px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .checkmark::after {
     content: "";
     position: absolute;
