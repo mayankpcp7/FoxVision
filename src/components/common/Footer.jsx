@@ -9,7 +9,9 @@ import leftvector from "../../assets/images/webp/footer/left-vector.webp";
 const Footer = () => {
   const location = useLocation();
   const isContactPage = location.pathname === "/contact";
-
+  const getCurrentYear = () => {
+    return new Date().getFullYear();
+  };
   return (
     <>
       <footer
@@ -183,7 +185,7 @@ const Footer = () => {
         </div>
       </footer>
       <p className="font-poppins font-normal text-white opacity-70 text-center pb-2 xs:pb-3 pt-12 md:pt-24 mt-4 text-sm">
-        Copyright©2024 Fox Vision GmbH. All right reserved.
+        Copyright©{getCurrentYear()} Fox Vision GmbH. All right reserved.
       </p>
     </>
   );
