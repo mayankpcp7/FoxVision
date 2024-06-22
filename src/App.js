@@ -25,31 +25,23 @@ function App() {
   });
   return (
     <>
-      <div className="bg-darkpurple pt-5 pb-1">
-        <Navbar />
-        <Hero />
-      </div>{" "}
-      <Routes>
-        <Route path="/" element={<Home />}>
-          {" "}
-        </Route>{" "}
-        <Route path="/about" element={<AboutUs />}>
-          {" "}
-        </Route>{" "}
-        <Route path="/contact" element={<ContactUs />}>
-          {" "}
-        </Route>{" "}
-        <Route path="/portfolio" element={<Portfolio />}>
-          {" "}
-        </Route>{" "}
-        <Route path="/offer" element={<Offer />}>
-          {" "}
-        </Route>{" "}
-      </Routes>{" "}
-      <div className="px-3 bg-darkblue">
-        <Footer />
-      </div>{" "}
-      <BackToTop />
+      <div className="overflow-hidden">
+        <div className="bg-darkpurple pt-5 pb-1">
+          <Navbar />
+          <Hero />
+        </div>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<AboutUs />}></Route>
+          <Route path="/contact" element={<ContactUs />}></Route>
+          <Route path="/portfolio" element={<Portfolio />}></Route>
+          <Route path="/offer" element={<Offer />}></Route>
+        </Routes>
+        <div className="px-3 bg-darkblue">
+          <Footer />
+        </div>
+        <BackToTop />
+      </div>
     </>
   );
 }

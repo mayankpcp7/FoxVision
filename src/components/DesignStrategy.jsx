@@ -16,7 +16,7 @@ const DesignStrategy = () => {
               Our design process is a {""}
               <span className="text-sky cursor-pointer">
                 well-thought-out journey
-              </span>{" "}
+              </span>
               that combines innovation, strategy, and collaboration to produce
               outstanding results.
             </p>
