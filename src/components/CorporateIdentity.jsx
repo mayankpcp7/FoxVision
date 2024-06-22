@@ -27,7 +27,7 @@ const CorporateIdentity = () => {
               data-aos="fade-up"
             />
           </div>
-          <div className="lg:w-6/12 sm:w-8/12 w-full lg:pt-0 pt-7">
+          <div className="lg:w-6/12 sm:w-10/12 w-full lg:pt-0 pt-7">
             <div
               className="sm:w-[93px] sm:h-[93px] w-[83px] h-[83px] rounded-[6px] bg-lightsky shadow-identityicon flex items-center justify-center mb-[15px] lg:mx-0 mx-auto"
               data-aos="fade-left"
