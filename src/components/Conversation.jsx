@@ -4,8 +4,7 @@ import { BlueHeading } from "./common/Heading";
 import phone from "../assets/images/webp/Contact/mobile.webp";
 import recaptcha from "../assets/images/webp/Contact/recaptcha.webp";
 import Button from "./common/Button";
-import Swal from "sweetalert2"; // Import SweetAlert
-import { CheckedIcon } from "./common/Icon";
+import Swal from "sweetalert2";
 
 const Conversation = () => {
   const checked = "";
@@ -54,14 +53,10 @@ const Conversation = () => {
     if (!formData.robotCheck) {
       errors.robotCheck = "Please confirm you are not a robot";
     }
-
-    // Update errors state
     setFormErrors(errors);
 
-    // If no errors, submit the form
     if (Object.keys(errors).length === 0) {
       console.log("Form data:", formData);
-      // Show success message using SweetAlert
       Swal.fire({
         icon: "success",
         title: "Form Submitted Successfully!",
@@ -69,7 +64,6 @@ const Conversation = () => {
         confirmButtonColor: "#6B0C72", // Dark purple color
         confirmButtonText: "OK",
       }).then(() => {
-        // Reset form
         setFormData({
           firstName: "",
           lastName: "",
