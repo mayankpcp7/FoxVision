@@ -308,31 +308,3 @@ export const ContactUsCardArray = [
     contactid: "Fox Vision GmbH Badstrasse 50 CH-5200 Brugg",
   },
 ];
-// ------------------------- footer --------------------------------
-export const FooterLinks = [
-  {
-    title: "Home",
-    links: [
-      { label: "About us", to: "/about" },
-      { label: "Offer", to: "/offer" },
-      { label: "Contact", to: "/contact" },
-    ],
-  },
-  {
-    title: "Agency",
-    links: [
-      { label: "Fox Vision GmbH", to: "/about" },
-      { label: "Badstrasse 50 CH-5200 Brugg", to: "/offer" },
-      { label: "+41 79 725 61 00", to: "/contact" },
-      { label: "info@foxvision.ch", to: "/contact" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-      { label: "Imprint", to: "/about" },
-      { label: "Data protection", to: "/offer" },
-      { label: "Copyright", to: "/contact" },
-    ],
-  },
-];
