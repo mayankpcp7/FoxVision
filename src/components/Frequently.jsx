@@ -30,7 +30,7 @@ const Frequently = () => {
           headingText="Frequently Asked Questions"
           className="lg:mb-[50px] md:mb-12 mb-7 text-center"
         />
-        <div className="flex flex-col w-full lg:max-w-[970px] mx-auto">
+        <div className="flex flex-col xl:max-w-[970px] lg:w-10/12 md:w-11/12 w-full mx-auto">
           {accordionData.map((item, index) => (
             <div
               className="accordion-item border border-solid border-[#00000033] sm:pl-[21px] sm:pr-[30px] px-3 py-5 sm:mb-5 mb-4 rounded-[6px] transition-all duration-300 ease-in-out"
