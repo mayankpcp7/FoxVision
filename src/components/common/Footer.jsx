@@ -61,7 +61,7 @@ const Footer = () => {
               </p>
               <div className="flex mt-7 gap-4">
                 <Link
-                  className="duration-300 hover:scale-125"
+                  className="duration-300 hover:scale-105"
                   to="https://www.facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -69,7 +69,7 @@ const Footer = () => {
                   <Facebook />
                 </Link>
                 <Link
-                  className="duration-300 hover:scale-125"
+                  className="duration-300 hover:scale-105"
                   to="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -39,37 +39,37 @@ const Navbar = () => {
             <li
               className="duration-300 transition-all"
               style={{
-                WebkitTextStroke: location.pathname === "/" ? "0.5px" : "unset",
+                WebkitTextStroke: location.pathname === "/" ? "0.5px" : "",
               }}
             >
               <Link
                 to="/"
                 className={`${
-                  location.pathname === "/" ? "before:w-[26px] active" : ""
+                  location.pathname === "/" ? "before:w-[26px] active hover:" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
                 onClick={() => setNavBar(false)}
+                style={{
+                  WebkitTextStroke: location.pathname === "/" ? "0.5px" : "",
+                }}
               >
                 Home
-              </Link>
+              </Link>:
             </li>
             <li
               className="duration-300 transition-all"
               style={{
-                WebkitTextStroke:
-                  location.pathname === "/about" ? "0.5px" : "unset",
+                WebkitTextStroke: location.pathname === "/about" ? "0.5px" : "",
               }}
             >
               <Link
                 to="/about"
                 className={`${
-                  location.pathname === "/about"
-                    ? "before:w-[26px] active "
-                    : ""
+                  location.pathname === "/about" ? "before:w-[26px] active" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
                 onClick={() => setNavBar(false)}
                 style={{
                   WebkitTextStroke:
-                    location.pathname === "/about" ? "0.5px" : "unset",
+                    location.pathname === "/about" ? "0.5px" : "",
                 }}
               >
                 Über uns
@@ -78,8 +78,7 @@ const Navbar = () => {
             <li
               className="duration-300 transition-all"
               style={{
-                WebkitTextStroke:
-                  location.pathname === "/offer" ? "0.5px" : "unset",
+                WebkitTextStroke: location.pathname === "/offer" ? "0.5px" : "",
               }}
             >
               <Link
@@ -88,6 +87,10 @@ const Navbar = () => {
                   location.pathname === "/offer" ? "before:w-[26px] active" : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
                 onClick={() => setNavBar(false)}
+                style={{
+                  WebkitTextStroke:
+                    location.pathname === "/offer" ? "0.5px" : "",
+                }}
               >
                 Angebot
               </Link>
@@ -96,7 +99,7 @@ const Navbar = () => {
               className="duration-300 transition-all"
               style={{
                 WebkitTextStroke:
-                  location.pathname === "/portfolio" ? "0.5px" : "unset",
+                  location.pathname === "/portfolio" ? "0.5px" : "",
               }}
             >
               <Link
@@ -107,6 +110,10 @@ const Navbar = () => {
                     : ""
                 } font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-xl sm:text-md lg:text-base text-darkblue`}
                 onClick={() => setNavBar(false)}
+                style={{
+                  WebkitTextStroke:
+                    location.pathname === "/portfolio" ? "0.5px" : "",
+                }}
               >
                 Portfolio
               </Link>
