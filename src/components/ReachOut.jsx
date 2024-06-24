@@ -7,7 +7,7 @@ import { SubHeading } from "./common/SubHeading";
 const ReachOut = () => {
   return (
     <div className="py-12 sm:py-16 md:py-20 lg:py-24 xl:pt-[118px] xl:pb-[165px]">
-      <div className="container max-w-[1164px]">
+      <div className="container max-w-[1164px] px-5 md:px-4 xl:px-3">
         <SubHeading
           className="text-center !normal-case max-sm:mb-1"
           text="FOX VISION - Friendly and reliable"
@@ -28,7 +28,7 @@ const ReachOut = () => {
                   target="_blank"
                   to={obj.href}
                   aria-label={obj.ariaLabel}
-                  className="bg-contactUsCard group-hover:bg-darkpurple duration-300 w-16 sm:w-[85px] h-16 sm:h-[85px] rounded-[7px] mx-auto flex justify-center items-center shadow-contactusIconshadow"
+                  className="bg-contactUsCard group-hover:bg-darkpurple duration-300 w-16 sm:w-[85px] h-16 sm:h-[85px] rounded-[7px] mx-auto flex justify-center items-center shadow-contactusIconshadow group-hover:shadow-contactusIconShadowHover"
                 >
                   {obj.icon}
                 </Link>
