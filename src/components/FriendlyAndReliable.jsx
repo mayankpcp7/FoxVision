@@ -4,8 +4,8 @@ import mhillpaloka from "../assets/images/webp/project-agency/mhill-paloka.webp"
 
 const FriendlyAndReliable = () => {
   return (
-    <div className="px-3 mb-1">
-      <div className="max-w-[1164px] overflow-hidden mx-auto ">
+    <div className="px-4 mb-1">
+      <div className="overmax-w-[1164px] flow-hidden mx-auto">
         <SubHeading
           text="FOX VISION - Friendly and reliable"
           className="text-center lg:!mb-3 !mb-1 !normal-case"

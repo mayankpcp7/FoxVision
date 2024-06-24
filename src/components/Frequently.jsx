@@ -4,7 +4,7 @@ import { FaqArrow } from "./common/Icon";
 import { accordionData } from "./common/Helper";
 
 const Frequently = () => {
-  const [openAccordion, setOpenAccordion] = useState(0); // Set initial state to 0 for the first accordion to be open
+  const [openAccordion, setOpenAccordion] = useState(0);
   const [contentHeight, setContentHeight] = useState({});
 
   const refs = useRef([]);
@@ -25,7 +25,7 @@ const Frequently = () => {
 
   return (
     <div className="xl:pt-[150px] pt-12 sm:pt-14 md:pt-[80px] lg:pt-24 xl:pb-[264px] lg:pb-[200px] sm:pb-[180px] pb-[200px]">
-      <div className="max-w-[1164px] mx-auto px-3">
+      <div className="max-w-[1164px] mx-auto px-4">
         <BlueHeading
           headingText="Frequently Asked Questions"
           className="lg:mb-[50px] md:mb-12 mb-7 text-center"
@@ -35,7 +35,7 @@ const Frequently = () => {
             <div
               className="accordion-item border border-solid border-[#00000033] sm:pl-[21px] sm:pr-[30px] px-3 py-5 sm:mb-5 mb-4 rounded-[6px] transition-all duration-300 ease-in-out"
               key={index}
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
             >
               <div
                 className="accordion-title flex justify-between sm:items-center items-start cursor-pointer"

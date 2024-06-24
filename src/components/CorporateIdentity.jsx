@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const CorporateIdentity = () => {
   return (
     <div className="pt-12 sm:pt-14 md:pt-[80px] lg:pt-24 xl:pt-[126px]">
-      <div className="max-w-[1164px] mx-auto px-3">
+      <div className="max-w-[1164px] mx-auto px-4">
         <div className="flex flex-row flex-wrap lg:justify-between justify-center items-center">
           <div className="lg:w-5/12 flex flex-col lg:items-start items-center w-full relative">
             <PurpleArrow

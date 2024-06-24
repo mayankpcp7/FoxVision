@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const HowWeWork = () => {
   return (
     <div className="xl:pt-[144.76px] xl:pb-[126.85px] lg:py-24 md:py-[80px] sm:py-14 py-12">
-      <div className="max-w-[1164px] px-3 mx-auto">
+      <div className="max-w-[1164px] px-4 mx-auto">
         <div className="flex flex-row flex-wrap lg:justify-between justify-center items-end">
           <div className="lg:w-6/12 w-full relative flex flex-col lg:items-start items-center">
             <WorkArrow className="absolute xl:-right-[12%] xl:top-[17%] top-[8%] -right-[8%] max-xl:max-w-[140px] lg:block hidden animate-pulse" />
