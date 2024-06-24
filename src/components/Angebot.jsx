@@ -22,16 +22,17 @@ const Angebot = () => {
             <div
               key={index}
               className="lg:w-[32.3%] md:w-[45%] sm:w-[49%] w-full"
-              data-aos="fade-up"
             >
               <AngebotCardsList
                 className={`${
                   index === 0
-                    ? "sm:pb-[59.24px]"
+                    ? "sm:pb-[59.24px] hover:bg-lightpurple"
                     : index === 1
                     ? "sm:pb-[59.24px]"
                     : index === 2
-                    ? "sm:pb-[59.24px]"
+                    ? "sm:pb-[59.24px] hover:bg-lightpurple"
+                    : index === 4
+                    ? "hover:bg-lightpurple"
                     : ""
                 }`}
                 svg={obj.svg}

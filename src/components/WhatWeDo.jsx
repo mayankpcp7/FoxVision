@@ -45,17 +45,17 @@ const WhatWeDo = () => {
             <div className="max-lg:max-w-[560px] max-lg:mx-auto">
               <div
                 className="flex justify-center items-center max-lg:w-[70px] max-lg:h-[70px] w-[93px] h-[93px] bg-lightpurple rounded-lg shadow-creativeiconshadow max-lg:mx-auto"
-                data-aos="zoom-in"
+                data-aos="fade-up"
               >
                 <CreativeDesignIcon />
               </div>
               <p
                 className="font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-darkblue !leading-normal mt-6 sm:mt-8 md:mt-[39px] max-lg:text-center"
-                data-aos="zoom-in"
+                data-aos="fade-up"
               >
                 UI/UX Creative Design
               </p>
-              <div data-aos="zoom-in">
+              <div data-aos="fade-up">
                 <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue !leading-normal opacity-70 lg:max-w-[386px] mt-2 max-lg:text-center">
                   UI/UX creative design is the art of crafting digital
                   experiences that seamlessly blend aesthetics with
@@ -66,10 +66,7 @@ const WhatWeDo = () => {
               </div>
             </div>
           </div>
-          <div
-            className="w-full lg:w-7/12 px-3 relative"
-            data-aos="zoom-in-left"
-          >
+          <div className="w-full lg:w-7/12 px-3 relative" data-aos="fade-left">
             <span className="absolute max-[400px]:-top-[20%] -top-16 sm:top-5 right-0 md:top-[10%] md:right-[3%] lg:top-[10%] xl:top-[9%] lg:right-[-2%] xl:right-[-14%] z-[-1] pointer-events-none">
               <WhatWeDoRightVector />
             </span>
@@ -143,7 +140,7 @@ const WhatWeDo = () => {
         <div className="flex flex-row flex-wrap -mx-3 pt-16 md:pt-20 lg:pt-32 xl:pt-[242px] items-center">
           <div
             className="w-full lg:w-7/12 px-3 relative"
-            data-aos="zoom-in-right"
+            data-aos="fade-up-right"
           >
             <span className="absolute max-[400px]:-top-[22%] -top-16 sm:top-5 left-0 md:top-[7%] md:left-[2%] lg:top-[6%] xl:top-0 lg:left-[-2%] xl:left-[-14%] z-[-1]">
               <WhatWeDoLeftVector />
@@ -218,17 +215,17 @@ const WhatWeDo = () => {
             <div className="max-lg:max-w-[560px] max-lg:mx-auto lg:max-w-[420px] ms-auto">
               <div
                 className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-lightsky rounded-lg shadow-graphicdesign max-lg:mx-auto"
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
               >
                 <GraphicDesignIcon />
               </div>
               <p
                 className="font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-darkblue !leading-normal mt-6 sm:mt-8 md:mt-[39px] max-lg:text-center"
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
               >
                 Visual Graphic Design
               </p>
-              <div data-aos="zoom-in-up">
+              <div data-aos="fade-up">
                 <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue !leading-normal opacity-70 mt-2 max-lg:text-center">
                   Visual graphic design is the art of using visual elements,
                   such as images, typography, color, and layout, to convey a
