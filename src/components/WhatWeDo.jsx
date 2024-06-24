@@ -44,13 +44,8 @@ const WhatWeDo = () => {
           <div className="w-full lg:w-5/12 px-3 max-sm:pt-[70px] max-lg:pt-20">
             <div className="max-lg:max-w-[560px] max-lg:mx-auto">
               <div
-<<<<<<< HEAD
-                className="flex justify-center items-center max-lg:w-[70px] max-lg:h-[70px] w-[93px] h-[93px] bg-lightpurple rounded-lg shadow-creativeiconshadow max-lg:mx-auto"
-                data-aos="fade-up"
-=======
                 className="flex justify-center items-center max-lg:w-[60px] max-lg:h-[60px] w-[93px] h-[93px] bg-lightpurple rounded-lg shadow-creativeiconshadow max-lg:mx-auto"
                 data-aos="zoom-in"
->>>>>>> 6be1fc2e04394e203c3e532d4bff360c207b8d43
               >
                 <CreativeDesignIcon />
               </div>
@@ -60,13 +55,8 @@ const WhatWeDo = () => {
               >
                 UI/UX Creative Design
               </p>
-<<<<<<< HEAD
-              <div data-aos="fade-up">
-                <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue !leading-normal opacity-70 lg:max-w-[386px] mt-2 max-lg:text-center">
-=======
               <div data-aos="zoom-in">
                 <p className="font-poppins font-normal text-sm sm:text-base md:text-lg lg:text-xl text-darkblue !leading-normal opacity-70 lg:max-w-[386px] mt-2 max-lg:text-center">
->>>>>>> 6be1fc2e04394e203c3e532d4bff360c207b8d43
                   UI/UX creative design is the art of crafting digital
                   experiences that seamlessly blend aesthetics with
                   functionality. It's about understanding users' needs and
@@ -235,13 +225,8 @@ const WhatWeDo = () => {
               >
                 Visual Graphic Design
               </p>
-<<<<<<< HEAD
-              <div data-aos="fade-up">
-                <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-darkblue !leading-normal opacity-70 mt-2 max-lg:text-center">
-=======
               <div data-aos="zoom-in-up">
                 <p className="font-poppins font-normal text-sm sm:text-base md:text-lg lg:text-xl text-darkblue !leading-normal opacity-70 mt-2 max-lg:text-center">
->>>>>>> 6be1fc2e04394e203c3e532d4bff360c207b8d43
                   Visual graphic design is the art of using visual elements,
                   such as images, typography, color, and layout, to convey a
                   message, tell a story, or evoke emotions.
