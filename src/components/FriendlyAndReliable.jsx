@@ -4,8 +4,8 @@ import mhillpaloka from "../assets/images/webp/project-agency/mhill-paloka.webp"
 
 const FriendlyAndReliable = () => {
   return (
-    <div className="px-3 mb-1">
-      <div className="max-w-[1164px] overflow-hidden mx-auto ">
+    <div className="px-4 mb-1">
+      <div className="overmax-w-[1164px] flow-hidden mx-auto">
         <SubHeading
           text="FOX VISION - Friendly and reliable"
           className="text-center lg:!mb-3 !mb-1 !normal-case"
@@ -21,11 +21,11 @@ const FriendlyAndReliable = () => {
             <div className="lg:w-6/12 lg:pt-0 pt-8">
               <p
                 className="capitalize text-darkblue font-poppins font-semibold sm:text-2xl text-xl !leading-normal sm:mb-[15px] mb-3"
-                data-aos="zoom-in-right"
+                data-aos="fade-right"
               >
                 Mhill Paloka
               </p>
-              <div data-aos="zoom-in-right">
+              <div data-aos="fade-right">
                 <p className="text-darkblue opacity-70 font-poppins font-normal xl:text-xl sm:text-base text-sm !leading-lg xl:max-w-[500px] lg:max-w-[430px]">
                   Mhill Paloka deepened his know-how in the areas of purchasing,
                   marketing and controlling in a large international company. He
@@ -42,7 +42,7 @@ const FriendlyAndReliable = () => {
                 src={mhillpaloka}
                 alt="mhillpaloka"
                 className="rounded-[6px] w-full"
-                data-aos="zoom-out"
+                data-aos="fade-left"
               />
             </div>
           </div>

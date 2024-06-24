@@ -8,7 +8,7 @@ import { SubHeading } from "./common/SubHeading";
 const Angebot = () => {
   return (
     <div className="bg-darkpurple xl:pt-[122.94px] lg:pt-24 md:pt-[80px] sm:pt-14 pt-12 xl:pb-[238.65px] md:pb-[190px] sm:pb-[240px] pb-[180px]">
-      <div className="max-w-[1164px] mx-auto px-3">
+      <div className="max-w-[1164px] mx-auto px-4">
         <SubHeading
           className="text-white xl:!mb-[13.27px] sm:mb-0 !mb-1 text-center"
           text="A RESULTS-DRIVEN AGENCY"
@@ -22,16 +22,17 @@ const Angebot = () => {
             <div
               key={index}
               className="lg:w-[32.3%] md:w-[45%] sm:w-[49%] w-full"
-              data-aos="fade-up"
             >
               <AngebotCardsList
                 className={`${
                   index === 0
-                    ? "sm:pb-[59.24px]"
+                    ? "sm:pb-[59.24px] hover:!bg-lightpurple"
                     : index === 1
                     ? "sm:pb-[59.24px]"
                     : index === 2
-                    ? "sm:pb-[59.24px]"
+                    ? "sm:pb-[59.24px] hover:!bg-lightpurple"
+                    : index === 4
+                    ? "hover:!bg-lightpurple"
                     : ""
                 }`}
                 svg={obj.svg}
@@ -46,7 +47,7 @@ const Angebot = () => {
           ))}
         </div>
         <div className="flex justify-center" data-aos="zoom-out">
-          <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[171px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
+          <WhiteLogo className="xl:w-[141px] lg:w-[121px] cursor-pointer xl:h-[171px] lg:h-[161px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </div>
       </div>
     </div>

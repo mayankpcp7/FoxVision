@@ -20,7 +20,7 @@ const PortfolioCard = () => {
               <div
                 key={index}
                 className="w-full sm:w-1/2 md:w-1/3 px-3 pt-6"
-                data-aos="zoom-in-up"
+                data-aos="flip-right"
               >
                 <div className="border border-gray p-2 lg:py-[15px] lg:px-[17px] rounded-md h-full max-sm:max-w-[364px] max-sm:mx-auto duration-300 hover:shadow-portfoliocardshadow group">
                   <div className="max-sm:max-w-full rounded-md max-w-[330px] overflow-hidden">

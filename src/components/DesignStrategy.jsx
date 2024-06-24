@@ -7,7 +7,7 @@ const DesignStrategy = () => {
     <div className="sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[150px] max-sm:pb-12 max-md:pb-2.5">
       <div className="container max-w-[1164px]">
         <div className="flex flex-col lg:flex-row -mx-3">
-          <div className="w-full lg:max-w-[525px] px-3" data-aos="zoom-in">
+          <div className="w-full lg:max-w-[525px] px-3" data-aos="fade-right">
             <BlueHeading
               className=" lg:!text-5xl xl:!text-6xxl max-lg:text-center"
               headingText="UI/UX Design Strategy"
@@ -36,8 +36,8 @@ const DesignStrategy = () => {
                 key={index}
                 className={`${
                   index === 0 && "!mt-0"
-                } mt-10 md:mt-[50px] w-full bg-white shadow-designcardshadow max-[500px]:p-[10px_10px_10px_110px] p-[27px_23px_26px_131px] lg:p-[10px_10px_10px_131px] xl:p-[27px_23px_26px_131px] before:pointer-events-none relative min-[1105px]:before:h-[140px] max-xl:before:h-[140px] xl:before:!h-[164px] before:absolute before:top-0 before:-left-5 customBefore max-lg:max-w-[815px] max-lg:mx-auto before:w-full before:max-w-[120px] max-xl:before:bg-size xl:before:bg-cover before:h-[154px] lg:before:h-[164px] lg:before:max-w-[134px]`}
-                data-aos="zoom-in-left"
+                } mt-10 md:mt-[50px] w-full bg-white shadow-designcardshadow max-[500px]:p-[10px_10px_10px_110px] p-[27px_23px_26px_131px] lg:p-[10px_10px_10px_131px] xl:p-[27px_23px_26px_131px] before:pointer-events-none relative min-[1105px]:before:h-[140px] max-xl:before:h-[140px] xl:before:!h-[164px] before:absolute before:top-0 before:-left-5 customBefore max-lg:max-w-[615px] max-lg:mx-auto before:w-full before:max-w-[120px] max-xl:before:bg-size xl:before:bg-cover before:h-[154px] lg:before:h-[164px] lg:before:max-w-[134px]`}
+                data-aos="fade-left"
               >
                 <p className="font-montserrat font-semibold text-4xl md:text-4xxl !leading-md text-white absolute left-5 max-lg:top-1/2 max-lg:-translate-y-1/2 lg:bottom-[26px] sm:left-5">
                   {obj.indexnumber}
