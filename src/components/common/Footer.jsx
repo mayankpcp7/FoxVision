@@ -15,22 +15,22 @@ const Footer = () => {
   return (
     <>
       <footer
-        className={`pt-28 sm:pt-40 xl:pt-[224px] relative ${
+        className={`pt-36 sm:pt-40 xl:pt-[224px] relative ${
           isContactPage ? "!pt-20" : ""
         }`}
       >
         <img
-          className="absolute -z-0 bottom-0 pointer-events-none end-0"
+          className="absolute -z-0 bottom-[-40%] pointer-events-none end-[-12px]"
           src={rightvector}
           alt="vector"
         />
         <img
-          className="absolute -z-0 pointer-events-none top-0 start-0"
+          className="absolute -z-0 pointer-events-none top-0 start-[-12px]"
           src={leftvector}
           alt="vector"
         />
         {!isContactPage && (
-          <div className="flex justify-center flex-col explore_card absolute top-[-21%] md:top-[-40%] xl:top-[-32%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky rounded-[10px] items-center mx-auto py-9">
+          <div className="flex justify-center flex-col explore_card absolute top-[-14%] sm:top-[-21%] md:top-[-40%] xl:top-[-32%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky rounded-[10px] items-center mx-auto py-9">
             <p
               className="text-white font-montserrat font-semibold text-xl max-w-[300px] xs:max-w-[450px] sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xxl !leading-md text-center md:max-w-[713px]"
               data-aos="zoom-out-up"
@@ -39,13 +39,13 @@ const Footer = () => {
             </p>
             <Link to="/contact" data-aos="zoom-out-up">
               <Button
-                className="border-2 sm:mt-7 mt-5 border-white"
+                className="border-2 sm:mt-7 py-[10px] px-[24px] mt-5 border-white"
                 btnName="Kontakt"
               />
             </Link>
           </div>
         )}
-        <div className="max-w-[1164px] px-3 mx-auto">
+        <div className="max-w-[1164px] mx-auto">
           <div className="flex gap-10 md:gap-0 justify-center md:justify-between flex-wrap -mx-3 max-w-[1140px]">
             <div className="w-full md:w-5/12 px-3 flex flex-col items-center md:items-start">
               <Link to="/">

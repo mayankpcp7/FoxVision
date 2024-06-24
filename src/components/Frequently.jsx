@@ -4,7 +4,7 @@ import { FaqArrow } from "./common/Icon";
 import { accordionData } from "./common/Helper";
 
 const Frequently = () => {
-  const [openAccordion, setOpenAccordion] = useState(0); // Set initial state to 0 for the first accordion to be open
+  const [openAccordion, setOpenAccordion] = useState(0); 
   const [contentHeight, setContentHeight] = useState({});
 
   const refs = useRef([]);

@@ -32,7 +32,7 @@ const Navbar = () => {
         </Link>
         <div className="flex">
           <ul
-            className={`flex items-center gap-10 z-10 relative sm:gap-6 duration-300 max-xlg:fixed max-xlg:w-full max-xlg:!min-h-screen max-xlg:justify-center max-xlg:flex-col max-xlg:top-0 max-xlg:left-[-105%] max-xlg:p-[30px] max-xlg:!bg-white ${
+            className={`flex items-center gap-6 z-10 relative md:gap-7 lg:gap-10 duration-300 max-xlg:fixed max-xlg:w-full max-xlg:!min-h-screen max-xlg:justify-center max-xlg:flex-col max-xlg:top-0 max-xlg:left-[-105%] max-xlg:p-[30px] max-xlg:!bg-white ${
               navBar && "!left-0"
             }`}
           >
