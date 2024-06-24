@@ -20,6 +20,7 @@ export const WhatWeDoCommon = (whatwedo) => {
         <BlueHeading
           className="max-lg:text-center !normal-case"
           headingText={whatwedo.BlueHeadingText}
+          aosType="fade-up"
         />
         <div className="max-lg:max-w-[590px] xl:min-w-[590px] xl:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] relative max-lg:mx-auto">
           <img

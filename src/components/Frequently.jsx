@@ -29,6 +29,7 @@ const Frequently = () => {
         <BlueHeading
           headingText="Frequently Asked Questions"
           className="lg:mb-[50px] md:mb-12 mb-7 text-center"
+          aosType="fade-up"
         />
         <div className="flex flex-col xl:max-w-[970px] md:w-10/12 w-full mx-auto">
           {accordionData.map((item, index) => (

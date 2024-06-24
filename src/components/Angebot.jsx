@@ -16,6 +16,7 @@ const Angebot = () => {
         <BlueHeading
           headingText="Angebot"
           className="!text-white text-center"
+          aosType="fade-up"
         />
         <div className="flex flex-row flex-wrap justify-center xl:gap-[17px] lg:gap-[15px] md:gap-5 sm:gap-3 gap-4 xl:pt-[97.79px] lg:pt-[70px] lg:pb-[77.23px] md:py-[60px] sm:py-12 py-9">
           {angebotCardList.map((obj, index) => (

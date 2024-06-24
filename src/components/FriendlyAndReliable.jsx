@@ -5,14 +5,14 @@ import mhillpaloka from "../assets/images/webp/project-agency/mhill-paloka.webp"
 const FriendlyAndReliable = () => {
   return (
     <div className="px-4 mb-1">
-      <div className="overmax-w-[1164px] flow-hidden mx-auto">
+      <div className="max-w-[1164px] overflow-hidden mx-auto">
         <SubHeading
           text="FOX VISION - Friendly and reliable"
           className="text-center lg:!mb-3 !mb-1 !normal-case"
         />
         <h2
           className="capitalize font-semibold font-montserrat xl:text-6xxl md:text-5xl sm:text-4xl text-3xl leading-md text-darkblue text-center lg:mb-[55px] sm:mb-12 mb-8 max-sm:px-1"
-          data-aos="zoom-in"
+          data-aos="fade-up"
         >
           Design Mastery <span className="lowercase">in</span> Our Genes
         </h2>

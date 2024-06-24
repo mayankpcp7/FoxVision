@@ -89,6 +89,7 @@ const Conversation = () => {
             <BlueHeading
               headingText="Let's Start a Conversation"
               className=" max-w-[498px] md:text-start text-center"
+              aosType="fade-up"
             />
 
             <img
