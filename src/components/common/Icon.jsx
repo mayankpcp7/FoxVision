@@ -292,7 +292,7 @@ export const VectoArrow = () => {
 export const CreativeDesignIcon = () => {
   return (
     <svg
-      className="w-full max-lg:max-w-[50px] max-lg:max-h-[49px]"
+      className="w-full max-lg:max-w-[40px] max-lg:max-h-[40px]"
       width="75"
       height="74"
       viewBox="0 0 75 74"
@@ -421,7 +421,7 @@ export const GraphicDesignIcon = () => {
 export const LogoDesignIcon = () => {
   return (
     <svg
-      className="max-lg:max-w-12 max-lg:max-h-12"
+      className="max-lg:max-w-11 max-lg:max-h-11"
       width="63"
       height="50"
       viewBox="0 0 63 50"
@@ -455,7 +455,7 @@ export const LogoDesignVectorWhite = () => {
 export const StrategySettingIcon = () => {
   return (
     <svg
-      className="max-lg:max-w-12 max-lg:max-h-12"
+      className="max-lg:max-w-11 max-lg:max-h-11"
       width="72"
       height="72"
       viewBox="0 0 72 72"

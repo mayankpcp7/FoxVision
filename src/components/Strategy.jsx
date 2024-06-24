@@ -12,24 +12,28 @@ import manavatar from "../assets/images/webp/Strategy/man-avatar-like.webp";
 import strategyimg from "../assets/images/webp/Strategy/Startegy-digital.webp";
 const Strategy = () => {
   return (
-    <div className=" pt-[120px] lg:pt-[150px] xl:pt-[193px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[60px] bg-darkpurple">
-      <div className="container max-w-[1164px]">
+    <div className=" pt-[110px] lg:pt-[150px] xl:pt-[193px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[60px] bg-darkpurple">
+      <div className="container max-w-[1164px] max-sm:px-5">
         <div className="flex lg:flex-row flex-wrap -mx-3 flex-col-reverse">
           <div className="w-full lg:w-5/12 px-3 max-lg:pt-20">
             <div
-              className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto"
+              className="flex justify-center items-center max-md:w-[60px] max-md:h-[60px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto"
               data-aos="fade-right"
             >
               <LogoDesignIcon />
             </div>
             <p
-              className=" font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px] max-lg:text-center"
+              className="font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px] max-lg:text-center"
               data-aos="fade-right"
             >
               Logo Design
             </p>
             <div data-aos="fade-right">
+<<<<<<< HEAD
               <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+=======
+              <p className="font-poppins font-normal text-sm sm:text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+>>>>>>> 6be1fc2e04394e203c3e532d4bff360c207b8d43
                 Logo design is a specialized discipline within the realm of
                 graphic design, focused on creating unique and memorable visual
                 symbols that represent a brand, company, or organization.
@@ -78,7 +82,7 @@ const Strategy = () => {
                     height={194}
                     className="absolute -top-[36%] -left-[8%] pointer-events-none max-w-[150px] sm:max-w-[194px] object-cover max-h-[194px]"
                     src={manavatar}
-                    alt=""
+                    alt="manavatar"
                   />
                 </div>
                 <div className="max-w-[203px]">
@@ -94,9 +98,9 @@ const Strategy = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap -mx-3 pt-12 sm:pt-14 md:pt-20 lg:pt-24 xl:pt-[140px] justify-between items-center">
+        <div className="flex flex-row flex-wrap -mx-3 pt-[70px] sm:pt-20 md:pt-24 lg:pt-28 xl:pt-[140px] justify-between items-center">
           <div className="w-full lg:w-6/12 px-3">
-            <div className="max-w-[320px] max-lg:max-w-[400px] lg:max-w-[495px] max-lg:mx-auto ">
+            <div className="max-w-[320px] max-lg:max-w-[400px] lg:max-w-[495px] max-lg:mx-auto">
               <img
                 className="w-full object-cover max-h-[529px]"
                 width={495}
@@ -107,22 +111,22 @@ const Strategy = () => {
               />
             </div>
           </div>
-          <div className="w-full lg:w-5/12 px-3 pt-8 sm:pt-10 md:pt-12 lg:pt-0">
+          <div className="w-full lg:w-5/12 px-3 pt-7 sm:pt-10 md:pt-12 lg:pt-0">
             <div className="lg:ps-5">
               <div
-                className="flex justify-center items-center max-md:w-[70px] max-md:h-[70px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto"
+                className="flex justify-center items-center max-md:w-[60px] max-md:h-[60px] w-[93px] h-[93px] bg-white rounded-lg max-lg:mx-auto"
                 data-aos="fade-left"
               >
                 <StrategySettingIcon />
               </div>
               <p
-                className=" !font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px]  max-lg:text-center"
+                className="font-poppins font-semibold text-lg sm:text-xl lg:text-2xl text-white !leading-normal mt-4 sm:mt-5 md:mt-[29px] max-lg:text-center"
                 data-aos="fade-left"
               >
                 Strategy & Digital Marketing
               </p>
               <div data-aos="fade-left">
-                <p className=" font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
+                <p className="font-poppins font-normal text-sm sm:text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[445px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
                   Strategy in digital marketing is the foundation upon which
                   successful online campaigns are built. It involves setting
                   clear objectives, identifying target audiences.

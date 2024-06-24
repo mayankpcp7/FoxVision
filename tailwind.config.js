@@ -55,6 +55,7 @@ module.exports = {
         identityicon: "0px 10px 20px 0px #05D5FB29",
         identityicon: "0px 10px 20px 0px #05D5FB29",
         forminput: "0px 0px 5px -2px #4B17E666",
+        contactusIconShadowHover: "0px 11.57px 27px 0px #4B17E63D",
       },
 
       screens: {

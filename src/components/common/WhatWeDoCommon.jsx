@@ -21,7 +21,7 @@ export const WhatWeDoCommon = (whatwedo) => {
           className="max-lg:text-center !normal-case"
           headingText={whatwedo.BlueHeadingText}
         />
-        <div className="max-lg:max-w-[590px] xl:min-w-[590px] lg:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] relative max-lg:mx-auto">
+        <div className="max-lg:max-w-[590px] xl:min-w-[590px] xl:-translate-x-5 mt-5 md:mt-8 lg:mt-[49px] relative max-lg:mx-auto">
           <img
             className="w-full object-cover max-h-[390px]"
             width={590}
@@ -52,7 +52,7 @@ export const WhatWeDoCommon = (whatwedo) => {
           </span>
           <div data-aos="fade-up">
             <p
-              className={`${whatwedo.className} font-poppins font-normal text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-5`}
+              className={`${whatwedo.className} font-poppins font-normal text-sm sm:text-base lg:text-xl text-darkblue !leading-normal lg:!leading-lg opacity-70 max-lg:text-center mt-6 sm:mt-5`}
             >
               {whatwedo.paragraphFirst}
               <Link href="#" className="text-purple">

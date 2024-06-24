@@ -31,7 +31,7 @@ const BackToTop = () => {
       >
         <button
           onClick={scrollToTop}
-          className="flex items-center justify-center transition-all duration-300 rounded-[40px] w-7 h-7 sm:w-10 sm:h-10 bg-sky  hover:bg-darkpurple"
+          className="flex items-center justify-center transition-all duration-300 rounded-[40px] w-7 h-7 sm:w-10 sm:h-10 bg-sky hover:bg-darkpurple border border-white"
         >
           <BackToTopIcon />
         </button>
