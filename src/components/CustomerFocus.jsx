@@ -16,6 +16,7 @@ const CustomerFocus = () => {
             <BlueHeading
               className="text-white lg:!text-5xl xl:!text-6xxl max-lg:text-center"
               headingText="Customer Focus"
+              aosType="fade-up"
             />
             <p
               className="font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal lg:max-w-[481px] mt-2.5 sm:mt-3 md:mt-4 lg:mt-[21px] max-lg:max-w-[550px] max-lg:mx-auto max-lg:text-center"

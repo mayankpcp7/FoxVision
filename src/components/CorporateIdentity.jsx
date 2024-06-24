@@ -11,12 +11,11 @@ const CorporateIdentity = () => {
       <div className="max-w-[1164px] mx-auto px-4">
         <div className="flex flex-row flex-wrap lg:justify-between justify-center items-center">
           <div className="lg:w-5/12 flex flex-col lg:items-start items-center w-full relative">
-            <PurpleArrow
-              className="absolute -right-[12%] top-[2%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden animate-pulse"
-            />
+            <PurpleArrow className="absolute -right-[12%] top-[2%] xl:w-[157px] xl:h-[125px] w-[120px] lg:block hidden animate-pulse" />
             <BlueHeading
               headingText="Corporate identity"
               className="xl:!leading-xl leading-normal lg:mb-[17px] mb-6"
+              aosType="fade-up"
             />
             <img
               width={465}

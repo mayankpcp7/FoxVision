@@ -18,6 +18,7 @@ const DesignProjectAgency = () => {
             <BlueHeading
               className="!leading-xl !capitalize mb-[29px] lg:text-start text-center"
               headingText="Design Project Agency"
+              aosType="fade-up"
             />
             <img
               width={564}

@@ -11,6 +11,7 @@ const DesignStrategy = () => {
             <BlueHeading
               className=" lg:!text-5xl xl:!text-6xxl max-lg:text-center"
               headingText="UI/UX Design Strategy"
+              aosType="fade-up"
             />
             <p className="font-poppins font-normal text-base lg:text-lg xl:text-xl text-darkblue !leading-normal xl:!leading-lg opacity-70 max-lg:max-w-[440px] lg:!max-w-[481px] mt-3 xl:mt-5 max-lg:mx-auto max-lg:text-center">
               Our design process is a

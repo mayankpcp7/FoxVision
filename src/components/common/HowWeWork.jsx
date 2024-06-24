@@ -22,6 +22,7 @@ const HowWeWork = () => {
             <BlueHeading
               headingText="How we work"
               className="mb-[26.95px] !leading-xl normal-case"
+              aosType="fade-up"
             />
             <img
               width={378}

@@ -15,6 +15,7 @@ const ReachOut = () => {
         <BlueHeading
           className="text-center"
           headingText="More Ways to Reach Out"
+          aosType="fade-up"
         />
         <div className="flex flex-row flex-wrap -mx-3 mt-4 sm:mt-8 md:mt-10 lg:mt-[56px] max-lg:justify-center">
           {ContactUsCardArray.map((obj, index) => (

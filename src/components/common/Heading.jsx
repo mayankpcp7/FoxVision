@@ -1,8 +1,8 @@
-export const BlueHeading = ({ headingText, className }) => {
+export const BlueHeading = ({ headingText, className, aosType }) => {
   return (
     <h2
       className={`${className} capitalize font-semibold font-montserrat xl:text-6xxl lg:text-5xxl md:text-5xl sm:text-4xl text-2xl xs:text-3xl !leading-md text-darkblue`}
-      data-aos="fade-up"
+      data-aos={aosType}
     >
       {headingText}
     </h2>
