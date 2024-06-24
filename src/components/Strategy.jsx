@@ -29,11 +29,7 @@ const Strategy = () => {
               Logo Design
             </p>
             <div data-aos="fade-right">
-<<<<<<< HEAD
-              <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
-=======
               <p className="font-poppins font-normal text-sm sm:text-base md:text-lg lg:text-xl text-white !leading-normal max-lg:max-w-[687px] lg:max-w-[421px] opacity-70 mt-2 max-lg:mx-auto max-lg:text-center">
->>>>>>> 6be1fc2e04394e203c3e532d4bff360c207b8d43
                 Logo design is a specialized discipline within the realm of
                 graphic design, focused on creating unique and memorable visual
                 symbols that represent a brand, company, or organization.
