@@ -43,7 +43,7 @@ const CustomerFocus = () => {
           className="flex justify-center mt-10 sm:mt-12 xl:mt-[78px]"
           data-aos="fade-up"
         >
-          <WhiteLogo className="lg:w-[141px] cursor-pointer lg:h-[171px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
+          <WhiteLogo className="xl:w-[141px] lg:w-[121px] cursor-pointer xl:h-[171px] lg:h-[161px] sm:w-[121px] sm:h-[101px] h-[81px] w-[101px]" />
         </span>
       </div>
     </div>
