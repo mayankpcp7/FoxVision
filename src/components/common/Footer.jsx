@@ -184,7 +184,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <p className="font-poppins font-normal text-center text-white opacity-70 pb-2 xs:pb-3 pt-12 md:pt-24 mt-4 text-sm">
+      <p className="font-poppins font-normal text-center text-white opacity-70 pb-2 xs:pb-3 pt-12 md:pt-24 sm:mt-4 text-sm">
         Copyright©{getCurrentYear()} Fox Vision GmbH. All right reserved.
       </p>
     </>
