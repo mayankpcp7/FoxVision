@@ -39,7 +39,7 @@ const Frequently = () => {
               data-aos="fade-up"
             >
               <div
-                className="accordion-title flex justify-between sm:items-center items-start cursor-pointer"
+                className="accordion-title flex justify-between sm:items-center items-start cursor-pointer max-sm:gap-[0.2px]"
                 onClick={() => toggleAccordion(index)}
               >
                 <p className="font-montserrat font-semibold text-darkblue !leading-md xl:text-2xl md:text-xl sm:text-base text-sm">

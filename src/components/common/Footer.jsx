@@ -30,7 +30,7 @@ const Footer = () => {
           alt="vector"
         />
         {!isContactPage && (
-          <div className="flex justify-center flex-col explore_card absolute top-[-14%] sm:top-[-21%] md:top-[-40%] xl:top-[-32%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky rounded-[10px] items-center mx-auto py-9">
+          <div className="flex justify-center flex-col absolute top-[-14%] sm:top-[-21%] md:top-[-40%] xl:top-[-32%] left-1/2 transform -translate-x-1/2 w-full max-w-[1140px] bg-sky rounded-[10px] items-center mx-auto py-9">
             <p
               className="text-white font-montserrat font-semibold text-xl max-w-[300px] xs:max-w-[450px] sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xxl !leading-md text-center md:max-w-[713px]"
               data-aos="zoom-out-up"
