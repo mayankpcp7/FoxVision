@@ -24,7 +24,7 @@ const Frequently = () => {
   };
 
   return (
-    <div className="xl:pt-[150px] pt-12 sm:pt-14 md:pt-[80px] lg:pt-24 xl:pb-[264px] lg:pb-[200px] sm:pb-[180px] pb-[200px]">
+    <div className="xl:pt-[150px] pt-12 sm:pt-14 md:pt-[80px] lg:pt-24 xl:pb-[264px] lg:pb-[200px] sm:pb-[180px] pb-[135px]">
       <div className="max-w-[1164px] mx-auto px-4">
         <BlueHeading
           headingText="Frequently Asked Questions"

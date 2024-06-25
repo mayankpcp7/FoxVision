@@ -4,7 +4,7 @@ import Designstrategy from "../assets/images/webp/offer-design-strategy/design-s
 import { DesignStrategyArray } from "./common/Helper";
 const DesignStrategy = () => {
   return (
-    <div className="sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[150px] max-sm:pb-12 max-md:pb-2.5">
+    <div className="sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[150px] max-md:pb-2.5">
       <div className="container max-w-[1164px]">
         <div className="flex flex-col lg:flex-row -mx-3">
           <div className="w-full lg:max-w-[525px] px-3" data-aos="fade-right">

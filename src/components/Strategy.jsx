@@ -12,7 +12,7 @@ import manavatar from "../assets/images/webp/Strategy/man-avatar-like.webp";
 import strategyimg from "../assets/images/webp/Strategy/Startegy-digital.webp";
 const Strategy = () => {
   return (
-    <div className=" pt-[110px] lg:pt-[150px] xl:pt-[193px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[60px] bg-darkpurple">
+    <div className="pt-[110px] lg:pt-[150px] xl:pt-[193px] pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-[60px] bg-darkpurple">
       <div className="container max-w-[1164px] max-sm:px-5">
         <div className="flex lg:flex-row flex-wrap -mx-3 flex-col-reverse">
           <div className="w-full lg:w-5/12 px-3 max-lg:pt-20">
