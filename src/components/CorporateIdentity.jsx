@@ -38,15 +38,12 @@ const CorporateIdentity = () => {
                 Many people primarily associate logo and colors with it.
                 Corporate identity is much more. Corporate identity, together
                 with
-                <span className="text-purple cursor-pointer">
-                  corporate design
+                <span className="text-purple cursor-pointer"> corporate design
                 </span>
                 , forms the character of your company. Give your company a face
                 and awaken emotions and trust in your customers.
-                <span className="text-purple uppercase cursor-pointer">
-                  FOX VISION
-                </span>
-                would be happy to develop your corporate identity.
+                <span className="text-purple uppercase cursor-pointer"> FOX VISION
+                </span> would be happy to develop your corporate identity.
               </p>
             </div>
             <Link to="/contact" data-aos="fade-left">
